@@ -1,0 +1,448 @@
+id,ssid,hub,hubpolicy,hubstatus
+529,7044,TIWS,Prefered(Default),Live
+531,6793,BICS,Prefered(Default),Live
+532,6793,TATA,Need approval,Live
+533,6951,TelecomAustria,Prefered(Default),Live
+534,6954,DT,Prefered(Default),Live
+536,6948,BICS,Prefered(Default),Live
+537,6695,FT,Prefered(Default),Live
+541,7095,iBasis,Prefered(Default),Live
+543,6604,BICS,Prefered(Default),Live
+545,6810,FT,Prefered(Default),Live
+548,6497,BICS,Need approval,Live
+549,6979,iBasis,Prefered(Default),Live
+550,6622,TIWS,Prefered(Default),Live
+553,6621,TIWS,Prefered(Default),Live
+555,6941,DT,Prefered(Default),Live
+556,6978,Tele2,Prefered(Default),Live
+557,6832,TelecomAustria,Prefered(Default),Live
+558,7034,Telenor,Prefered(Default),Live
+559,7063,TelecomAustria,Prefered(Default),Live
+560,6898,DT,Prefered(Default),Live
+561,6801,VCS,Prefered(Default),Live
+563,6920,Telenor,Prefered(Default),Live
+564,6834,TeliaSonera,Prefered(Default),Live
+565,7066,TIWS,Prefered(Default),Live
+566,7273,iBasis,Prefered(Default),Live
+568,7067,iBasis,Prefered(Default),Live
+569,7075,FT,Prefered(Default),Live
+570,6835,TeliaSonera,Prefered(Default),Live
+575,6783,DT,Prefered(Default),Live
+576,6740,VCS,Prefered(Default),Live
+578,6739,VCS,Prefered(Default),Live
+579,6893,DT,Prefered(Default),Live
+580,6871,Telenor,Prefered(Default),Live
+581,6981,VCS,Prefered(Default),Live
+582,7262,BICS,Prefered(Default),Live
+583,6957,Telenor,Prefered(Default),Live
+584,7107,FT,Prefered(Default),Live
+585,7050,TIWS,Prefered(Default),Live
+586,6837,TeliaSonera,Prefered(Default),Live
+588,6971,Tele2,Prefered(Default),Live
+589,6541,FT,Prefered(Default),Live
+590,7096,VCS,Prefered(Default),Live
+591,7264,BICS,Prefered(Default),Live
+592,7271,VCS,Prefered(Default),Live
+593,7132,FT,Prefered(Default),Live
+595,6750,VCS,Prefered(Default),Live
+596,7046,iBasis,Prefered(Default),Live
+597,6580,Telecom Italia Sparkle,Prefered(Default),Live
+598,6738,VCS,Prefered(Default),Live
+599,6937,FT,Prefered(Default),Live
+600,7018,FT,Prefered(Default),Live
+601,7275,BICS,Prefered(Default),Live
+604,6678,BICS,Prefered(Default),Live
+605,7117,BICS,Prefered(Default),Live
+607,7092,BICS,Prefered(Default),Live
+608,6839,TeliaSonera,Prefered(Default),Live
+609,6972,Tele2,Prefered(Default),Live
+611,7267,TelecomAustria,Prefered(Default),Live
+612,7091,BICS,Prefered(Default),Live
+613,6838,TeliaSonera,Prefered(Default),Live
+615,6724,FT,Prefered(Default),Live
+616,6715,BICS,Prefered(Default),Live
+617,6961,TelecomAustria,Prefered(Default),Live
+618,7045,Telenor,Prefered(Default),Live
+619,7077,BICS,Prefered(Default),Live
+621,6952,FT,Prefered(Default),Live
+622,7105,BICS,Prefered(Default),Live
+625,6825,FT,Prefered(Default),Live
+627,7038,DT,Prefered(Default),Live
+629,6949,FT,Prefered(Default),Live
+630,7093,BICS,Prefered(Default),Live
+631,6697,iBasis,Prefered(Default),Live
+632,7026,DT,Prefered(Default),Live
+633,6712,VCS,Prefered(Default),Live
+634,6719,VCS,Prefered(Default),Live
+635,7281,TIWS,Prefered(Default),Live
+637,6567,Telenor,Prefered(Default),Live
+640,6811,iBasis,Prefered(Default),Live
+641,7065,TIWS,Prefered(Default),Live
+642,7011,TIWS,Prefered(Default),Live
+645,6798,FT,Prefered(Default),Live
+646,6950,BICS,Prefered(Default),Live
+649,6773,TelecomAustria,Prefered(Default),Live
+651,6620,FT,Prefered(Default),Live
+652,6737,VCS,Prefered(Default),Live
+656,6713,VCS,Prefered(Default),Live
+657,6439,BICS,Prefered(Default),Live
+663,7039,TelecomAustria,Prefered(Default),Live
+664,7064,TelecomAustria,Prefered(Default),Live
+665,6938,FT,Prefered(Default),Live
+666,7062,DT,Prefered(Default),Live
+667,6807,DT,Prefered(Default),Live
+668,6745,VCS,Prefered(Default),Live
+669,6569,FT,Prefered(Default),Live
+672,6896,TeliaSonera,Prefered(Default),Live
+673,6910,FT,Prefered(Default),Live
+674,6723,Tele2,Prefered(Default),Live
+676,6833,TeliaSonera,Prefered(Default),Live
+677,6922,FT,Prefered(Default),Live
+678,6490,BICS,Prefered(Default),Live
+679,6867,Telenor,Prefered(Default),Live
+680,7277,FT,Prefered(Default),Live
+682,7086,DT,Prefered(Default),Live
+689,6736,VCS,Prefered(Default),Live
+690,7099,iBasis,Prefered(Default),Live
+691,7042,TIWS,Prefered(Default),Live
+694,6973,Tele2,Prefered(Default),Live
+695,6968,Telenor,Prefered(Default),Live
+696,7116,TeliaSonera,Prefered(Default),Live
+699,6732,FT,Prefered(Default),Live
+700,7288,Telecom Italia Sparkle,Prefered(Default),Live
+716,7285,Telenor,Prefered(Default),Live
+717,6936,DT,Prefered(Default),Live
+719,7074,Telenor,Prefered(Default),Live
+725,6731,TelecomAustria,Prefered(Default),Live
+734,6311,Comfone,Need approval,Live
+735,6311,Comfone K2R,Need approval,Live
+736,6308,Comfone K2R,Need approval,Live
+738,6816,Telenor,Prefered(Default),Live
+739,6816,Comfone K2R,Need approval,Live
+746,7293,BICS,Prefered(Default),Live
+753,7097,iBasis,Prefered(Default),Live
+754,7097,Comfone,Need approval,Live
+757,6836,TeliaSonera,Prefered(Default),Live
+759,6795,Telecom Italia Sparkle,Prefered(Default),Live
+760,6795,BICS,Not prefered no Need approval,Live
+762,7298,Telenor,Prefered(Default),Live
+765,7094,Comfone,Prefered(Default),Live
+769,6947,iBasis,Prefered(Default),Live
+782,6711,VCS,Prefered(Default),Live
+788,7029,TeliaSonera,Prefered(Default),Live
+789,6958,VCS,Prefered(Default),Live
+794,7270,FT,Prefered(Default),Live
+795,7340,TelecomAustria,Prefered(Default),Live
+803,7049,Comfone,Need approval,Live
+816,7329,Comfone,Prefered(Default),Live
+818,7317,Comfone,Prefered(Default),Live
+822,6794,TIWS,Prefered(Default),Live
+825,7318,BICS,Prefered(Default),Live
+828,7323,FT,Prefered(Default),Live
+834,7335,BICS,Prefered(Default),Live
+843,7360,Comfone,Prefered(Default),Live
+855,7385,Comfone,Need approval,Live
+857,7386,Comfone,Prefered(Default),Live
+858,7350,VCS,Prefered(Default),Live
+865,7353,iBasis,Prefered(Default),Live
+866,7397,FT,Prefered(Default),Live
+867,7389,FT,Prefered(Default),Live
+881,7403,Comfone,Prefered(Default),Live
+890,7411,BICS,Prefered(Default),Live
+893,7416,VCS,Prefered(Default),Live
+898,7421,BICS,Prefered(Default),Live
+904,6959,Telenor,Prefered(Default),Live
+905,6959,BICS,Not prefered no Need approval,Live
+909,7030,BICS,Prefered(Default),Live
+910,7030,Comfone K2R,Prefered(Default),Live
+911,7420,FT,Prefered(Default),Live
+913,7425,BICS,Prefered(Default),Live
+920,7428,FT,Prefered(Default),Live
+927,7426,FT,Prefered(Default),Live
+928,7435,BICS,Prefered(Default),Live
+932,7442,iBasis,Prefered(Default),Live
+939,7445,TATA,Need approval,Live
+942,6897,OTEGlobe,Prefered(Default),Live
+943,6897,Comfone K2R,Prefered(Default),Live
+945,7437,FT,Prefered(Default),Live
+947,7371,DT,Prefered(Default),Live
+949,7415,Comfone,Prefered(Default),Live
+955,7434,Comfone,Prefered(Default),Live
+958,7424,BICS,Prefered(Default),Live
+964,7082,iBasis,Prefered(Default),Live
+965,6618,BICS,Prefered(Default),Live
+986,7338,Comfone,Prefered(Default),Live
+988,7314,Comfone,Not prefered no Need approval,Live
+994,7475,FT,Prefered(Default),Live
+997,7383,BICS,Prefered(Default),Live
+999,7483,Comfone,Prefered(Default),Live
+1000,7484,TeliaSonera,Prefered(Default),Live
+1002,7456,BICS,Prefered(Default),Live
+1015,7494,Comfone,Prefered(Default),Live
+1016,7493,FT,Prefered(Default),Live
+1034,7287,Telecom Italia Sparkle,Prefered(Default),Live
+1052,7401,MTT,Prefered(Default),Live
+1058,7454,BICS,Prefered(Default),Live
+1063,7502,Comfone,Prefered(Default),Live
+1073,6523,Comfone K2R,Prefered(Default),Live
+1074,6523,FT,Need approval,Live
+1075,6526,TeliaSonera,Need approval,Live
+1076,7508,TATA,Prefered(Default),Live
+1085,7490,BICS,Prefered(Default),Live
+1086,7506,Comfone,Prefered(Default),Live
+1090,7436,FT,Prefered(Default),Live
+1107,12487,Comfone,Prefered(Default),Live
+1113,12492,Comfone,Prefered(Default),Live
+1114,7423,FT,Need approval,Live
+1115,7103,Comfone,Prefered(Default),Live
+1116,7500,TATA,Need approval,Live
+1117,7500,Comfone,Prefered(Default),Live
+1132,12499,TelecomAustria,Prefered(Default),Live
+1133,12498,TelecomAustria,Prefered(Default),Live
+1137,6623,TIWS,Prefered(Default),Live
+1142,7450,BICS,Prefered(Default),Live
+1144,6931,VCS,Prefered(Default),Live
+1145,6931,TATA,Need approval,Live
+1147,6751,VCS,Prefered(Default),Live
+1148,6751,TATA,Not prefered no Need approval,Live
+1150,7261,FT,Prefered(Default),Live
+1151,12504,BICS,Prefered(Default),Live
+1153,6960,DT,Need approval,Live
+1154,6960,Comfone,Prefered(Default),Live
+1156,12511,TIWS,Prefered(Default),Live
+1157,6123,SAP,Need approval,Live
+1169,6579,Comfone,Prefered(Default),Live
+1170,6579,Telecom Italia Sparkle,Need approval,Live
+1178,12515,Telenor,Prefered(Default),Live
+1179,7036,BICS,Prefered(Default),Live
+1180,12521,Comfone,Prefered(Default),Live
+1182,12526,BICS,Prefered(Default),Live
+1183,6219,Telstra,Prefered(Default),Live
+1185,12512,FT,Prefered(Default),Live
+1186,12527,iBasis,Prefered(Default),Live
+1193,12532,Comfone,Prefered(Default),Live
+1194,12520,Comfone,Prefered(Default),Live
+1195,7118,Comfone,Not prefered no Need approval,Live
+1197,7311,TNS,Need approval,Live
+1204,6363,TIWS,Prefered(Default),Live
+1206,12536,Comfone,Prefered(Default),Live
+1212,12545,BICS,Prefered(Default),Live
+1214,12542,TNS,Need approval,Live
+1215,12539,TNS,Prefered(Default),Live
+1218,6357,BICS,Need approval,Live
+1219,6489,iBasis,Need approval,Live
+1220,6489,BICS,Need approval,Live
+1221,6792,BICS,Need approval,Live
+1224,6925,iBasis,Prefered(Default),Live
+1225,12558,Comfone,Need approval,Live
+1226,7461,BICS,Prefered(Default),Live
+1227,12553,FT,Prefered(Default),Live
+1229,6362,TIWS,Prefered(Default),Live
+1230,6085,BICS,Need approval,Live
+1231,6585,CMI,Prefered(Default),Live
+1235,6360,Comfone,Need approval,Live
+1236,7470,Comfone,Prefered(Default),Live
+1242,6913,TNS,Need approval,Live
+1243,12563,Comfone,Need approval,Live
+1244,7320,VCS,Prefered(Default),Live
+1249,6930,Telenor,Not prefered no Need approval,Live
+1250,6930,BICS,Prefered(Default),Live
+1251,6934,Telenor,Not prefered no Need approval,Live
+1252,6934,BICS,Prefered(Default),Live
+1253,12564,FT,Prefered(Default),Live
+1255,12568,Comfone,Prefered(Default),Live
+1257,12571,TATA,Need approval,Live
+1259,12578,iBasis,Prefered(Default),Live
+1263,12580,Telecom Italia Sparkle,Prefered(Default),Live
+1267,6863,Telstra,Prefered(Default),Live
+1268,6956,Telstra,Prefered(Default),Live
+1269,12594,Telstra,Prefered(Default),Live
+1270,6562,FT,Need approval,Live
+1271,12597,BICS,Prefered(Default),Live
+1278,12605,Telenor,Prefered(Default),Live
+1288,6722,BICS,Prefered(Default),Live
+1289,6722,TATA,Need approval,Live
+1290,7377,TNS,Need approval,Live
+1291,12608,BICS,Prefered(Default),Live
+1292,12591,FT,Prefered(Default),Live
+1303,12610,Comfone,Prefered(Default),Live
+1304,12612,BICS,Prefered(Default),Live
+1306,12607,BICS,Prefered(Default),Live
+1308,12618,Telenor,Prefered(Default),Live
+1317,12507,FT,Prefered(Default),Live
+1319,12625,TNS,Prefered(Default),Live
+1325,7260,TNS,Need approval,Live
+1330,6916,Comfone,Prefered(Default),Live
+1331,12626,BICS,Prefered(Default),Live
+1339,6872,iBasis,Prefered(Default),Live
+1340,6872,DT,Need approval,Live
+1344,6504,BICS,Prefered(Default),Live
+1345,12633,BICS,Prefered(Default),Live
+1347,6462,iBasis,Need approval,Live
+1354,12637,Comfone,Need approval,Live
+1356,12643,Comfone,Prefered(Default),Live
+1357,12642,Comfone K2R,Prefered(Default),Live
+1361,7013,BICS,Need approval,Live
+1362,6188,TeliaSonera,Need approval,Live
+1363,12650,iBasis,Prefered(Default),Live
+1365,12651,BICS,Prefered(Default),Live
+1370,7417,TNS,Need approval,Live
+1371,7441,TNS,Need approval,Live
+1372,7472,TNS,Need approval,Live
+1373,7302,TNS,Need approval,Live
+1374,7448,TNS,Need approval,Live
+1375,6596,iBasis,Need approval,Live
+1376,6596,BICS,Need approval,Live
+1377,12529,TNS,Need approval,Live
+1378,12530,TNS,Prefered(Default),Live
+1389,7087,Comfone K2R,Prefered(Default),Live
+1390,6532,TIWS,Prefered(Default),Live
+1391,6532,TATA,Prefered(Default),Live
+1393,12657,BICS,Prefered(Default),Live
+1402,12659,BICS,Prefered(Default),Live
+1404,12662,FT,Prefered(Default),Live
+1407,7471,Comfone,Prefered(Default),Live
+1409,12579,ETISALAT UAE DSS Peer,Need approval,Live
+1410,6975,BICS,Prefered(Default),Live
+1411,6975,MTT,Prefered(Default),Live
+1412,6975,Comfone,Need approval,Live
+1413,7465,TeliaSonera,Prefered(Default),Live
+1414,12496,BICS,Prefered(Default),Live
+1416,12604,TelecomAustria,Prefered(Default),Under Implementation
+1418,12495,iBasis,Prefered(Default),Live
+1419,7394,FT,Prefered(Default),Live
+1421,7507,BICS,Prefered(Default),Live
+1422,7312,iBasis,Prefered(Default),Live
+1425,12528,BICS,Prefered(Default),Live
+1426,7402,BICS,Prefered(Default),Live
+1427,7351,Comfone,Prefered(Default),Live
+1428,7126,Comfone,Prefered(Default),Live
+1429,7126,TATA,Need approval,Live
+1430,7348,iBasis,Prefered(Default),Live
+1432,7496,BICS,Prefered(Default),Live
+1433,6555,VCS,Not prefered no Need approval,Live
+1434,6555,BICS,Prefered(Default),Live
+1435,7491,BICS,Prefered(Default),Live
+1437,6533,TIWS,Prefered(Default),Live
+1440,7321,Comfone,Not prefered no Need approval,Live
+1442,7330,SAP,Need approval,Live
+1444,7040,Comfone,Need approval,Live
+1447,12497,DT,Prefered(Default),Live
+1451,12606,Tele2,Prefered(Default),Live
+1452,7497,Telenor,Prefered(Default),Live
+1454,7443,Comfone,Prefered(Default),Live
+1455,6619,TATA,Need approval,Live
+1456,6619,BICS,Need approval,Live
+1462,7405,FT,Prefered(Default),Live
+1467,12661,BICS,Prefered(Default),Live
+1468,7308,TelecomAustria,Prefered(Default),Live
+1470,7381,TNS,Need approval,Live
+1471,7439,iBasis,Need approval,Live
+1472,7439,BICS,Prefered(Default),Live
+1473,7495,FT,Prefered(Default),Live
+1475,7313,iBasis,Prefered(Default),Live
+1476,7359,Comfone,Prefered(Default),Live
+1478,6566,BICS,Need approval,Live
+1479,6980,iBasis,Prefered(Default),Live
+1480,7352,Telecom Italia Sparkle,Prefered(Default),Live
+1481,7431,FT,Prefered(Default),Live
+1483,7433,FT,Prefered(Default),Live
+1484,7399,TIWS,Prefered(Default),Live
+1485,7477,iBasis,Prefered(Default),Live
+1486,7125,Comfone,Need approval,Live
+1487,7358,Comfone,Prefered(Default),Live
+1488,7345,iBasis,Prefered(Default),Live
+1489,7370,Telecom Italia Sparkle,Prefered(Default),Live
+1490,7384,iBasis,Prefered(Default),Live
+1491,7444,Tele2,Prefered(Default),Live
+1492,12621,BICS,Prefered(Default),Live
+1493,12622,FT,Prefered(Default),Live
+1494,7503,Comfone,Prefered(Default),Live
+1495,7316,Comfone,Not prefered no Need approval,Live
+1496,7391,Telenor,Prefered(Default),Live
+1497,7310,iBasis,Prefered(Default),Live
+1498,7326,Telstra,Prefered(Default),Live
+1499,7413,iBasis,Prefered(Default),Live
+1502,7427,MTT,Prefered(Default),Live
+1503,7429,SAP,Prefered(Default),Live
+1504,7380,Comfone,Prefered(Default),Live
+1505,7309,iBasis,Prefered(Default),Live
+1506,7315,BICS,Prefered(Default),Live
+1509,7325,Comfone,Prefered(Default),Live
+1510,6796,Telstra,Prefered(Default),Live
+1511,6796,BICS,Need approval,Live
+1513,7412,TeliaSonera,Prefered(Default),Live
+1514,7296,Comfone,Prefered(Default),Live
+1515,6818,iBasis,Prefered(Default),Live
+1516,12490,FT,Prefered(Default),Live
+1517,6803,BICS,Need approval,Live
+1518,6581,TIWS,Prefered(Default),Live
+1519,6581,VCS,Prefered(Default),Live
+1520,12663,BICS,Prefered(Default),Live
+1521,12664,FT,Prefered(Default),Live
+1522,6535,iBasis,Need approval,Live
+1523,6974,BICS,Need approval,Live
+1526,6125,MTT,Not prefered no Need approval,Live
+1527,6125,iBasis,Prefered(Default),Live
+1528,7119,Comfone,Prefered(Default),Live
+1530,12728,Comfone,Prefered(Default),Live
+1531,7113,BICS,Need approval,Live
+1532,7113,BT,Need approval,Live
+1534,6870,BICS,Prefered(Default),Live
+1537,12730,BICS,Prefered(Default),Live
+1538,12731,BICS,Prefered(Default),Live
+1541,12732,BICS,Prefered(Default),Live
+1542,12733,BICS,Prefered(Default),Live
+1545,6840,DT,Prefered(Default),Live
+1546,6840,BICS,Not prefered no Need approval,Live
+1548,7301,SAP,Need approval,Live
+1549,7301,BICS,Not prefered no Need approval,Live
+1550,7301,TATA,Not prefered no Need approval,Live
+1551,7464,Comfone,Prefered(Default),Live
+1554,7440,FT,Prefered(Default),Live
+1556,12655,Telstra,Prefered(Default),Live
+1557,7305,BICS,Prefered(Default),Live
+1558,7305,Comfone K2R,Prefered(Default),Live
+1559,6617,ETISALAT UAE DSS Peer,Need approval,Live
+1562,7032,TNS,Need approval,Live
+1563,12630,Comfone,Need approval,Live
+1564,7419,Comfone K2R,Prefered(Default),Live
+1565,7419,Comfone,Prefered(Default),Live
+1566,12739,BICS,Prefered(Default),Live
+1568,12742,Comfone K2R,Prefered(Default),Live
+1569,12636,Comfone K2R,Prefered(Default),Live
+1570,12743,Comfone K2R,Prefered(Default),Live
+1571,12744,Comfone K2R,Prefered(Default),Live
+1572,12745,Comfone K2R,Prefered(Default),Live
+1573,12746,Comfone K2R,Prefered(Default),Live
+1574,12747,Comfone K2R,Prefered(Default),Live
+1575,12748,Comfone K2R,Prefered(Default),Live
+1576,12749,Comfone K2R,Prefered(Default),Live
+1577,12750,Comfone K2R,Prefered(Default),Live
+1578,7028,BICS,Prefered(Default),Live
+1579,7028,SAP,Need approval,Live
+1580,6582,FT,Prefered(Default),Live
+1581,6582,SAP,Need approval,Live
+1582,6312,BICS,Not prefered no Need approval,Live
+1584,12753,Comfone K2R,Prefered(Default),Live
+1585,12754,Comfone K2R,Prefered(Default),Live
+1599,7476,FT,Not prefered no Need approval,Live
+1600,7476,TIWS,Prefered(Default),Live
+1603,12757,BICS,Prefered(Default),Live
+1604,6761,VCS,Need approval,Live
+1607,12751,BICS,Prefered(Default),Live
+1608,7469,Comfone,Prefered(Default),Live
+1609,6857,iBasis,Prefered(Default),Live
+1610,7299,TNS,Need approval,Live
+1611,7299,Comfone,Need approval,Live
+1612,7278,BICS,Need approval,Live
+1613,12760,Comfone K2R,Prefered(Default),Live
+1614,12761,Comfone K2R,Prefered(Default),Live
+1615,12762,Comfone K2R,Prefered(Default),Live
+1616,12763,Comfone K2R,Prefered(Default),Live
+1620,12764,Comfone K2R,Prefered(Default),Live
+1621,7020,Comfone,Need approval,Live
+1622,12593,Telenor,Prefered(Default),Live
+1624,7339,TATA,Need approval,Live
+1627,7414,Comfone,Prefered(Default),Live
+1628,12769,BICS,Prefered(Default),Live

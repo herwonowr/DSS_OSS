@@ -1,0 +1,791 @@
+ssid,customerid,name,country,realm_name,imsi_prefix,status,dra,connection,coveragestatus,productcomment,commercialstatus,owner,region,tagid,technicalcomment
+7471,1750,Afghan Wireless Communication Company ,Afghanistan,epc.mnc001.mcc412.3gppnetwork.org,41201,hidden,,Indirect,Live,,,,EMEA,,
+12579,1751,Etisalat Afghanistan,Afghanistan,epc.mnc050.mcc412.3gppnetwork.org,41250,hidden,,Indirect,,,,,EMEA,,
+12743,1727,TDCA (Roshan) Afghanistan,Afghanistan,epc.mnc020.mcc412.3gppnetwork.org,41220,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+7087,1403,Albtelecom,Albania,epc.mnc003.mcc276.3gppnetwork.org,27603,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,"*K2R route shall be opened by owner 
+*AIR Destination realm:dra.ipx.syniverse.3gppnetwork.org
+"
+7029,1310,AMC,Albania,epc.mnc001.mcc276.3gppnetwork.org,27601,online,,Indirect,Live,,,,EMEA,,
+6958,713,Vodafone Albania,Albania,epc.mnc002.mcc276.3gppnetwork.org,27602,online,,Indirect,Live,,,,EMEA,,
+7435,712,Djezzy Algeria,Algeria,epc.mnc002.mcc603.3gppnetwork.org,60302,online,,Indirect,Live,,,,EMEA,,
+7426,862,MOBILIS,Algeria,epc.mnc001.mcc603.3gppnetwork.org,60301,online,,Indirect,Live,,,,EMEA,,
+7495,820,Wataniya Algeria,Algeria,epc.mnc003.mcc603.3gppnetwork.org,60303,online,,Indirect,Live,,,,EMEA,DZAWT,
+12536,1884,Blue Sky Communications,American Samoa,,,,,Indirect,,,,,,,
+7476,831,STA Andorra,Andorra,epc.mnc003.mcc213.3gppnetwork.org,21303,online,,Indirect,Live,,,,EMEA,ANDMA,
+12511,2468,Movicel Angola,Angola,epc.mnc004.mcc631.3gppnetwork.org,63104,hidden,,Indirect,,,,,CALA,,
+12733,1752,UNITEL S.a.r.l.,Angola,epc.mnc002.mcc631.3gppnetwork.org,63102,online,,Indirect,,,,,EMEA,,
+7337,1653,Cable and Wireless Anguilla,Anguilla,epc.mnc840.mcc365.3gppnetwork.org,365840,group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+6626,1911,Digicel Anguilla,Anguilla,epc.mnc050.mcc338.3gppnetwork.org,33850,,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,"Group operators by March2017 have  (27) Digicel markets of this twenty-seven (27), seven (7) are LTE  including:
+
+Antigua  
+Barbados 
+BVI      
+Cayman   
+Jamaica  
+TCI      
+Anguilla 
+"
+7056,1654,Cable and Wireless Antigua,Antigua and Barbuda,epc.mnc920.mcc344.3gppnetwork.org,344920,group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+7095,489,AMX Argentina S.A.(Claro),Argentina,epc.mnc310.mcc722.3gppnetwork.org,722310,online,,Indirect,Live,,,,CALA,,
+7020,515,Telecom Personal SA,Argentina,epc.mnc034.mcc722.3gppnetwork.org,72234,hidden,,Indirect,Live,,,,CALA,,Migrate from TIS to comfone on 20070818
+7044,842,Telefonica Argentina,Argentina,epc.mnc007.mcc722.3gppnetwork.org,72207,online,,Indirect,Live,,,,CALA,,
+7313,1597,Armentel,Armenia,epc.mnc001.mcc283.3gppnetwork.org,28301,online,,Indirect,Live,,,,EMEA,,
+6975,1268,K-Telecom,Armenia,epc.mnc005.mcc283.3gppnetwork.org,28305,online,A6AP,Indirect,Live,,,,EMEA,,
+7437,1678,Orange Armenia,Armenia,epc.mnc010.mcc283.3gppnetwork.org,28310,online,,Indirect,,,,,,,
+12555,1431,Digicel Aruba,Aruba,epc.mnc002.mcc363.3gppnetwork.org,36302,online,"Digicel Jamaica, NA DSC",Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+7318,835,SETAR,Aruba,epc.mnc001.mcc363.3gppnetwork.org,36301,online,,Indirect,Live,,,,CALA,,
+6085,2081,Optus,Australia,epc.mnc002.mcc505.3gppnetwork.org,50502,online,AP DSC,Direct,Live,,,Jason.Qin@syniverse.com,Asia Pacific,,
+6219,478,Telstra,Australia,epc.mnc001.mcc505.3gppnetwork.org,50501,online,,Indirect,Live,,,,Asia Pacific,,The imsi range 5050156x are wholesale imsis. Wholesale currently does not have LTE roaming for Softbank- telstra DEA will reply with 3002
+6609,2744,Telstra DSS Peer,Australia,,,,NA DSC,Peer,,,,,,,Updated on 17tg May: Telstra HUB should be connected with S9NA(NADSR) rather than BICS
+6793,396,Vodafone Australia,Australia,epc.mnc003.mcc505.3gppnetwork.org,50503,online,,Indirect,Live,,,,Asia Pacific,,
+6731,495,A1 Telekom Austria,Austria,epc.mnc001.mcc232.3gppnetwork.org,23201,online,,Indirect,Live,,,,Asia Pacific,,
+12499,2710,BOB Austria,Austria,epc.mnc011.mcc232.3gppnetwork.org,23211,online,,Indirect,,,,,EMEA,,
+6951,339,Hutchison 3G Austria GmbH,Austria,epc.mnc005.mcc232.3gppnetwork.org,"23205,23210",online,,Indirect,Live,,,,Asia Pacific,,
+6954,382,T-Mobile Austria,Austria,"epc.mnc003.mcc232.3gppnetwork.org,epc.mnc007.mcc232.3gppnetwork.org","23203,23207",online,,Indirect,Live,,,,EMEA,,
+6632,2753,TelecomAustria DSS Peer,Austria,,,,EU DSC,Peer,,,,wind.wang@syniverse.com,,,
+12498,3109,Yesss Austria,Austria,epc.mnc012.mcc232.3gppnetwork.org,23212,online,,Indirect,,,,,EMEA,,
+7465,606,Azercell,Azerbaijan,epc.mnc001.mcc400.3gppnetwork.org,"40001,40006",online,,Indirect,Live,,,,EMEA,,
+7103,1506,Azerfon,Azerbaijan,epc.mnc004.mcc400.3gppnetwork.org,40004,online,,Indirect,Live,,,,EMEA,,
+6948,1734,BAKCELL Ltd,Azerbaijan,epc.mnc002.mcc400.3gppnetwork.org,40002,online,,Indirect,Live,,,,EMEA,,
+6895,1432,BTC Bahamas,Bahamas,epc.mnc039.mcc364.3gppnetwork.org,36439,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+7424,3081,NewCo2015 Bahamas,Bahamas,epc.mnc049.mcc364.3gppnetwork.org,36449,online,,Indirect,,,,,,,
+7304,503,Batelco Bahrain,Bahrain,epc.mnc001.mcc426.3gppnetwork.org,42601,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,"Previously it was an indirect operator behind of TATA.
+
+Now it is directly connected on S9EU DSC"
+12658,1838,STC Bahrain,Bahrain,epc.mnc004.mcc426.3gppnetwork.org,42604,online,EU DSC,Direct,,,,tom.yu@syniverse.com,EMEA,,"2018/8/9 Currently the diameter links are up now, we are waiting the test from customer."
+12496,502,Zain Bahrain,Bahrain,epc.mnc002.mcc426.3gppnetwork.org,42602,online,,Indirect,Live,,,,EMEA,,
+12607,1026,Banglalink,Bangladesh,epc.mnc003.mcc470.3gppnetwork.org,47003,online,,Indirect,,,,,EMEA,,
+12564,578,Grameen Phone,Bangladesh,epc.mnc001.mcc470.3gppnetwork.org,47001,online,,Indirect,,,,,Asia Pacific,,
+12553,861,Robi Axiata,Bangladesh,"epc.mnc002.mcc470.3gppnetwork.org,epc.mnc007.mcc470.3gppnetwork.org","47002,47007",online,,Indirect,,,,,Asia Pacific,,
+7452,1655,Cable and Wireless Barbados,Barbados,epc.mnc600.mcc342.3gppnetwork.org,342600,group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+7500,1511,Best Belarus,Belarus,epc.mnc004.mcc257.3gppnetwork.org,25704,hidden,,Indirect,,,,,EMEA,,"att requires to open route with TATA, not on line in DSC yet, we wish to use other peering hub as default peering
+
+Best confirmed they only have Comfone as IPX provider, will use Comfone as default route."
+7359,866,MTS Belarus,Belarus,epc.mnc002.mcc257.3gppnetwork.org,25702,hidden,,Indirect,Live,,,,EMEA,,no sales opportunity yet. (31st Aug 2016)
+12604,801,Velcom Belarus,Belarus,epc.mnc001.mcc257.3gppnetwork.org,25701,online,,Indirect,,,,,,BLRMD,"April 2018 Velcom is not ready yet. Their actual plan is to be ready before summer.
+"
+6397,2218,BICS SMS peering,Belgium,,,peer,"EU DSC, NA DSC",Peer,,,,wind.wang@syniverse.com,,,
+6695,321,Mobistar,Belgium,epc.mnc010.mcc206.3gppnetwork.org,20610,online,,Indirect,Live,,,,EMEA,,
+6604,340,Proximus,Belgium,epc.mnc001.mcc206.3gppnetwork.org,20601,online,,Indirect,Live,,,,EMEA,,
+12495,2263,Telenet Belgium,Belgium,epc.mnc005.mcc206.3gppnetwork.org,20605,online,,Indirect,,,,,EMEA,,
+6857,356,Telenet Group bvba sprl(BASE),Belgium,epc.mnc020.mcc206.3gppnetwork.org,20620,online,,Indirect,Live,,,,EMEA,,All offline route of Telenet Group Base cut off on 2018 July30.Migration to iBasis fully done.
+7403,966,Belize Telecom,Belize,epc.mnc067.mcc702.3gppnetwork.org,70267,hidden,,Indirect,,,,,CALA,,
+7467,3077,Speednet,Belize,epc.mnc069.mcc702.3gppnetwork.org,70269,online,NA DSC,Direct,Live,,,,CALA,,
+7334,1725,Digital Bermuda,Bermuda,epc.mnc000.mcc350.3gppnetwork.org,35000,online,"NA DSC, Commnet Wireless",Direct,Live,,,malyadri.palakeerthi@syniverse.com,CALA,,reach via CommNet connections 
+12760,1732,B-Mobile Bhutan,Bhutan,epc.mnc011.mcc402.3gppnetwork.org,40211,hidden,,Indirect,,,,,Asia Pacific,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-08-08"
+7469,1680,TashiCell,Bhutan,epc.mnc077.mcc402.3gppnetwork.org,40277,online,,Indirect,,,,,,,
+12578,925,Entel,Bolivia,epc.mnc002.mcc736.3gppnetwork.org,73602,hidden,,Indirect,,,,,CALA,,
+7118,1726,NUEVATEL Bolivia,Bolivia,epc.mnc001.mcc736.3gppnetwork.org,73601,online,,Indirect,Live,,,,CALA,,
+7269,1681,Telecel Bolivia,Bolivia,epc.mnc003.mcc736.3gppnetwork.org,73603,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,CALA,,
+12660,944,BH Telecom,Bosnia and Herzegovina,,,,,,,,,,,,
+12754,1682,Mascom Botswana,Botswana,epc.mnc001.mcc652.3gppnetwork.org,65201,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-23
+"
+7394,1313,Orange Botswana,Botswana,epc.mnc002.mcc652.3gppnetwork.org,65202,online,,Indirect,Live,,,,EMEA,,
+6639,491,Claro Brazil,Brazil,epc.mnc005.mcc724.3gppnetwork.org,72405,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+7466,1961,Nextel Brazil,Brazil,,,,,,,,,,,,
+6594,828,Oi Movel SA,Brazil,epc.mnc031.mcc724.3gppnetwork.org,72431,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,CALA,,"AP,EU has point to S9NA, A6NA has not migrate yet, hanlin will work with balram wo migrate route on A6NA"
+6579,500,TIM Brazil,Brazil,"epc.mnc002.mcc724.3gppnetwork.org,epc.mnc003.mcc724.3gppnetwork.org,epc.mnc004.mcc724.3gppnetwork.org","72402,72403,72404",online,,Indirect,Live,,,,CALA,,
+6363,917,Vivo,Brazil,"epc.mnc006.mcc724.3gppnetwork.org,epc.mnc010.mcc724.3gppnetwork.org,epc.mnc011.mcc724.3gppnetwork.org,epc.mnc023.mcc724.3gppnetwork.org","72406,72410,72411,72423",online,,Indirect,Live,,,Mario.herrera@syniverse.com,CALA,,"Will be migrate to TIWS behind S9NA in Aug 2017, before get the confirmation of migration ,all route point to A6NA"
+6562,504,DataStream Technology,Brunei Darussalam,epc.mnc011.mcc528.3gppnetwork.org,52811,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+7298,849,BTC Bulgaria,Bulgaria,epc.mnc003.mcc284.3gppnetwork.org,28403,online,,Indirect,Live,,,,EMEA,,"Also named as ""Vivacom Bulgaria"""
+7340,510,Mobitel Bulgaria,Bulgaria,epc.mnc001.mcc284.3gppnetwork.org,28401,online,,Indirect,Live,,,,EMEA,,
+7285,672,Telenor Bulgaria,Bulgaria,epc.mnc005.mcc284.3gppnetwork.org,28405,online,,Indirect,Live,,,,EMEA,,
+7397,616,CamGSM,Cambodia,epc.mnc001.mcc456.3gppnetwork.org,45601,online,,Indirect,,,,,,,
+6810,1494,Smart Axiata,Cambodia,"epc.mnc002.mcc456.3gppnetwork.org,epc.mnc006.mcc456.3gppnetwork.org","45602,45606",online,,Indirect,Live,,,,Asia Pacific,,
+7119,2952,South East Asia Telecom,Cambodia,epc.mnc011.mcc456.3gppnetwork.org,45611,hidden,,Indirect,Pending,,,,Asia Pacific,,
+7270,1510,Viettel Cambodia ,Cambodia,epc.mnc008.mcc456.3gppnetwork.org,45608,online,,Indirect,Live,,,,Asia Pacific,,"This operator is also named as ""Metfone"" -- noted by Hanlin"
+7490,1347,MTN Cameroon,Cameroon,epc.mnc001.mcc624.3gppnetwork.org,62401,online,,Indirect,,,,,EMEA,,
+7420,859,Orange Cameroon,Cameroon,epc.mnc002.mcc624.3gppnetwork.org,62402,online,,Indirect,Live,,,,EMEA,,
+6566,763,Bell Mobility,Canada,"epc.mnc610.mcc302.3gppnetwork.org,epc.mnc690.mcc302.3gppnetwork.org","302610,302690",online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,
+7268,2530,Bragg Communications,Canada,epc.mnc270.mcc302.3gppnetwork.org,302270,online,EU DSC,Direct,Live,Eastlink,,Jason.Qin@syniverse.com,North America,,
+7458,2458,Execulink Telecom,Canada,epc.mnc340.mcc302.3gppnetwork.org,302340,online,"Digital (Aspenta), NA DSC",Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+7341,1761,Freedom Mobile,Canada,epc.mnc490.mcc302.3gppnetwork.org,302490,online,NA DSR,Direct,Live,,,malyadri.palakeerthi@syniverse.com,North America,,
+12520,1935,Ice Wireless GSM,Canada,epc.mnc620.mcc302.3gppnetwork.org,302620,hidden,,Indirect,,,,,,,
+6498,332,Microcell Telecommunications (Fido),Canada,,,,,,,"Merged with rogers, not appear in RMT , but displayed in external coveraglist",,,,,
+6899,2333,Mobilicity Canada,Canada,,,,,,,,,,,,
+6497,334,Rogers Wireless,Canada,"epc.mnc370.mcc302.3gppnetwork.org,epc.mnc720.mcc302.3gppnetwork.org","302370,302720",online,NA DSR,Direct,Live,,,malyadri.palakeerthi@syniverse.com,North America,,
+7344,1981,Sasktel Mobility,Canada,epc.mnc780.mcc302.3gppnetwork.org,302780,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+12596,3143,SSi Micro LTD,Canada,epc.mnc480.mcc302.3gppnetwork.org,302480,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,North America,,"All SSi Micro MME nodes work on an active/standby fashion, where one of the SCTP associations towards one of the NA DSCs will be up, while the other one will be down. 
+"
+6121,764,Telus Mobility,Canada,"epc.mnc220.mcc302.3gppnetwork.org,epc.mnc760.mcc302.3gppnetwork.org","302220,302760",online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,AIR Destination realm:dra.ipx.syniverse.3gppnetwork.org
+7054,1844,Videotron,Canada,epc.mnc500.mcc302.3gppnetwork.org,302500,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,
+7459,2869,Wightman,Canada,epc.mnc940.mcc302.3gppnetwork.org,302940,online,"Digital (Aspenta), NA DSC",Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+12741,3169,Xplornet,Canada,epc.mnc130.mcc302.3gppnetwork.org,302130,hidden,NA DSC,Direct,,,,fabian.castillo@syniverse.com,North America,,
+12742,1762,CVMovel SA,Cape Verde,epc.mnc001.mcc625.3gppnetwork.org,62501,hidden,,,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+12761,1763,T+ Telecomunicacoes,Cape Verde,epc.mnc002.mcc625.3gppnetwork.org,62502,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-08-08
+"
+7057,1652,Cable and Wireless Cayman,Cayman Islands,epc.mnc140.mcc346.3gppnetwork.org,346140,group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+12626,1287,Airtel Chad,Chad,epc.mnc001.mcc622.3gppnetwork.org,62201,hidden,,Indirect,,,,,EMEA,,"BICS has not respond to elect request at the moment
+SR0000002034228  - Pending Name change from Celtel to Airtel Chad, do not onboard this OP until the name change is done and BICS acknoledge "
+7507,1668,Millicom Tchad,Chad,epc.mnc003.mcc622.3gppnetwork.org,62203,online,,Indirect,Live,,,,EMEA,,
+6979,1413,Claro Chile,Chile,epc.mnc003.mcc730.3gppnetwork.org,73003,online,,Indirect,Live,,,,CALA,,
+7305,501,ENTEL PCS,Chile,epc.mnc001.mcc730.3gppnetwork.org,73001,online,,Indirect,Pending,,,,CALA,,"used to connected via TATA,migrate all route to BICS in June 8 2018
+
+
+"
+6622,274,Telefonica Chile,Chile,epc.mnc002.mcc730.3gppnetwork.org,73002,online,,Indirect,Live,,,,CALA,,
+6585,103,China Mobile,China,"epc.mnc000.mcc460.3gppnetwork.org,epc.mnc002.mcc460.3gppnetwork.org,epc.mnc007.mcc460.3gppnetwork.org","46000,46002,46007",online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,"China Mobile also reach NA DSR via CMI, all new route shall choose CMI peering in AP. In long term, NA CMI peering will be obselete"
+6748,1440,China Telecom,China,epc.mnc011.mcc460.3gppnetwork.org,46011,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+7505,3103,China Telecom C2G,China,epc.mnc099.mcc460.3gppnetwork.org,,,,,,,,,,,
+6684,258,China Unicom,China,"epc.mnc001.mcc460.3gppnetwork.org,epc.mnc006.mcc460.3gppnetwork.org,epc.mnc009.mcc460.3gppnetwork.org","46001,46006,46009",online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6963,2890,LAB-DSC,China,,,,,,,,,,,,
+6714,591,Colombia Movil,Colombia,"epc.mnc103.mcc732.3gppnetwork.org,epc.mnc111.mcc732.3gppnetwork.org","732103,732111",online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+6980,881,Comcel Colombia (Claro),Colombia,epc.mnc101.mcc732.3gppnetwork.org,732101,online,,Indirect,Live,,,,CALA,,
+6621,1379,Telefonica Colombia (Movistar),Colombia,epc.mnc123.mcc732.3gppnetwork.org,732123,online,,Indirect,Live,,,,CALA,,
+12664,1766,Societe Nationale des Telecommunications (Comores Telecom),Comoros,epc.mnc001.mcc654.3gppnetwork.org,65401,hidden,,Indirect,,,,,EMEA,,
+12598,3063,Africell RDC sprl,Congo The Democratic Republic,,,,,,,,,,,,
+12521,1768,Telecom Cook Islands,Cook Islands,epc.mnc001.mcc548.3gppnetwork.org,54801,hidden,,Indirect,,,,,,,
+7312,2311,Claro CR Telecomunicaciones,Costa Rica,epc.mnc003.mcc712.3gppnetwork.org,71203,online,,Indirect,Live,,,,North America,,
+7352,1370,INSTITUTO COSTARRICENSE DE ELECTRICIDAD,Costa Rica,epc.mnc001.mcc712.3gppnetwork.org,71201,online,,Indirect,Live,,,,North America,,
+6794,2422,Telefonica Moviles Costa Rica,Costa Rica,epc.mnc004.mcc712.3gppnetwork.org,71204,online,,Indirect,Live,"Do not engage customer about termination.  I will inform if there is a need to terminate and migrate to their Internal DSS but for now they are extending the service until August.
+
+Regards
+Patricia
+",,malyadri.palakeerthi@syniverse.com,CALA,,"New Comments: (19th Jully 2016)
+
+Telefonica Moviles Costa Rica has been migrated to TIWS, so the path is:
+
+   *(Any RP) - S9NA - TIWS - Telefonica Moviles Costa Rica
+
+-----------------------
+Old comments
+Do not migrate unless get patria confirmation."
+12528,1614,Atlantique Telecom,Cote D'ivoire,epc.mnc002.mcc612.3gppnetwork.org,61202,online,,Indirect,,,,,EMEA,,
+7450,1490,MTN Ivory Coast,Cote D'ivoire,epc.mnc005.mcc612.3gppnetwork.org,61205,online,,Indirect,,,,,,,"Telus request to open S6A , IR21 shows BICS, request has been sent to BICS, once BICS agrees, will bring online"
+7431,894,Orange Ivory Coast,Cote D'ivoire,epc.mnc003.mcc612.3gppnetwork.org,61203,online,,Indirect,Live,,,,EMEA,,
+6941,395,Croatian Telecom Inc,Croatia,epc.mnc001.mcc219.3gppnetwork.org,21901,online,,Indirect,Live,,,,EMEA,,
+6978,635,Tele2 Croatia,Croatia,epc.mnc002.mcc219.3gppnetwork.org,21902,online,,Indirect,Live,,,,EMEA,,
+6832,827,VIPNet,Croatia,epc.mnc010.mcc219.3gppnetwork.org,21910,online,,Indirect,Live,,,,EMEA,,
+7483,657,Cubacel,Cuba,epc.mnc001.mcc368.3gppnetwork.org,36801,hidden,,Indirect,,,,,,,
+7351,435,Cyprus Telecommunications Auth,Cyprus,epc.mnc001.mcc280.3gppnetwork.org,28001,hidden,,Indirect,Live,,,,EMEA,,"As per checked on 25th July, no sales opportunity yet.  Route should be opened via Comfone, without per-route approval"
+7402,746,MTN Cyprus,Cyprus,epc.mnc010.mcc280.3gppnetwork.org,28010,online,,Indirect,Live,,,,EMEA,,
+7034,2416,PrimeTel Cyprus,Cyprus,epc.mnc020.mcc280.3gppnetwork.org,28020,online,,Indirect,Live,,,,EMEA,,
+7063,402,O2 Czech Republic,Czech Republic,epc.mnc002.mcc230.3gppnetwork.org,23002,online,,Indirect,Live,,,,EMEA,,
+6898,323,T-Mobile Czech,Czech Republic,epc.mnc001.mcc230.3gppnetwork.org,23001,online,,Indirect,Live,,,,EMEA,,
+6801,579,Vodafone Czech,Czech Republic,epc.mnc003.mcc230.3gppnetwork.org,23003,online,,Indirect,Live,,,,EMEA,,
+7126,580,Hutchison 3G Denmark,Denmark,epc.mnc006.mcc238.3gppnetwork.org,23806,hidden,,Indirect,Live,,,,EMEA,,
+6947,272,TDC Mobil AS,Denmark,epc.mnc001.mcc238.3gppnetwork.org,23801,online,,Indirect,Live,,,,EMEA,,
+6920,355,Telenor Denmark,Denmark,epc.mnc002.mcc238.3gppnetwork.org,23802,online,,Indirect,Live,,,,EMEA,,
+6834,376,TeliaSonera Denmark,Denmark,epc.mnc020.mcc238.3gppnetwork.org,23820,online,,Indirect,Live,,,,EMEA,,
+12618,3155,Wavely,Denmark,epc.mnc042.mcc238.3gppnetwork.org,23842,online,,Indirect,,,,,EMEA,,
+12728,1921,Evatis (Djibouti Telekom),Djibouti,epc.mnc001.mcc638.3gppnetwork.org,63801,hidden,,Indirect,,,,,EMEA,,
+12639,1656,Cable and Wireless Dominica,Dominica,epc.mnc110.mcc366.3gppnetwork.org,366110,Group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+6912,647,"Compania Dominicana De Telefonos,S.A.",Dominican Republic,epc.mnc002.mcc370.3gppnetwork.org,37002,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,"Also named as ""VERIZO Dominican""
+
+Claro Dominicana have been migrated from Ibasis to Syniverse."
+7107,427,Orange Dominicana,Dominican Republic,epc.mnc001.mcc370.3gppnetwork.org,37001,online,,Indirect,Live,,,,EMEA,,
+12531,1719,Trilogy Dominicana,Dominican Republic,epc.mnc004.mcc370.3gppnetwork.org,37004,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,CALA,,
+12554,1537,CNT EP,Ecuador,epc.mnc002.mcc740.3gppnetwork.org,74002,online,NA DSC,Direct,Live,,Contract,Mario.herrera@syniverse.com,CALA,,
+7348,604,Conecel,Ecuador,epc.mnc001.mcc740.3gppnetwork.org,74001,hidden,,Indirect,Live,,,,CALA,,waiting for the first route via iBasis to be established to change from hidden to onlne
+7050,1398,Telefonica Moviles Ecuador,Ecuador,epc.mnc000.mcc740.3gppnetwork.org,74000,online,,Indirect,Live,,,,CALA,,
+7411,864,ETISALAT Egypt,Egypt,epc.mnc003.mcc602.3gppnetwork.org,60203,online,,Indirect,Live,,,,EMEA,,
+7433,437,Mobinil,Egypt,epc.mnc001.mcc602.3gppnetwork.org,60201,online,,Indirect,Live,,,,EMEA,,
+7293,411,Vodafone Egypt,Egypt,epc.mnc002.mcc602.3gppnetwork.org,60202,online,,Indirect,Live,,,,EMEA,,
+12650,1426,CTE Telecom Personal,El Salvador,epc.mnc001.mcc706.3gppnetwork.org,70601,online,,,,,,,,,
+7399,1400,Telefonica Moviles EL Salvador,El Salvador,epc.mnc004.mcc706.3gppnetwork.org,70604,online,,Indirect,Live,,,,CALA,,
+12500,1427,Tigo(Telemovil) El Salvador,El Salvador,epc.mnc003.mcc706.3gppnetwork.org,70603,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+6837,328,AS EMT,Estonia,epc.mnc001.mcc248.3gppnetwork.org,24801,online,,Indirect,Live,,,,EMEA,,
+6930,422,ELISA EESTI AS,Estonia,epc.mnc002.mcc248.3gppnetwork.org,24802,online,,Indirect,Live,,,,EMEA,,
+6971,633,Tele2 Estonia,Estonia,epc.mnc003.mcc248.3gppnetwork.org,24803,online,,Indirect,Live,,,,EMEA,,
+7477,592,Faroese Telecom,Faroe Islands,epc.mnc001.mcc288.3gppnetwork.org,28801,online,,Indirect,Live,,,,EMEA,FROFT,
+6863,1721,Digicel Fiji,Fiji,epc.mnc002.mcc542.3gppnetwork.org,54202,online,,Indirect,Live,,,,Asia Pacific,,"""Tonga/Fiji/Vanuatu have the same realm name"" per Digicel group.
+
+Per their IR21, their IMSI prefix are different.
+
+Now only leave Digicel Fiji in RMT, the other 2 was set to ""group"" of RMT status.
+
+"
+6796,921,Vodafone Fiji,Fiji,epc.mnc001.mcc542.3gppnetwork.org,54201,online,,Indirect,Live,,,,Asia Pacific,,
+7484,386,Alands Mobiltelefon,Finland,epc.mnc014.mcc244.3gppnetwork.org,24414,online,,Indirect,,,,,EMEA,,
+6934,381,Elisa,Finland,"epc.mnc005.mcc244.3gppnetwork.org,epc.mnc021.mcc244.3gppnetwork.org","24405,24421",online,,Indirect,Live,,,,EMEA,,
+7125,1513,Finnet (DNA) Finland,Finland,epc.mnc012.mcc244.3gppnetwork.org,24412,hidden,,Indirect,Live,,,,EMEA,,AKA: DNA Finland
+6835,344,TeliaSonera Finland,Finland,epc.mnc091.mcc244.3gppnetwork.org,24491,online,,Indirect,Live,,,,EMEA,,
+6847,2859,TeliaSonera Peer Hub,Finland,,,online,NA DSC,Peer,,,,,,,
+6523,322,Bouygues Telecom,France,epc.mnc020.mcc208.3gppnetwork.org,20820,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,"use roaming steering , HSS will reject ULR with DIAMETER_UNABLE_TO_COMPLY (5012)"
+6570,275,FranceTelecom Peering Hub,France,,,,"NA DSC, EU DSC",Peer,,When opening tickets with FT/Orange please use our service ID LD011315,,wind.wang@syniverse.com,,,"Primary IP Second IP configured in CCB is for FRT DSC, On AMS DSC, IP is switched"
+6916,2657,HALYS,France,epc.mnc094.mcc208.3gppnetwork.org,20894,online,,Indirect,Live,,,,EMEA,,
+7369,3051,Hewlett-Packard Communication Frech,France,epc.mnc012.mcc208.3gppnetwork.org,20812,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,EMEA,,
+7496,2652,Mobiquithings France,France,epc.mnc024.mcc208.3gppnetwork.org,20824,online,,Indirect,Live,,,,EMEA,,
+6541,388,Orange France,France,"epc.mnc001.mcc208.3gppnetwork.org,epc.mnc031.mcc901.3gppnetwork.org","20801,90131",online,,Indirect,Live,,,,EMEA,,
+6555,357,SFR,France,"epc.mnc009.mcc208.3gppnetwork.org,epc.mnc010.mcc208.3gppnetwork.org","20809,20810",online,,Indirect,Live,,,,EMEA,,"Default route of SFR point to BICS, but SFR may request some of the route to be opened by VCS also.
+We shall agree request from BICS or VCS, if the request send from SVR customer, we shall try BICS first to avoid special routing"
+7075,2658,TRANSATEL France,France,epc.mnc037.mcc901.3gppnetwork.org,90137,online,,Indirect,Live,,,,EMEA,,
+12662,1972,Outremer Telecom French Guiana,French Guiana,epc.mnc002.mcc340.3gppnetwork.org,34002,online,,Indirect,,,,,CALA,,
+12764,1687,TikiPhone,French Polynesia,epc.mnc020.mcc547.3gppnetwork.org,54720,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-08-10"
+12731,1294,Celtel Gabon,Gabon,epc.mnc003.mcc628.3gppnetwork.org,62803,online,,Indirect,,,,,EMEA,,
+7491,1295,Libertis Telecom,Gabon,epc.mnc001.mcc628.3gppnetwork.org,62801,online,,Indirect,Live,,,,EMEA,,
+12732,1296,Telecel Gabon,Gabon,epc.mnc002.mcc628.3gppnetwork.org,62802,online,,Indirect,,,,,EMEA,,
+12507,1777,Africell (Gambia) Ltd,Gambia,epc.mnc002.mcc607.3gppnetwork.org,60702,online,,Indirect,Live,,,,EMEA,,"
+"
+12765,1728,QCELL,Gambia,,,,,,,,,,,,"2018/8/15 comment
+QCell is a diameter customer already with signed contract (SFDC 38906) signed back in May 2015.
+We need a follow-up with Sales and the owner of this account (unfortunately the person in SFDC is no longer with Syniverse). 
+Lucy Q is following with sales to check current status of QCell"
+7412,689,Geocell,Georgia,epc.mnc001.mcc282.3gppnetwork.org,28201,online,,Indirect,Live,,,,EMEA,,
+7358,612,MagtiCom,Georgia,epc.mnc002.mcc282.3gppnetwork.org,28202,hidden,,Indirect,Live,,,,EMEA,,No sales opportunity yet.
+7067,1688,Mobitel Georgia ,Georgia,epc.mnc004.mcc282.3gppnetwork.org,28204,online,,Indirect,Live,,,,EMEA,,
+6856,2863,Deutsche Telekom Peering Hub,Germany,,,,"NA DSC, EU DSC",Peer,,,,wind.wang@syniverse.com,,,
+12491,359,E-Plus,Germany,epc.mnc003.mcc262.3gppnetwork.org,26203,,,,,,,,,,
+12504,3111,EMnify GmbH,Germany,epc.mnc043.mcc901.3gppnetwork.org,90143,online,,Indirect,,,,,EMEA,,
+7048,2901,EU-FRT-DSC-01,Germany,dra.ipx.syniverse.3gppnetwork.org,,,,,,,,,,,
+6783,348,T-Mobile Germany,Germany,"epc.mnc001.mcc262.3gppnetwork.org,epc.mnc040.mcc901.3gppnetwork.org","26201,90140",online,,Indirect,Live,,,,EMEA,,
+6533,343,Telefonica O2 Germany,Germany,"epc.mnc003.mcc262.3gppnetwork.org,epc.mnc007.mcc262.3gppnetwork.org","26203,26207",online,,Indirect,Live,,,,EMEA,,O2 GE is behind the TIWS hub which is connected to EU DSC
+6740,372,Vodafone Germany,Germany,epc.mnc002.mcc262.3gppnetwork.org,26202,online,,Indirect,Live,,,,EMEA,,
+12628,1322,MTN Ghana,Ghana,,,,,,,,,,,,
+7479,856,Vodafone Ghana,Ghana,,62002,,,,,,,,,,Implementing under FT 2017/4/11
+7400,558,Gibtel,Gibraltar,epc.mnc001.mcc266.3gppnetwork.org,26601,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,Asia Pacific,,
+6897,473,COSMOTE Mobile Telecommunications,Greece,epc.mnc001.mcc202.3gppnetwork.org,20201,online,,Indirect,Live,,,,EMEA,,
+7012,311,OTEGlobe GRX Peer,Greece,,,,NA DSC,Peer,,,,,,,
+6739,370,Vodafone Greece,Greece,epc.mnc005.mcc202.3gppnetwork.org,20205,online,,Indirect,Live,,,,EMEA,,
+7287,390,Wind Greece,Greece,epc.mnc010.mcc202.3gppnetwork.org,"20209,20210",online,,Indirect,Live,,,,EMEA,,"Wind Greece confirm that they will only use one realm as below:
+
+Please note: Wind Hellas SIMs use 2 IMSI series, 20210 and 20209.
+The tricky thing is: they both use same EPC realm epc.mnc010.mcc202.3gppnetwork
+"
+7070,2910,Cable and Wireless Group,GROUP,"epc.mnc110.mcc356.3gppnetwork.org,epc.mnc110.mcc358.3gppnetwork.org,epc.mnc110.mcc366.3gppnetwork.org,epc.mnc140.mcc346.3gppnetwork.org,epc.mnc170.mcc348.3gppnetwork.org,epc.mnc180.mcc338.3gppnetwork.org,epc.mnc350.mcc376.3gppnetwork.org,epc.mnc600.mcc342.3gppnetwork.org,epc.mnc840.mcc365.3gppnetwork.org,epc.mnc920.mcc344.3gppnetwork.org","338180,342600,344920,346140,348170,356110,358110,365840,366110,376350",online,NA DSC,Direct,Not in external coverage,,,luisdiego.jimenez@syniverse.com,CALA,,
+12513,1262,Digicel Antilles,Guadeloupe,,,,,,,,,,,,
+7323,1969,Orange (France Caraibe Mobiles),Guadeloupe,epc.mnc001.mcc340.3gppnetwork.org,34001,online,,Indirect,Live,,,,CALA,,
+6561,879,Docomo Pacific,Guam,"epc.mnc370.mcc310.3gppnetwork.org,epc.mnc470.mcc310.3gppnetwork.org","310370,310470",online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+7032,1407,IT&E,Guam,epc.mnc110.mcc310.3gppnetwork.org,310110,hidden,,Indirect,Live,,,,North America,"GUMIW,MNPPT",
+7445,808,Pulse Mobile Guam,Guam,epc.mnc140.mcc310.3gppnetwork.org,310140,hidden,,Indirect,,,,,North America,,
+7345,1516,Claro Guatemala,Guatemala,epc.mnc001.mcc704.3gppnetwork.org,70401,online,,Indirect,Live,,,,CALA,,
+7066,1399,Telefonica Moviles Guatemala,Guatemala,epc.mnc003.mcc704.3gppnetwork.org,70403,online,,Indirect,Live,,,,CALA,,
+12534,967,Tigo Guatemala,Guatemala,epc.mnc002.mcc704.3gppnetwork.org,70402,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,," Comunicaciones Celulares, S.A. (Guatemala)"
+7321,514,Sure Gurnsey,Guernsey,epc.mnc055.mcc234.3gppnetwork.org,23455,hidden,,Indirect,Not in external coverage,,,malyadri.palakeerthi@syniverse.com,EMEA,GBRGT,
+12657,1298,MTN Bissau,Guinea-Bissau,epc.mnc002.mcc632.3gppnetwork.org,63202,online,,Indirect,Live,,,,EMEA,,
+12753,1759,Orange Bissau,Guinea-Bissau,epc.mnc003.mcc632.3gppnetwork.org,63203,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-23
+"
+6680,1692,Digicel Haiti,Haiti,,,,NA DSC,Direct,Live,,,,CALA,,merged to Digicel Jamaica
+7273,1028,Claro Honduras,Honduras,epc.mnc001.mcc708.3gppnetwork.org,708001,online,,Indirect,Live,,,,CALA,,
+7430,1669,Tigo Honduras,Honduras,epc.mnc002.mcc708.3gppnetwork.org,70802,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,CALA,,
+6354,102,China Mobile Hong Kong,Hong Kong,epc.mnc012.mcc454.3gppnetwork.org,45412,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,"if operators ask SVR to migrate their route to CMHK via CMI , please let them know currently CMHK will keep using Syniverse to send and receive S8 traffic until further notice"
+6861,1546,China Unicom International,Hong Kong,epc.mnc007.mcc454.3gppnetwork.org,45407,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+12533,1896,China-Hongkong Telecom,Hong Kong,,,,,,,,,,,,
+6586,2512,CMI Peer,Hong Kong,dra.ipx.cmi.3gppnetwork.org,,,"AP DSC, NA DSC",Peer,,,,greg.zhai@syniverse.com,,,
+6226,99,CSL,Hong Kong,,,,,,,,,,,,merged to HKT
+6355,2476,DRA1.HKG2,Hong Kong,hkgdra001.aicent.grx,,,,,,,,,,,
+6611,2745,HGC DSS Peer,Hong Kong,,,,,,,,,,,,peer not established
+6357,521,Hong Kong Telecommunications (HKT) Limited 3G,Hong Kong,"epc.mnc000.mcc454.3gppnetwork.org,epc.mnc019.mcc454.3gppnetwork.org","45400,45419",online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+6358,291,Hutchison 3G Hong Kong,Hong Kong,epc.mnc003.mcc454.3gppnetwork.org,"45403,45404",online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,Migration from A6AP to S9AP was completed in 30th Nov 2016
+7446,2417,PCCW Global Peer,Hong Kong,,,,,,,,,wind.wang@syniverse.com,,,
+6362,43,SmarTone Mobile,Hong Kong,epc.mnc006.mcc454.3gppnetwork.org,45406,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,All new route shall go through AP DSC
+12643,3159,Webbing Hong Kong Limited,Hong Kong,epc.mnc035.mcc454.3gppnetwork.org,45435,hidden,,Indirect,,,,,Asia Pacific,,
+6851,2849,AP-HKG-DSC-01,HongKong,dra.ipx.syniverse.3gppnetwork.org,,,,,,,,,,,
+6893,378,T-Mobile Hungary,Hungary,epc.mnc030.mcc216.3gppnetwork.org,21630,online,,Indirect,Live,,,,EMEA,,
+6871,317,Telenor Hungary,Hungary,epc.mnc001.mcc216.3gppnetwork.org,21601,online,,Indirect,Live,,,,EMEA,,
+6981,401,Vodafone Hungary Ltd,Hungary,epc.mnc070.mcc216.3gppnetwork.org,21670,online,,Indirect,Live,,,,EMEA,,
+7262,1341,Nova,Iceland,epc.mnc011.mcc274.3gppnetwork.org,27411,online,,Indirect,Live,,,,EMEA,,
+6957,389,Siminn hf,Iceland,"epc.mnc001.mcc274.3gppnetwork.org,epc.mnc008.mcc274.3gppnetwork.org,epc.mnc012.mcc274.3gppnetwork.org","27401,27408,27412",online,,Indirect,Live,,,,EMEA,,
+7096,496,Vodafone Iceland,Iceland,epc.mnc002.mcc274.3gppnetwork.org,27402,online,,Indirect,Live,,,,EMEA,,
+7013,418,Bharti Airtel India,India,"epc.mnc002.mcc404.3gppnetwork.org,epc.mnc003.mcc404.3gppnetwork.org,epc.mnc010.mcc404.3gppnetwork.org,epc.mnc016.mcc404.3gppnetwork.org,epc.mnc031.mcc404.3gppnetwork.org,epc.mnc040.mcc404.3gppnetwork.org,epc.mnc045.mcc404.3gppnetwork.org,epc.mnc049.mcc404.3gppnetwork.org,epc.mnc051.mcc405.3gppnetwork.org,epc.mnc052.mcc405.3gppnetwork.org,epc.mnc053.mcc405.3gppnetwork.org,epc.mnc054.mcc405.3gppnetwork.org,epc.mnc055.mcc405.3gppnetwork.org,epc.mnc056.mcc405.3gppnetwork.org,epc.mnc070.mcc404.3gppnetwork.org,epc.mnc090.mcc404.3gppnetwork.org,epc.mnc092.mcc404.3gppnetwork.org,epc.mnc093.mcc404.3gppnetwork.org,epc.mnc094.mcc404.3gppnetwork.org,epc.mnc095.mcc404.3gppnetwork.org,epc.mnc096.mcc404.3gppnetwork.org,epc.mnc097.mcc404.3gppnetwork.org,epc.mnc098.mcc404.3gppnetwork.org","40402,40403,40410,40416,40431,40440,40445,40449,40470,40490,40492,40493,40494,40495,40496,40497,40498,40551,40552,40553,40554,40555,40556",online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,"K2R route shall be opened by Greg
+"
+7264,747,IDEA,India,"epc.mnc004.mcc404.3gppnetwork.org,epc.mnc007.mcc404.3gppnetwork.org,epc.mnc012.mcc404.3gppnetwork.org,epc.mnc014.mcc404.3gppnetwork.org,epc.mnc019.mcc404.3gppnetwork.org,epc.mnc022.mcc404.3gppnetwork.org,epc.mnc024.mcc404.3gppnetwork.org,epc.mnc044.mcc404.3gppnetwork.org,epc.mnc056.mcc404.3gppnetwork.org,epc.mnc070.mcc405.3gppnetwork.org,epc.mnc078.mcc404.3gppnetwork.org,epc.mnc082.mcc404.3gppnetwork.org,epc.mnc087.mcc404.3gppnetwork.org,epc.mnc089.mcc404.3gppnetwork.org,epc.mnc799.mcc405.3gppnetwork.org,epc.mnc845.mcc405.3gppnetwork.org,epc.mnc846.mcc405.3gppnetwork.org,epc.mnc848.mcc405.3gppnetwork.org,epc.mnc849.mcc405.3gppnetwork.org,epc.mnc850.mcc405.3gppnetwork.org,epc.mnc852.mcc405.3gppnetwork.org,epc.mnc853.mcc405.3gppnetwork.org","40404,40407,40412,40414,40419,40422,40424,40444,40456,40478,40482,40487,40489,40570,405799,405845,405846,405848,405849,405850,405852,405853",online,,Indirect,Live,,,,Asia Pacific,,
+7083,2924,Reliance Jio,India,"epc.mnc840.mcc405.3gppnetwork.org,epc.mnc854.mcc405.3gppnetwork.org,epc.mnc855.mcc405.3gppnetwork.org,epc.mnc856.mcc405.3gppnetwork.org,epc.mnc857.mcc405.3gppnetwork.org,epc.mnc858.mcc405.3gppnetwork.org,epc.mnc859.mcc405.3gppnetwork.org,epc.mnc860.mcc405.3gppnetwork.org,epc.mnc861.mcc405.3gppnetwork.org,epc.mnc862.mcc405.3gppnetwork.org,epc.mnc863.mcc405.3gppnetwork.org,epc.mnc864.mcc405.3gppnetwork.org,epc.mnc865.mcc405.3gppnetwork.org,epc.mnc866.mcc405.3gppnetwork.org,epc.mnc867.mcc405.3gppnetwork.org,epc.mnc868.mcc405.3gppnetwork.org,epc.mnc869.mcc405.3gppnetwork.org,epc.mnc870.mcc405.3gppnetwork.org,epc.mnc871.mcc405.3gppnetwork.org,epc.mnc872.mcc405.3gppnetwork.org,epc.mnc873.mcc405.3gppnetwork.org,epc.mnc874.mcc405.3gppnetwork.org","405840,405854,405855,405856,405857,405858,405859,405860,405861,405862,405863,405864,405865,405866,405867,405868,405869,405870,405871,405872,405873,405874",online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+7303,2582,TATA Communications Peer,India,,,,NA DSC,Peer,,,,,,,
+7271,285,Vodafone India (Essar),India,"epc.mnc005.mcc404.3gppnetwork.org,epc.mnc011.mcc404.3gppnetwork.org,epc.mnc020.mcc404.3gppnetwork.org,epc.mnc027.mcc404.3gppnetwork.org,epc.mnc030.mcc404.3gppnetwork.org,epc.mnc043.mcc404.3gppnetwork.org,epc.mnc046.mcc404.3gppnetwork.org","40405,40411,40420,40427,40430,40443,40446",online,,Indirect,Live,,,,Asia Pacific,,
+6467,539,Excelcomindo,Indonesia,epc.mnc011.mcc510.3gppnetwork.org,51011,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+7470,688,Hutchison Indonesia,Indonesia,epc.mnc089.mcc510.3gppnetwork.org,51089,hidden,,Indirect,,,,,,,"SVR does not have connectivity to HGC, can not open route 2017/12/4
+Before HGC peering up, please use comfone as peering hub"
+6976,426,Indosat - M3,Indonesia,epc.mnc001.mcc510.3gppnetwork.org,51001,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,AIR Destination realm:dra.ipx.syniverse.3gppnetwork.org
+7037,1448,Smartfren Telecom Indonesia,Indonesia,epc.mnc009.mcc510.3gppnetwork.org,"51009,51028",online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+6462,413,Telkomsel,Indonesia,epc.mnc010.mcc510.3gppnetwork.org,51010,online,AP DSC,Direct,Live,"SVR reach telkomsel via Telin, but treate telkomsel as direct OP
+According to Andhy_S_Perdana@telkomsel.co.id on 4/4/2018
+Kindly separate between Telin and Telkomsel.
+DSS RMT is Telin, Telkomsel just want to get notification email if there is problem in DEA.
+",,joe.feng@syniverse.com,Asia Pacific,,"Reached by Telin, but treated as direct OP"
+7371,1789,MCI,Iran Islamic Republic,epc.mnc011.mcc432.3gppnetwork.org,43211,online,,Indirect,,,,,,,
+7296,1324,MTN Iran,Iran Islamic Republic,epc.mnc035.mcc432.3gppnetwork.org,43235,hidden,,Indirect,Pending,,,,Asia Pacific,,No sales opportunity of direct connection yet. please open via Comfone
+7357,2746,Rightel,Iran Islamic Republic,epc.mnc020.mcc432.3gppnetwork.org,43220,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+12563,3131,Regional Telecom Company,Iraq,epc.mnc066.mcc418.3gppnetwork.org,41866,hidden,,Indirect,,,,,EMEA,,
+12752,2375,Lycamobile Ireland,Ireland,epc.mnc013.mcc272.3gppnetwork.org,27213,online,,,,,,,,,
+7046,743,Meteor Mobile Telecommunications Limited,Ireland,epc.mnc003.mcc272.3gppnetwork.org,27203,online,,Indirect,Live,,,,EMEA,,
+7346,740,Three Ireland,Ireland,"epc.mnc002.mcc272.3gppnetwork.org,epc.mnc005.mcc272.3gppnetwork.org","27202,27205",online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,"0.All route shall be only opened by Jason Qin !
+1.K2R route shall be opened by owner
+2.Normal route must update both NA&EU list cache to enable Jasper M2M service for special IMSI list
+3.Normal route shall be opened by owner to consider if to restirct OB roaming.
+4.DestRealm =  dra.ipx.syniverse.3gppnetwork.org.
+"
+6750,364,Vodafone Ireland,Ireland,epc.mnc001.mcc272.3gppnetwork.org,27201,online,,Indirect,Live,,,,EMEA,,
+7330,425,Manx Telecom,Isle of Man,epc.mnc058.mcc234.3gppnetwork.org,23458,online,,Indirect,Live,,,,EMEA,,"PCCWG does not respond to our request, new route shall open via SAP with the approval of product team
+---------2018-01-15----------------
+we migrated Manx to SAP EU and AP 
+---------2018-01-15----------------"
+12535,2905,Beezz Communication,Israel,epc.mnc023.mcc425.3gppnetwork.org,42523,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,
+6816,410,Cellcom Israel Ltd,Israel,epc.mnc002.mcc425.3gppnetwork.org,42502,online,,Indirect,Live,,,,EMEA,,
+7132,1950,HOT Mobile,Israel,epc.mnc007.mcc425.3gppnetwork.org,42507,online,,Indirect,Live,,,,EMEA,,
+6701,367,Partner Communications Company Ltd,Israel,epc.mnc001.mcc425.3gppnetwork.org,42501,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,list cache needs to be updated both on EU and NA when openning new route
+6935,781,Pelephone Israel,Israel,epc.mnc003.mcc425.3gppnetwork.org,42503,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,"Pelephone has asked SVR to open route of Pelephone-SAP-SVR-Airtel.
+Sales George has communicated with them on Jan 16 2018 that no route to SVR direct customer shall go through SAP.
+Except Airtel, no other route shall be opened via SAP"
+7370,442,Hutchison 3G,Italy,epc.mnc099.mcc222.3gppnetwork.org,22299,online,,Indirect,Live,,,,EMEA,ITAH3,
+6580,329,Telecom Italia Mobile,Italy,epc.mnc001.mcc222.3gppnetwork.org,22201,online,,Indirect,Live,,,,EMEA,,
+6633,2754,Telecom Italia Sparkle DSS Peer,Italy,,,,"EU DSC, NA DSC",Peer,,,,wind.wang@syniverse.com,EMEA,,
+6726,2803,Vodafone IPX Peering Hub,Italy,,,,EU DSC,Peer,,,,wind.wang@syniverse.com,,,
+6738,353,Vodafone Italy,Italy,epc.mnc010.mcc222.3gppnetwork.org,22210,online,,Indirect,Live,,,,EMEA,,
+7028,351,Wind Italy,Italy,epc.mnc088.mcc222.3gppnetwork.org,22288,online,,Indirect,Live,,,,EMEA,,
+7332,1651,Cable and Wireless Jamaica,Jamaica,epc.mnc180.mcc338.3gppnetwork.org,338180,group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,c&w group member
+6659,572,Digicel Jamaica,Jamaica,epc.mnc050.mcc338.3gppnetwork.org,"338050,348770",online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,"have same realm of Digicel Haity,Digicel Angula,Digicel British Virgin Island Bermuda Digice 348770 belongs to Digicel BVI"
+6118,701,KDDI,Japan,"epc.mnc050.mcc440.3gppnetwork.org,epc.mnc051.mcc440.3gppnetwork.org","44050,44051",online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,*SVR shall add K2R Surffix for K2R route.
+6514,498,NTT DoCoMo,Japan,epc.mnc010.mcc440.3gppnetwork.org,44010,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+6199,399,SOFTBANK MOBILE,Japan,epc.mnc020.mcc440.3gppnetwork.org,44020,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,Route on AP shall be opened by Joe Feng only to make sure if SBM requires white list
+7049,803,Jersey Airtel,Jersey,epc.mnc003.mcc234.3gppnetwork.org,23403,hidden,,Indirect,Not in external coverage,,,,North America,,
+6937,436,Jersey Telecom,Jersey,epc.mnc050.mcc234.3gppnetwork.org,23450,online,,Indirect,Live,,,,EMEA,,
+7018,511,Orange Jordan,Jordan,epc.mnc077.mcc416.3gppnetwork.org,41677,online,,Indirect,Live,,,,EMEA,,
+7275,711,Umniah,Jordan,epc.mnc003.mcc416.3gppnetwork.org,41603,online,,Indirect,Live,,,,EMEA,,
+7113,405,Zain Jordan(JMTS),Jordan,epc.mnc001.mcc416.3gppnetwork.org,41601,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,"migrated to EU direct link on 2018-05-03
+--------------------------------
+BT will be the new provider of Zain Jordan. Currently only one route changed. Before is Bell - S9NA - BICS - Zain Jordan. Now is Bell - S9NA - S9EU - BT - Zain Jordan
+Zain Jordan is connecting to EU DSC and are conducting test now, new route shall be opened via EU DSC"
+6311,1261,Altel-Mobile network Kazakhstan,Kazakhstan,epc.mnc007.mcc401.3gppnetwork.org,40107,hidden,,Indirect,Not in external coverage,,,,Asia Pacific,,"used to connected to A6AP for trail ,disconnected for a long time"
+7384,1259,K-Mobile-GSM Mobile network Kazakhstan,Kazakhstan,epc.mnc001.mcc401.3gppnetwork.org,40101,online,,Indirect,Live,,,,EMEA,,peering with S9EU
+7415,1258,Kcell,Kazakhstan,epc.mnc002.mcc401.3gppnetwork.org,40102,hidden,,Indirect,,,,,,,
+7444,1260,Mobile Telecom Service Kazakhstan,Kazakhstan,epc.mnc077.mcc401.3gppnetwork.org,40177,online,,Indirect,Live,,,,EMEA,,
+12621,941,Airtel Networks Kenya,Kenya,epc.mnc003.mcc639.3gppnetwork.org,"63903,63905",online,,Indirect,Live,,,,EMEA,,
+7040,685,Safaricom,Kenya,epc.mnc002.mcc639.3gppnetwork.org,63902,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,
+12622,1693,Telkom Kenya,Kenya,epc.mnc007.mcc639.3gppnetwork.org,63907,online,,Indirect,Live,,,,EMEA,,
+6359,467,KT Corporation,Korea Republic,epc.mnc008.mcc450.3gppnetwork.org,45008,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+6188,684,LG U Plus,Korea Republic,epc.mnc006.mcc450.3gppnetwork.org,45006,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,SVR shall add K2R Surffix for K2R route.
+6361,192,SK Telecom,Korea Republic,epc.mnc005.mcc450.3gppnetwork.org,45005,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+6525,575,SK Telink Corporation,Korea Republic,,,,,,,,,,,,
+12568,3135,IPKO Telecommunications LLC,Kosovo,epc.mnc002.mcc221.3gppnetwork.org,22102,hidden,,Indirect,,,,,EMEA,,
+7421,840,MT Vala Kosovo,Kosovo,epc.mnc001.mcc212.3gppnetwork.org,21201,online,,Indirect,Live,,,,EMEA,MCOM1,
+6678,1505,KTC Kuwait (VIVA),Kuwait,epc.mnc004.mcc419.3gppnetwork.org,41904,online,,Indirect,Live,,,,EMEA,,
+6866,492,Ooredoo Kuwait,Kuwait,epc.mnc003.mcc419.3gppnetwork.org,41903,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,EMEA,,going to deploy steered romaing Sep 2017
+7117,421,Zain Kuwait,Kuwait,epc.mnc002.mcc419.3gppnetwork.org,41902,online,,Indirect,Live,,,,EMEA,,
+7503,1491,Alfa Telecom,Kyrgyzstan,epc.mnc005.mcc437.3gppnetwork.org,43705,hidden,,Indirect,Live,,,,EMEA,,
+6960,1694,NurTelecom Kyrgyzstan,Kyrgyzstan,epc.mnc009.mcc437.3gppnetwork.org,43709,online,,Indirect,Live,,,,EMEA,,
+7442,1311,Sky Mobile,Kyrgyzstan,epc.mnc001.mcc437.3gppnetwork.org,43701,online,,Indirect,Live,,,,EMEA,KGZ01,
+7414,2593,Unitel Laos,Lao People's Democratic Republic,epc.mnc003.mcc457.3gppnetwork.org,45703,hidden,,Indirect,,,,,,,"FT are going to connect this operator directly to our DSR but it isn¡¯t finished yet.
+It will be created may be by the end of 2018 July.
+
+=========================================
+changed to Comfone, 2018-08-17."
+7092,905,BITE Latvia,Latvia,epc.mnc005.mcc247.3gppnetwork.org,24705,online,,Indirect,Live,,,,EMEA,,
+6839,336,Latvian Mobile Telephone,Latvia,epc.mnc001.mcc247.3gppnetwork.org,24701,online,,Indirect,Live,,,,EMEA,,
+6972,632,Tele2 Latvia,Latvia,epc.mnc002.mcc247.3gppnetwork.org,24702,online,,Indirect,Live,,,,EMEA,,
+7423,1796,MIC 1,Lebanon,epc.mnc001.mcc415.3gppnetwork.org,41501,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,
+7320,1695,Vodacom Lesotho,Lesotho,epc.mnc001.mcc651.3gppnetwork.org,65101,online,,Indirect,,,,,,,"As per confirmed by VCS recently, LSOVL is not ready for LTE now, we will let you know once they will rea
+2017/11/21."
+12744,1799,Libyana Mobile Phone ,Libyan Arab Jamahiriya,epc.mnc000.mcc606.3gppnetwork.org,60600,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+7082,2514,Cubic Telecom,Liechtenstein,epc.mnc006.mcc295.3gppnetwork.org,29506,online,,Indirect,Live,,,,EMEA,,
+12633,3033,Emnify,Liechtenstein,epc.mnc009.mcc295.3gppnetwork.org,29509,online,,Indirect,Live,,,,EMEA,EMNLI,
+12762,561,Orange Liechtenstein,Liechtenstein,epc.mnc002.mcc295.3gppnetwork.org,29502,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-08-08
+"
+7267,560,Telecom Liechtenstein,Liechtenstein,epc.mnc005.mcc295.3gppnetwork.org,29505,online,,Indirect,Live,,,,EMEA,,
+7091,325,BITE Lithuania,Lithuania,epc.mnc002.mcc246.3gppnetwork.org,24602,online,,Indirect,Live,,,,EMEA,,
+6838,408,Omnitel,Lithuania,epc.mnc001.mcc246.3gppnetwork.org,24601,online,,Indirect,Live,,,,EMEA,,
+6973,634,Tele2 Lithuania,Lithuania,epc.mnc003.mcc246.3gppnetwork.org,24603,online,,Indirect,Live,,,,EMEA,,
+6840,417,EPT Luxembourg,Luxembourg,epc.mnc001.mcc270.3gppnetwork.org,27001,online,,Indirect,Live,,,,EMEA,,
+7288,2887,MTX Connect,Luxembourg,"epc.mnc002.mcc270.3gppnetwork.org,epc.mnc039.mcc901.3gppnetwork.org","27002,90139",online,,Indirect,Live,,,,EMEA,,
+6724,508,Orange Luxembourg,Luxembourg,epc.mnc099.mcc270.3gppnetwork.org,27099,online,,Indirect,Live,,,,EMEA,,
+6715,577,Tango Luxembourg,Luxembourg,epc.mnc077.mcc270.3gppnetwork.org,27077,online,,Indirect,Live,,,,EMEA,,
+6962,177,CTM,Macao,epc.mnc001.mcc455.3gppnetwork.org,45501,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+7120,186,Hutchison Macau,Macao,epc.mnc003.mcc455.3gppnetwork.org,45503,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+7104,301,SmarTone Macau,Macao,epc.mnc000.mcc455.3gppnetwork.org,45500,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+12497,1434,T-Mobile Macedon,Macedonia,epc.mnc001.mcc294.3gppnetwork.org,29401,online,,Indirect,Live,,,,EMEA,,
+6961,1469,VIP Operator,Macedonia,epc.mnc003.mcc294.3gppnetwork.org,29403,online,,Indirect,Live,,,,EMEA,,
+7405,564,Orange (Antaris SMM),Madagascar,epc.mnc002.mcc646.3gppnetwork.org,64602,online,,Indirect,,,,,CALA,,
+7389,1391,Telma Mobile,Madagascar,epc.mnc004.mcc646.3gppnetwork.org,64604,online,,Indirect,Live,,,,EMEA,,
+12730,567,Celtel Malawi,Malawi,epc.mnc010.mcc650.3gppnetwork.org ,65010,online,,Indirect,,,,,EMEA,,
+6502,302,Celcom,Malaysia,epc.mnc019.mcc502.3gppnetwork.org,"50213,50219",online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+7045,176,DiGi,Malaysia,epc.mnc016.mcc502.3gppnetwork.org,50216,online,,Indirect,Live,,,,Asia Pacific,,
+6504,159,Maxis,Malaysia,epc.mnc012.mcc502.3gppnetwork.org,50212,online,,Indirect,Live,,,,Asia Pacific,,
+7077,2914,MYS/PACONE,Malaysia,"epc.mnc011.mcc502.3gppnetwork.org,epc.mnc153.mcc502.3gppnetwork.org","50211,502153",online,,Indirect,Live,,,,Asia Pacific,,
+7019,1376,U Mobile,Malaysia,epc.mnc018.mcc502.3gppnetwork.org,50218,online,AP DSC,Direct,Live,,,Jason.Qin@syniverse.com,Asia Pacific,,
+7335,2222,YTL Communication,Malaysia,epc.mnc152.mcc502.3gppnetwork.org,502152,online,,Indirect,Live,,,,Asia Pacific,,
+7261,845,Wataniya Maldives,Maldives,epc.mnc002.mcc472.3gppnetwork.org,47202,online,,Indirect,,,,,EMEA,,
+7428,927,Orange Mali,Mali,epc.mnc002.mcc610.3gppnetwork.org,61002,online,,Indirect,Live,,,,EMEA,,
+7317,403,Mobisle Communications Limited,Malta,epc.mnc021.mcc278.3gppnetwork.org,27821,hidden,,Indirect,,,,,CALA,,"No opportunity to establish direct connection yet, so this route should be opened via Comfone as default choice. and no need special approval."
+6931,415,Vodafone Malta,Malta,"epc.mnc001.mcc278.3gppnetwork.org,epc.mnc028.mcc901.3gppnetwork.org","27801,90128",online,,Indirect,Live,,,,EMEA,,"90128 is m2m 27801 is normal routing, TS shall open routing on both realm for all route request to VFMALTA"
+12652,961,Digicel FWI,Martinique Guadeloupe French Guiana,epc.mnc020.mcc340.3gppnetwork.org,34020,online,"Digicel Jamaica, NA DSC",Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,
+7396,1595,Digicel Group ,Martinique Guadeloupe French Guiana,,,,,,,,,,,,
+6952,785,CELLPLUS MAURITIUS,Mauritius,epc.mnc001.mcc617.3gppnetwork.org,61701,online,,Indirect,Live,,,,EMEA,,
+7105,513,Emtel Ltd,Mauritius,epc.mnc010.mcc617.3gppnetwork.org,61710,online,,Indirect,Live,,,,EMEA,,
+7508,2369,Mahanagar Telephone (Mauritius) Ltd,Mauritius,epc.mnc003.mcc617.3gppnetwork.org,61703,hidden,,,,,,,,,
+7031,766,Iusacell,Mexico,"epc.mnc044.mcc901.3gppnetwork.org,epc.mnc050.mcc334.3gppnetwork.org,epc.mnc070.mcc334.3gppnetwork.org","334050,334070,901044",online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,CALA,,
+6982,1373,Nextel Mexico,Mexico,epc.mnc090.mcc334.3gppnetwork.org,334090,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,CALA,,
+6818,475,Radiomovil (TELCEL),Mexico,epc.mnc020.mcc334.3gppnetwork.org,334020,online,,Indirect,Live,,,,CALA,,
+6623,505,Telefonica Moviles Mexico,Mexico,epc.mnc030.mcc334.3gppnetwork.org,33430,online,,Indirect,Live,,,balram.jayaram@syniverse.com,CALA,,
+12558,640,MOLDCELL,Moldova,epc.mnc002.mcc259.3gppnetwork.org,25902,hidden,,Indirect,,"This operator is behind comfone IPX hub, must request PM approval before processing a Bilateral relation. ",,,EMEA,,
+7419,1016,MOLDTELECOM Moldova,Moldova,epc.mnc005.mcc259.3gppnetwork.org,25905,hidden,,Indirect,Live,,,,EMEA,,
+6825,739,Orange Moldova,Moldova,epc.mnc001.mcc259.3gppnetwork.org,25901,online,,Indirect,Live,,,,EMEA,,
+7030,2243,Monaco Telecom,Monaco,epc.mnc010.mcc212.3gppnetwork.org,21210,online,,Indirect,Live,,,,EMEA,,
+7383,734,MobiCom Corporation,Mongolia,epc.mnc099.mcc428.3gppnetwork.org,42899,hidden,,Indirect,,,,,,,"On April 11 2017, BICS said MobiCom is still under provision"
+12739,733,SkyTel Mongolia,Mongolia,epc.mnc001.mcc428.3gppnetwork.org,42801,online,,Indirect,,,,,EMEA,,
+7329,799,Unitel Mongolia,Mongolia,epc.mnc088.mcc428.3gppnetwork.org,42888,hidden,,Indirect,,,,,,,"As per confirmed by Sales on mid-July, there is no sales opportunity to establish direct connection with this Operator yet."
+7316,1388,Mtel Montenegro,Montenegro,epc.mnc003.mcc297.3gppnetwork.org,29703,hidden,,Indirect,Live,,,,EMEA,,"No sales oppotunity, could open route directly. 2017/4/14"
+7038,1845,T-Mobile Montenegro ,Montenegro,epc.mnc002.mcc297.3gppnetwork.org,29702,online,,Indirect,Live,,,,EMEA,,
+6968,554,Telenor Montenegro,Montenegro,epc.mnc001.mcc297.3gppnetwork.org,29701,online,,Indirect,Live,,,,EMEA,,
+7036,438,Maroc Telecom,Morocco,epc.mnc001.mcc604.3gppnetwork.org,60401,online,,Indirect,Live,,,,EMEA,,IAM Morocco
+6949,627,Meditel,Morocco,epc.mnc000.mcc604.3gppnetwork.org,60400,online,,Indirect,Live,,,,EMEA,,
+7093,2012,Wana Corporate,Morocco,epc.mnc002.mcc604.3gppnetwork.org,60402,online,,Indirect,Live,,,,EMEA,,
+12490,1800,Myanmar Posts and Telecommunications,Myanmar,epc.mnc001.mcc414.3gppnetwork.org,41401,online,,Indirect,Live,,,,Asia Pacific,,
+7115,2776,Ooredoo Myanmar Limited,Myanmar,epc.mnc005.mcc414.3gppnetwork.org,41405,online,AP DSC,Direct,Live,,,Jason.Qin@syniverse.com,Asia Pacific,,
+7391,2783,Telenor Myanmar,Myanmar,epc.mnc006.mcc414.3gppnetwork.org,41406,online,,Indirect,Live,,,,Asia Pacific,,
+12745,1699,Cell One Namibia,Namibia,epc.mnc003.mcc649.3gppnetwork.org,64903,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+12608,1629,Nepal Telecom,Nepal,epc.mnc001.mcc429.3gppnetwork.org,42901,online,,Indirect,Live,,,,Asia Pacific,,
+7436,1493,Spice Nepal Private Limited,Nepal,epc.mnc002.mcc429.3gppnetwork.org,42902,online,,Indirect,,,,,,,
+6310,2605,DRA1.AMS2,Netherlands,amsdra001.aicent.grx,,,,,,,,,,,
+6677,1544,iBasis Peer,Netherlands,,,,"AP DSC, EU DSC, NA DSC",,,,,,,,
+6697,360,KPN Mobile The Netherlands BV,Netherlands,epc.mnc008.mcc204.3gppnetwork.org,20408,online,,Indirect,Live,,,,EMEA,,
+7492,307,Sybase Peering Hub,Netherlands,,,,"EU DSC, AP DSC",Peer,,,,wind.wang@syniverse.com,,,"if our customer is in Asia use AP peering with Sybase. Otherwise, use EU peering with Sybase"
+7026,392,T-Mobile Netherlands,Netherlands,"epc.mnc016.mcc204.3gppnetwork.org,epc.mnc020.mcc204.3gppnetwork.org","20416,20420",online,,Indirect,Live,,,,EMEA,,
+12606,617,Tele2 Netherlands,Netherlands,epc.mnc002.mcc204.3gppnetwork.org,20402,online,,Indirect,Live,,,,EMEA,,
+12571,3137,Teleena Netherlands,Netherlands,"epc.mnc007.mcc204.3gppnetwork.org,epc.mnc054.mcc901.3gppnetwork.org","20407,90154",online,,Indirect,,,,,EMEA,,
+6712,358,Vodafone Netherlands,Netherlands,epc.mnc004.mcc204.3gppnetwork.org,20404,online,,Indirect,Live,,,,EMEA,,
+12556,1801,Curacao Telecom N.V.,Netherlands Antilles,epc.mnc069.mcc362.3gppnetwork.org,36269,online,"Digicel Jamaica, NA DSC",Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+7360,1701,Telcell St. Maarten,Netherlands Antilles,epc.mnc051.mcc362.3gppnetwork.org,36251,hidden,,Indirect,,,,,,,"20160812 no sales oppotunity, bring on line as hiddend OP via comfone"
+7041,1700,UTS Curacao,Netherlands Antilles,epc.mnc091.mcc362.3gppnetwork.org,36291,online,NA DSC,Direct,Live,"UTS Setel
+United Telecom Services 
+Billing ID 6484
+",,fabian.castillo@syniverse.com,CALA,,
+6613,589,Spark New Zealand Trading Limited,New Zealand,epc.mnc005.mcc530.3gppnetwork.org,53005,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,"*SVR shall add K2R Surffix for K2R route.
+AIR Destination realm:dra.ipx.syniverse.3gppnetwork.org
+
+MME has problem , when send request in one port, the response will be in another port,so the request will fail
+This problem can not be fixed unless Spark upgrade"
+12656,1439,Two Degrees Mobile Limited,New Zealand,epc.mnc024.mcc530.3gppnetwork.org,53024,online,,Direct,,,,tom.yu@syniverse.com,Asia Pacific,,"2018/5/28
+2Degrees is still in implementation stage to Syniverse.
+Currently we cannot forecast when the implementation would be done.
+2018/6/12--2018/6/22
+2Degrees one MMECB0 link was up and 2Degrees one MMECB8 link was up
+2018/6/13
+Test has been finished successfully between 2 Degrees MMECB0 and Cubic"
+6719,352,Vodafone Mobile NZ Limited,New Zealand,epc.mnc001.mcc530.3gppnetwork.org,53001,online,,Indirect,Live,,,,Asia Pacific,,
+7353,942,Enitel,Nicaragua,epc.mnc021.mcc710.3gppnetwork.org,71021,hidden,,Indirect,,,,,,,
+7281,1803,Telefonica Celular de Nicaragua S.A.,Nicaragua,epc.mnc300.mcc710.3gppnetwork.org,710300,online,,Indirect,Live,,,,CALA,,
+12663,923,Airtel Nigeria,Nigeria,epc.mnc020.mcc621.3gppnetwork.org,62120,online,,Indirect,,,,,EMEA,,
+12597,860,MTN Nigeria,Nigeria,epc.mnc030.mcc621.3gppnetwork.org,62130,online,,Indirect,Live,,,,EMEA,,
+7506,1962,Nigeria Telecommunications Ltd (NITEL GSM),Nigeria,epc.mnc040.mcc621.3gppnetwork.org,62140,hidden,,Indirect,,,,,EMEA,,
+12605,1630,AeroMobile,Norway,epc.mnc014.mcc901.3gppnetwork.org,90114,hidden,,Indirect,,,,,,,
+7443,930,Com4,Norway,epc.mnc009.mcc242.3gppnetwork.org,24209,hidden,,Indirect,Not in external coverage,,,,,,
+7361,2974,ICE Communication Norge AS,Norway,epc.mnc014.mcc242.3gppnetwork.org,24214,online,EU DSC,Direct,Live,,Contract,greg.zhai@syniverse.com,EMEA,,
+7497,844,MCP,Norway,epc.mnc012.mcc901.3gppnetwork.org,90112,online,,Indirect,Live,,,,EMEA,,
+6836,375,Netcom,Norway,epc.mnc002.mcc242.3gppnetwork.org,24202,online,,Indirect,Live,,,,EMEA,,
+7116,1702,Network Norway,Norway,epc.mnc005.mcc242.3gppnetwork.org,24205,online,,Indirect,Live,,,,EMEA,,
+7310,2018,TDC Mobil Norway,Norway,epc.mnc008.mcc242.3gppnetwork.org,24208,online,,Indirect,Live,,,,EMEA,,
+6567,346,Telenor Norway,Norway,epc.mnc001.mcc242.3gppnetwork.org,24201,online,,Indirect,Live,,,,EMEA,,
+6635,2756,Telenor Peering DSS,Norway,,,,"AP DSC, EU DSC, NA DSC",Peer,,,,wind.wang@syniverse.com,,,
+6722,570,Oman Mobile,Oman,epc.mnc002.mcc422.3gppnetwork.org,42202,online,,Indirect,Live,,,,EMEA,,"TATA is asking to migrate OMAN Mobile to them and it has been approved by Mike S, wind is communicating with TATA about the migration"
+6619,846,Ooredoo OMN,Oman,epc.mnc003.mcc422.3gppnetwork.org,42203,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,"*K2R route shall be opened by owner 
+*AIR Destination realm:dra.ipx.syniverse.3gppnetwork.org
+"
+12527,1274,Cmpak Pakistan,Pakistan,epc.mnc004.mcc410.3gppnetwork.org,41004,online,,Indirect,Live,,,,EMEA,,
+12515,556,Telenor Pakistan,Pakistan,epc.mnc006.mcc410.3gppnetwork.org,41006,online,,Indirect,Live,,,,EMEA,,
+7100,775,Warid Telecom Pakistan,Pakistan,"epc.mnc001.mcc410.3gppnetwork.org,epc.mnc007.mcc410.3gppnetwork.org","41001,41007",online,AP DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,"Now named ""Jazz"""
+12768,2410,PNCC Wireless,Palau,epc.mnc001.mcc552.3gppnetwork.org,55201,hidden,,,,,,,,,
+12750,1805,Wataniya Palestine,Palestinian Territory Occupied,epc.mnc006.mcc425.3gppnetwork.org,42506,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+7499,518,Cable and Wireless Panama,Panama,epc.mnc001.mcc714.3gppnetwork.org,71401,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,CALA,,
+7385,1703,Claro Panama,Panama,epc.mnc003.mcc714.3gppnetwork.org,71403,hidden,,Indirect,Live,,,balram.jayaram@syniverse.com,CALA,,
+12557,1736,Digicel Panama,Panama,epc.mnc004.mcc714.3gppnetwork.org,71404,online,"NA DSC, Digicel Jamaica",Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+7065,1806,Telefonica Moviles Panama,Panama,epc.mnc020.mcc714.3gppnetwork.org,71420,online,,Indirect,Live,,,,CALA,,
+12746,848,BMobile Limited,Papua New Guinea,epc.mnc001.mcc537.3gppnetwork.org,53701,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+7326,1613,Digicel Papua New Guinea,Papua New Guinea,epc.mnc003.mcc537.3gppnetwork.org,53703,online,,Indirect,Live,,,,Asia Pacific,,
+7413,1433,Claro Paraguay,Paraguay,epc.mnc002.mcc744.3gppnetwork.org,74402,online,,Indirect,Live,,,,CALA,,
+12591,660,Hola,Paraguay,epc.mnc001.mcc744.3gppnetwork.org,74401,hidden,,Indirect,,,,,CALA,,2018/1/29 FT said hola is not fully setup for FT
+12492,918,Nucleo,Paraguay,epc.mnc005.mcc744.3gppnetwork.org,74405,hidden,,Indirect,,,,,CALA,,
+7343,863,Telecel Paraguay,Paraguay,epc.mnc004.mcc744.3gppnetwork.org,74404,online,NA DSC,,,,,luisdiego.jimenez@syniverse.com,,,
+6811,1276,Claro Peru,Peru,epc.mnc010.mcc716.3gppnetwork.org,71610,online,,Indirect,Live,,,,CALA,,
+7339,2065,Entel Peru,Peru,epc.mnc017.mcc716.3gppnetwork.org,71617,hidden,,Indirect,Live,,,,CALA,,"Usually named as ""Entel Peru""
+Will be new customer, appian project in place, not assign to DSS yet"
+7011,1401,Telefonica Moviles Peru,Peru,epc.mnc006.mcc716.3gppnetwork.org,71606,online,,Indirect,Live,,,,CALA,,
+6123,288,Globe,Philippines,epc.mnc002.mcc515.3gppnetwork.org,51502,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6192,160,SMART,Philippines,epc.mnc003.mcc515.3gppnetwork.org,51503,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6798,406,Orange Poland,Poland,epc.mnc003.mcc260.3gppnetwork.org,26003,online,,Indirect,Live,,,,EMEA,,
+6950,790,Play Mobile,Poland,epc.mnc006.mcc260.3gppnetwork.org,26006,online,,Indirect,Live,,,,EMEA,,
+6925,368,Polkomtel,Poland,epc.mnc001.mcc260.3gppnetwork.org,26001,online,,Indirect,Live,,,,EMEA,,Polkomtel is using 5012 to steer their roamers
+6936,397,T-Mobile Poland,Poland,epc.mnc002.mcc260.3gppnetwork.org,26002,online,,Indirect,Live,,,,EMEA,,
+6535,371,MEO,Portugal,epc.mnc006.mcc268.3gppnetwork.org,26806,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,
+6620,385,Optimus,Portugal,epc.mnc003.mcc268.3gppnetwork.org,26803,online,,Indirect,Live,,,,EMEA,,
+6737,320,Vodafone Portugal,Portugal,epc.mnc001.mcc268.3gppnetwork.org,26801,online,,Indirect,Live,,,,EMEA,,
+7319,1465,Claro Puerto Rico,Puerto Rico,epc.mnc110.mcc330.3gppnetwork.org,330110,online,NA DSC,Direct,Live,,Contract,Mario.herrera@syniverse.com,CALA,,
+6625,2246,Open Mobile PR,Puerto Rico,epc.mnc120.mcc330.3gppnetwork.org,330120,online,NA DSR,Direct,Live,,,malyadri.palakeerthi@syniverse.com,CALA,,
+6792,673,Ooredoo Qatar,Qatar,epc.mnc001.mcc427.3gppnetwork.org,42701,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,
+6761,1809,Vodafone Qatar Q.S.C.,Qatar,epc.mnc002.mcc427.3gppnetwork.org,42702,online,NA DSR,Direct,Live,,,balram.jayaram@syniverse.com,EMEA,,"*Will migrate to EU DSC on Aug 6th, no new route shall be opened before the migration. 2018/8/02"
+12512,919,Orange Reunion,Reunion,epc.mnc000.mcc647.3gppnetwork.org,64700,online,,Indirect,Live,,,,EMEA,,
+6732,440,Orange Romania,Romania,epc.mnc010.mcc226.3gppnetwork.org,22610,online,,Indirect,Live,,,,EMEA,,
+12526,1811,RCS & RDS ,Romania,epc.mnc005.mcc226.3gppnetwork.org,22605,online,,Indirect,Live,,,,EMEA,,
+7097,823,Telekom Romania Mobile Communications S.A.,Romania,epc.mnc003.mcc226.3gppnetwork.org,22603,online,,Indirect,Live,,,,EMEA,,"2016 4 28 iBasis has been trying to get an agreement but taking a long time to get their agreement. DT & Telia Sonera said its not part of their coverage.For New route to reach , contact iBasis first, if ibasis can not open the route, get Mike approval for comfone"
+6713,319,Vodafone Romania,Romania,epc.mnc001.mcc226.3gppnetwork.org,22601,online,,Indirect,Live,,,,EMEA,,
+6848,2855,MTT Peering Hub,Russia,,,,NA DSC,Peer,,,,,EMEA,,
+12630,838,Ekaterinburg-2000,Russian Federation,epc.mnc035.mcc250.3gppnetwork.org,25035,hidden,,Indirect,Live,,,,EMEA,,
+7427,3037,LLC KTKTELEKOM,Russian Federation,epc.mnc060.mcc250.3gppnetwork.org,25060,online,,Indirect,Live,,,,EMEA,,
+6439,419,MegaFon,Russian Federation,epc.mnc002.mcc250.3gppnetwork.org,25002,online,,Indirect,Live,,,,EMEA,,
+6125,1303,MTS Russia,Russian Federation,epc.mnc001.mcc250.3gppnetwork.org,25001,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,"*new route shall go through direct connection EU
+*default route still pointing to iBasis EU, need to add special decide route when open new route
+
+Currently in testing phase so route migration has not start."
+7429,630,Tele2 Russia,Russian Federation,epc.mnc020.mcc250.3gppnetwork.org,25020,hidden,,Indirect,Live,,,,EMEA,,"2017MARCH14, tele2 confirm its not his customer, according to IR21,TATA and TIS, reaching out to TIS to confirm coverage
+
+2017March 15, Tele2 Russia uses SAP as its IPX provider, we cannot open route related with Tele2 Russia due to we do not have peering with SAP... 
+
+20170731 ooredoo MM request to open route , send approval request to PDM"
+7494,3071,TMT Russian,Russian Federation,epc.mnc027.mcc250.3gppnetwork.org,25027,hidden,,Indirect,,,,,EMEA,,
+6870,330,Vimpelcom Russia,Russian Federation,epc.mnc099.mcc250.3gppnetwork.org,25099,online,,Indirect,Live,,,Jason.Qin@syniverse.com,EMEA,,"1. Vimpelcom is now direct customer of BICS.
+2. For now, please ask Jason Qin to open new route for Vimpelcom -- 2018.06.12 "
+12659,1635,MTN Rwanda,Rwanda,epc.mnc010.mcc635.3gppnetwork.org,63510,online,,Indirect,,,,,EMEA,,
+7456,1813,TIGO RWANDA S.A,Rwanda,epc.mnc013.mcc635.3gppnetwork.org,63513,online,,Indirect,,,,,EMEA,,
+12736,1659,Cable and Wireless St Kitts,Saint Kitts and Nevis,epc.mnc110.mcc356.3gppnetwork.org,356110,Group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+12737,1660,Cable and Wireless St Lucia,Saint Lucia,epc.mnc110.mcc358.3gppnetwork.org,358110,Group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+12655,2262,Digicel Samoa,Samoa,epc.mnc000.mcc549.3gppnetwork.org,54900,online,,Indirect,,,,,EMEA,,"BICS comment on 20180515
+The Digicel Samoa is not available for peering now.
+We will inform you as soon as we receive an update.
+
+Mario Herrera: As of 2018-06-15 IR21 provided by Telus, the IPX for Digicel Samoa is Telstra, CCB updated.
+"
+12532,914,SamoaTel Samoa,Samoa,"epc.mnc027.mcc549.3gppnetwork.org,epc.mnc110.mcc544.3gppnetwork.org ","544110,54927",hidden,,Indirect,,,,,Asia Pacific,,
+6489,664,Mobily (Etihad Etisalat),Saudi Arabia,epc.mnc003.mcc420.3gppnetwork.org,42003,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,
+6803,669,STC,Saudi Arabia,epc.mnc001.mcc420.3gppnetwork.org,42001,online,AP DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,
+6618,1410,Zain Saudi Arabia,Saudi Arabia,epc.mnc004.mcc420.3gppnetwork.org,42004,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,EMEA,,SVR works as backup DSS for BICS
+7493,854,SONATEL,Senegal,epc.mnc001.mcc608.3gppnetwork.org,60801,online,,Indirect,,,,,EMEA,,
+7380,512,Telekom Srbija,Serbia,epc.mnc003.mcc220.3gppnetwork.org,22003,online,,Indirect,Live,,,,EMEA,,
+7074,433,Telenor Serbia,Serbia,epc.mnc001.mcc220.3gppnetwork.org,22001,online,,Indirect,Live,,,,EMEA,,
+7039,1344,VIP Serbia,Serbia,epc.mnc005.mcc220.3gppnetwork.org,22005,online,,Indirect,Live,,,,EMEA,,
+7076,857,Cable and Wireless Seychelles,Seychelles,epc.mnc001.mcc633.3gppnetwork.org,63301,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,
+7425,1603,Telecom Seychelles,Seychelles,epc.mnc010.mcc633.3gppnetwork.org,63310,online,,Indirect,Live,,,,EMEA,,
+12614,1818,Africell Sierra Leone,Sierra Leone,epc.mnc005.mcc619.3gppnetwork.org,61905,online,EU DSC,Direct,Pending,,Contract,Jason.Qin@syniverse.com,EMEA,SLEAC,
+6852,2850,AP-SNG-DSC-01,Singapore,dra.ipx.syniverse.3gppnetwork.org,,,,,,,,,,,
+6356,2524,DRA1.SIN2,Singapore,sindra001.aicent.grx,,,,,,,,,,,
+6360,127,M1 Limited,Singapore,epc.mnc003.mcc525.3gppnetwork.org,52503,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6124,108,SingTel Mobile,Singapore,epc.mnc001.mcc525.3gppnetwork.org,52501,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6120,107,StarHub,Singapore,epc.mnc005.mcc525.3gppnetwork.org,52505,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+7064,760,O2 Slovakia,Slovakia,epc.mnc006.mcc231.3gppnetwork.org,23106,online,,Indirect,Live,,,,EMEA,,
+6938,327,Orange Slovensko,Slovakia,epc.mnc001.mcc231.3gppnetwork.org,23101,online,,Indirect,Live,,,,EMEA,,
+7062,661,Slovak Telecom,Slovakia,epc.mnc002.mcc231.3gppnetwork.org,23102,online,,Indirect,Live,,,,EMEA,,
+6773,414,A1 Slovenia,Slovenia,epc.mnc040.mcc293.3gppnetwork.org,29340,online,,Indirect,Live,,,,EMEA,,
+6807,362,Mobitel Slovenia,Slovenia,epc.mnc041.mcc293.3gppnetwork.org,29341,online,,Indirect,Live,,,,EMEA,,
+7338,749,Telemach Mobil,Slovenia,epc.mnc070.mcc293.3gppnetwork.org,29370,hidden,,Peer,,,,,,,"No sales opportunity currently, can open route via Comfone without approval. "
+12747,2654,B-Mobile SLB,Solomon Islands,epc.mnc002.mcc540.3gppnetwork.org,54002,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+12763,1819,Solomon Telekom Co Ltd,Solomon Islands,epc.mnc001.mcc540.3gppnetwork.org,54001,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-08-08
+"
+12749,948,Cell C,South Africa,epc.mnc007.mcc655.3gppnetwork.org,65507,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+6974,494,MTN South Africa,South Africa,epc.mnc010.mcc655.3gppnetwork.org,65510,online,EU DSC,Direct,Live,,,greg.zhai@syniverse.com,EMEA,,
+6745,430,Vodacom South Africa,South Africa,epc.mnc001.mcc655.3gppnetwork.org,65501,online,,Indirect,Live,,,,EMEA,,
+6569,365,Orange Spain,Spain,epc.mnc003.mcc214.3gppnetwork.org,21403,online,,Indirect,Live,,,,EMEA,,
+7043,2089,Telefonica International Wholesale,Spain,,,,"NA DSC, EU DSC",Peer,,,,,CALA,,
+6581,384,Telefonica Moviles,Spain,"epc.mnc005.mcc214.3gppnetwork.org,epc.mnc007.mcc214.3gppnetwork.org","21405,21407",online,,Indirect,Live,,,balram.jayaram@syniverse.com,EMEA,,
+6711,380,Vodafone Spain,Spain,epc.mnc001.mcc214.3gppnetwork.org,21401,online,,Indirect,Live,,,,EMEA,,"From now on, please kindly use S9EU--Vodafone to open route for Vodafone Spain.
+"
+7416,773,Vodafone Spain MVNO,Spain,epc.mnc006.mcc214.3gppnetwork.org,21406,online,,Indirect,,,,,,,IR21 received at 14th Nov 2016
+6896,893,Xfera,Spain,epc.mnc004.mcc214.3gppnetwork.org,21404,online,,Indirect,Live,,,,EMEA,,
+6312,158,Dialog Telekom,Sri Lanka,epc.mnc002.mcc413.3gppnetwork.org,41302,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6910,453,Mobitel Sri Lanka,Sri Lanka,epc.mnc001.mcc413.3gppnetwork.org,41301,online,,Indirect,Live,,,,Asia Pacific,,
+12757,1302,MTN Sudan,Sudan,epc.mnc002.mcc634.3gppnetwork.org,63402,online,,Indirect,,,,,EMEA,,
+12593,1665,Zain Sudan,Sudan,epc.mnc001.mcc634.3gppnetwork.org,63401,online,,Indirect,,,,,EMEA,,Now Telenor is the default hub of Zain Sudan. 
+12612,3151,Swazi Mobile,Swaziland,epc.mnc002.mcc653.3gppnetwork.org,65302,online,,Indirect,Live,,,,Asia Pacific,,
+7068,2908,Globetouch Sweden,Sweden,"epc.mnc027.mcc240.3gppnetwork.org,epc.mnc270.mcc240.3gppnetwork.org,epc.mnc271.mcc240.3gppnetwork.org,epc.mnc275.mcc240.3gppnetwork.org","24027,240270,240271,240275",online,EU DSC,Direct,Pending,,,Jason.Qin@syniverse.com,EMEA,,
+7094,387,Hutchison 3G Sweden,Sweden,epc.mnc002.mcc240.3gppnetwork.org,24002,hidden,,Indirect,Not in external coverage,,,,EMEA,,
+7368,929,Lycamobile Sweden,Sweden,epc.mnc012.mcc240.3gppnetwork.org,24012,online,EU DSC,Direct,Live,,,greg.zhai@syniverse.com,EMEA,,
+7309,2472,TDC Sweden,Sweden,epc.mnc014.mcc240.3gppnetwork.org,24014,online,,Indirect,Live,,,,EMEA,,
+6817,2104,Tele2 peering,Sweden,,,,EU DSC,Peer,,,,wind.wang@syniverse.com,EMEA,,
+6723,315,Tele2 Sweden,Sweden,epc.mnc007.mcc240.3gppnetwork.org,24007,online,,Indirect,Live,,,,EMEA,,
+6959,377,Telenor Sweden,Sweden,"epc.mnc006.mcc240.3gppnetwork.org,epc.mnc008.mcc240.3gppnetwork.org,epc.mnc042.mcc240.3gppnetwork.org","24006,24008,24042",online,,Indirect,Live,,,,EMEA,,
+6833,373,TeliaSonera Sweden,Sweden,epc.mnc001.mcc240.3gppnetwork.org,24001,online,,Indirect,Live,,,,EMEA,,
+6917,265,Comfone/Infonet Peer,Switzerland,,,,NA DSC,Peer,,,,,EMEA,,"All K2R route through Comfone does not need approval.
+All no-K2R route (normal) bilateral route need approval.
+
+++++++++++++++++
+
+Comfone expiration timer is 8s, less than SVR 10s. 
+If timer expires, they would reply error code ""too busy"" "
+6698,2376,Lycamobile Switzerland,Switzerland,epc.mnc054.mcc228.3gppnetwork.org,22854,online,EU DSC,Direct,Live,,,greg.zhai@syniverse.com,EMEA,,
+6922,341,Orange Switzerland,Switzerland,epc.mnc003.mcc228.3gppnetwork.org,22803,online,,Indirect,Live,,,,EMEA,,
+6787,369,Sunrise Switzerland,Switzerland,epc.mnc002.mcc228.3gppnetwork.org,22802,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,*SVR shall add K2R Surffix for K2R route.
+6490,345,Swisscom,Switzerland,epc.mnc001.mcc228.3gppnetwork.org,22801,online,,Indirect,Live,,,,EMEA,,
+12580,3139,Telecom26,Switzerland,epc.mnc046.mcc901.3gppnetwork.org,90146,online,,Indirect,,,,,EMEA,,
+6829,1355,Asia Pacific Telecom,Taiwan,epc.mnc005.mcc466.3gppnetwork.org,46605,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6596,1,Chunghwa Telecom,Taiwan,epc.mnc092.mcc466.3gppnetwork.org,46692,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,*Any special route to CHT shall use Provsion Special route moudle
+6556,96,FarEasTone,Taiwan,epc.mnc001.mcc466.3gppnetwork.org,46601,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6595,97,Taiwan Mobile,Taiwan,epc.mnc097.mcc466.3gppnetwork.org,46697,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6668,611,Taiwan Star,Taiwan,epc.mnc089.mcc466.3gppnetwork.org,46689,online,AP DSC,Direct,Live,,,greg.zhai@syniverse.com,Asia Pacific,,
+6308,1633,Babilon-Mobile,Tajikistan,epc.mnc004.mcc436.3gppnetwork.org,43604,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,,
+7386,2028,SMART Tanzania,Tanzania United Republic,epc.mnc008.mcc640.3gppnetwork.org,64008,hidden,,Indirect,Live,,,balram.jayaram@syniverse.com,EMEA,,
+7454,1710,Tigo Tanzania,Tanzania United Republic,epc.mnc002.mcc640.3gppnetwork.org,64002,online,,Indirect,,,,,EMEA,,
+7350,825,Vodacom Tanzania,Tanzania United Republic,epc.mnc004.mcc640.3gppnetwork.org,64004,online,,Indirect,Live,,,,EMEA,,
+7278,2576,Advanced Wireless Network,Thailand,epc.mnc003.mcc520.3gppnetwork.org,52003,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+6867,2578,dtac TriNet,Thailand,epc.mnc005.mcc520.3gppnetwork.org,52005,online,,Indirect,Live,,,,Asia Pacific,,
+6526,2342,Truemove 3G,Thailand,"epc.mnc000.mcc520.3gppnetwork.org,epc.mnc004.mcc520.3gppnetwork.org","52000,52004",online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,,
+12594,1829,Digicel (Tonga) Limited,Tonga,,53988,Group,,,,,,,,,"""Tonga/Fiji/Vanuatu have the same realm name"" per Digicel group.
+
+Per their IR21, their IMSI prefix are different.
+
+Now only leave Digicel Fiji in RMT, the other 2 was set to ""group"" of RMT status.
+
+"
+12642,1828,Tonga Communications Corporation,Tonga,epc.mnc001.mcc539.3gppnetwork.org,53901,hidden,,Indirect,,,,,EMEA,,
+12756,753,Digicel Trinidad and Tobago,Trinidad and Tobago,epc.mnc130.mcc374.3gppnetwork.org,374130,online,"Digicel Jamaica, NA DSC",Direct,,,,luisdiego.jimenez@syniverse.com,CALA,,
+12748,839,TSTT,Trinidad and Tobago,epc.mnc012.mcc374.3gppnetwork.org,37412,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+7277,2042,Orange Tunisia,Tunisia,epc.mnc001.mcc605.3gppnetwork.org,60501,online,,Indirect,Live,,,,EMEA,,
+7315,680,Tunisiana,Tunisia,epc.mnc003.mcc605.3gppnetwork.org,60503,online,,Indirect,Live,,,,EMEA,,
+7314,909,Tunisie Telecom,Tunisia,epc.mnc002.mcc605.3gppnetwork.org,60502,hidden,,Indirect,,,,,,,"STC-Tunisie route has been approved by Mike, but comfone said :Tunisie Telecom is in setup phase ¨C latest update is April 1"
+7086,379,Avea,Turkey,epc.mnc003.mcc286.3gppnetwork.org,28603,online,,Indirect,Live,,,,EMEA,,
+6872,409,Turkcell,Turkey,epc.mnc001.mcc286.3gppnetwork.org,28601,online,,Indirect,Live,,,Jason.Qin@syniverse.com,EMEA,,"2018/3/1 Product has approved to migrate turkcell to iBasis
+
+2018/3/15 Turkcell has been migrated to iBasis. As per their most recent IR21, iBasis is the only IPX provider they are using for LTE. 
+"
+6751,400,Vodafone Turkey,Turkey,epc.mnc002.mcc286.3gppnetwork.org,28602,online,,Indirect,Live,,,,EMEA,,
+7401,1451,MTS Turkmenistan,Turkmenistan,epc.mnc001.mcc438.3gppnetwork.org,43801,online,,Indirect,,,,,,,MTS Turkmenistan has not launched LTE network. So they cannot provide LTE roaming services.  -- Replie by MTT 2017.05.25
+7331,1662,Cable and Wireless Turks,Turks and Caicos Islands,epc.mnc350.mcc376.3gppnetwork.org,376350,group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,c&w group member
+7475,1515,Orange Uganda,Uganda,epc.mnc014.mcc641.3gppnetwork.org,64114,online,,Indirect,Live,,,,EMEA,,
+7461,1420,Warid Uganda,Uganda,"epc.mnc001.mcc641.3gppnetwork.org,epc.mnc022.mcc641.3gppnetwork.org","64101,64122",online,,Indirect,,,,,EMEA,,
+12661,326,Kyivstar,Ukraine,epc.mnc003.mcc255.3gppnetwork.org,25503,online,,Indirect,Live,,,,EMEA,,
+7308,802,Life Ukraine,Ukraine,epc.mnc006.mcc255.3gppnetwork.org,25506,online,,Indirect,Live,,,,EMEA,,
+12651,490,MTS Ukraine,Ukraine,epc.mnc001.mcc255.3gppnetwork.org,25501,online,,Indirect,Live,,,,EMEA,,
+6795,868,Du,United Arab Emirates,epc.mnc003.mcc424.3gppnetwork.org,42403,online,,Indirect,Live,,,,EMEA,,"[updated on 22ndApril,] the PrimaryHub of Du UAE should be TIS."
+6617,404,ETISALAT UAE,United Arab Emirates,epc.mnc002.mcc424.3gppnetwork.org,42402,online,,Indirect,Live,"No route shall be opened until MikeS reach commercial agreement and announce
+
+Due to commercial issue, no new route allowed for Etisalat UAE",,,EMEA,,
+6815,2840,ETISALAT UAE Peer,United Arab Emirates,,,,EU DSC,Peer,,,,wind.wang@syniverse.com,,,Ping package size lager than 228 is not allowed
+7085,2926,BT Global Services Peer,United Kingdom,,,,EU DSC,Peer,,,,wind.wang@syniverse.com,EMEA,,
+6406,2606,DRA1.LON2,United Kingdom,londra001.aicent.grx,,,,,,,,,,,
+7047,2900,EU-AMS-DSC-01,United Kingdom,dra.ipx.syniverse.3gppnetwork.org,,,,,,,,,,,
+6582,347,Everything Everywhere UK,United Kingdom,"epc.mnc030.mcc234.3gppnetwork.org,epc.mnc033.mcc234.3gppnetwork.org","23430,23433",online,,Indirect,Live,,,,EMEA,,
+7406,3073,GlobeTouch EU M2M,United Kingdom,eumvne.globetouch.com,,hidden,EU DSC,Direct,,,,Jason.Qin@syniverse.com,EMEA,,
+7301,335,Hutchison 3G UK,United Kingdom,epc.mnc020.mcc234.3gppnetwork.org,23420,hidden,,Indirect,,,,,EMEA,,"H3G UK only permits inbound traffic from China Unicom, outbound traffic is not permitted"
+7051,2740,Limitless Mobile,United Kingdom,,,,,,,,,,,,
+7485,3097,Lyca peering hub,United Kingdom,,,,EU DSC,,,,,wind.wang@syniverse.com,,,"Lyca peering hub is using Lyca UK realm in node name.
+Currently Lyca UK connects to EU DSC directly, will be migrate to the peer in future.
+Lyca Sweden/Switherland is using this peering hub,but currently we treat it as direct OP
+"
+6534,1876,Lycamobile UK,United Kingdom,epc.mnc026.mcc234.3gppnetwork.org,23426,online,EU DSC,Direct,Live,,,greg.zhai@syniverse.com,EMEA,,
+12551,374,Orange UK,United Kingdom,,,,,,,,,,,,
+6532,342,Telefonica O2 UK,United Kingdom,epc.mnc010.mcc234.3gppnetwork.org,23410,hidden,,Indirect,Live,,,Jason.Qin@syniverse.com,EMEA,,"1. O2 UK do not want other operator to elect them , so the RMT status is hidden, if any operator elect O2UK, please ask them to contact O2UK directly instead of using RMT to raise request.
+2. If TWIS or TATA request to open route on O2UK s behalf, open it , do not need approval.
+3. Need special route if route via TATA
+
+"
+6967,2037,Truphone UK,United Kingdom,epc.mnc025.mcc234.3gppnetwork.org,23425,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,
+6542,2585,UK Broadband,United Kingdom,ukb.com,23451,hidden,,,,,,,EMEA,,No connection currently
+6736,337,Vodafone UK,United Kingdom,epc.mnc015.mcc234.3gppnetwork.org,23415,online,,Indirect,Live,,,,EMEA,,
+6869,2,Aicent,United States,,000,online,,,,,,,Asia Pacific,,
+6913,1572,Alaska Wireless Network,United States,epc.mnc370.mcc311.3gppnetwork.org,"310050,311370",hidden,,Indirect,Live,,,,North America,,
+7417,2184,Appalachian Wireless,United States,epc.mnc130.mcc312.3gppnetwork.org,312130,hidden,,Indirect,,,,,,,"*TNS OP,ask customer whether the route is normal bilateral route or muti-lateral rhub route to epc.mnc520.mcc310.3gppnetwork.org  then follow TNS hub route provisioning guide."
+7404,1738,AT&T (mobilephone) Lab,United States,epc.mnc180.mcc311.3gppnetwork.org,,hidden,,,,,,,,,
+7342,2994,At&t Cricket,United States,epc.mnc150.mcc310.3gppnetwork.org,310150,,,,,,,,,,
+6393,331,AT&T Mobility,United States,epc.mnc410.mcc310.3gppnetwork.org,310410,online,NA DSR,Direct,Live,All K2R request with AT&T does not need approval,,balram.jayaram@syniverse.com,North America,,"historical route split in S9NA and A6NA, new route shall be route through S9NA"
+12514,2724,AT&T Mobility Maritime,United States,epc.mnc018.mcc901.3gppnetwork.org,90118,online,NA DSC,Direct,,,,fabian.castillo@syniverse.com,North America,,
+6906,2878,AT&T-310030,United States,epc.mnc030.mcc310.3gppnetwork.org,310030,online,NA DSR,Direct,,All K2R request with AT&T does not need approval,,balram.jayaram@syniverse.com,,,
+6907,2877,AT&T-310280,United States,epc.mnc280.mcc310.3gppnetwork.org,310280,online,NA DSR,Direct,,All K2R request with AT&T does not need approval,,balram.jayaram@syniverse.com,North America,,
+7410,3075,AT&T-310380,United States,epc.mnc380.mcc310.3gppnetwork.org,310380,online,NA DSR,Direct,,,,,North America,,
+12599,3147,AT&T-313100,United States,epc.mnc100.mcc313.3gppnetwork.org,313100,online,NA DSR,Direct,,,,balram.jayaram@syniverse.com,North America,,
+6908,2879,AT&T-JASPER-310150,United States,epc.mnc150.mcc310.3gppnetwork.org,310150,online,NA DSR,Direct,,,,balram.jayaram@syniverse.com,,,
+6909,2880,AT&T-JASPER-310170,United States,epc.mnc170.mcc310.3gppnetwork.org,310170,online,NA DSR,Direct,,,,balram.jayaram@syniverse.com,,,
+7055,1885,Bluegrass Cellular LLC,United States,epc.mnc810.mcc311.3gppnetwork.org,311810,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,
+7377,2562,Bug Tussel,United States,epc.mnc330.mcc311.3gppnetwork.org,311330,hidden,,Indirect,,,,,North America,,
+12529,3119,C Spire,United States,epc.mnc230.mcc311.3gppnetwork.org,311230,hidden,,Indirect,,,,,North America,,"*TNS OP,ask customer whether the route is normal bilateral route or muti-lateral rhub route to epc.mnc520.mcc310.6gppnetwork.org  then follow TNS hub route provisioning guide."
+12539,3123,Cellular Network Partnership dba Pioneer Cellular,United States,epc.mnc280.mcc312.3gppnetwork.org,312280,hidden,,Indirect,,,,,,,
+7438,1563,Chariton Valley Cellular,United States,epc.mnc220.mcc312.3gppnetwork.org,"311010,311020,312220",online,"NA DSC, globecomm",Direct,Live,,,,North America,n/a,hosted by globecomm
+12625,1997,Choice Wireless,United States,epc.mnc630.mcc310.3gppnetwork.org,310630,online,,Indirect,,,,,,,
+6955,1906,Commnet Wireless,United States,epc.mnc040.mcc311.3gppnetwork.org,311040,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+7447,1582,Conecto,United States,epc.mnc460.mcc310.3gppnetwork.org,310460,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+12530,3121,Cross Wireless,United States,epc.mnc010.mcc313.3gppnetwork.org,313010,hidden,,Indirect,,,,,North America,,"*TNS OP,ask customer whether the route is normal bilateral route or muti-lateral rhub route to epc.mnc520.mcc310.6gppnetwork.org  then follow TNS hub route provisioning guide."
+7127,2650,DCC,United States,epc.mnc210.mcc312.3gppnetwork.org,312210,online,NA DSC,Direct,Live,They are an MVNE.   Billing ID 4410,,fabian.castillo@syniverse.com,North America,,
+6230,2571,DRA1.NYK1,United States,nycdra001.aicent.grx,,,,,,,,,,,
+6208,2561,DRA1.SJC3,United States,sjcdra001.aicent.grx,,,,,,,,,,,
+7460,3087,Eltopia Communications,United States,epc.mnc410.mcc312.3gppnetwork.org,312410,online,"Digital (Aspenta), NA DSC",Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+12545,3127,Expeto Wireless Inc,United States,epc.mnc260.mcc313.3gppnetwork.org,313260,online,,Indirect,,,,,,,
+7297,3001,globecomm,United States,epc.mnc890.mcc311.3gppnetwork.org,311890,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,
+7069,2906,Globetouch US,United States,"epc.mnc276.mcc240.3gppnetwork.org	,epc.mnc620.mcc312.3gppnetwork.org","240276,312620",online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+7367,3018,Hewlett-Packard Communication Services LLC,United States,epc.mnc930.mcc312.3gppnetwork.org,312930,,,,Not in external coverage,,,,North America,,"used to connect to NA DSR,HP told NA DSC team to terminate relashionship cause the only 1 route TIM Brazil, not migrated to NA DSC"
+7488,1846,Indigo Wireless,United States,epc.mnc030.mcc311.3gppnetwork.org,311030,online,"globecomm, NA DSC",Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,
+7381,2547,Inland Cellular,United States,epc.mnc580.mcc310.3gppnetwork.org,310580,hidden,,Indirect,Live,,,,North America,,Inland has terminated services with Syniverse effective 11/17/2017
+7079,1573,Iowa Wireless,United States,epc.mnc770.mcc310.3gppnetwork.org,310770,online,NA DSR,Direct,Live,,,balram.jayaram@syniverse.com,North America,,
+7023,1715,iSmart Mobile,United States,epc.mnc300.mcc310.3gppnetwork.org,310300,online,"EU DSC, Truphone",Direct,Live,,,joe.feng@syniverse.com,North America,,"Operator Hosted Operator via Truphone connections 
+RMT account distributed to Truphone 
+RMT contact list same to Truphone "
+6977,852,Jasper Wireless,United States,"epc.mnc016.mcc901.3gppnetwork.org,epc.mnc150.mcc310.3gppnetwork.org,epc.mnc170.mcc310.3gppnetwork.org","310150,310170,901016",,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+7441,3039,JVT,United States,epc.mnc920.mcc310.3gppnetwork.org,310920,hidden,,Indirect,,,,,,,"TNS OP,ask customer whether the route is normal bilateral route or muti-lateral rhub route to epc.mnc520.mcc310.3gppnetwork.org  then follow TNS hub route provisioning guide."
+7052,1945,Limitless Mobile USA,United States,epc.mnc690.mcc310.3gppnetwork.org,310690,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+12645,3161,Midwest Network Solutions Hub,United States,"epc.mnc070.mcc313.3gppnetwork.org,epc.mnc700.mcc311.3gppnetwork.org","311700,313070",online,"Digital (Aspenta), NA DSC",Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+7408,3065,NA-CHI-DSC-01,United States,dra.ipx.syniverse.3gppnetwork.org,,,,,,,,,,,
+7409,3067,NA-DAL-DSC-01,United States,dra.ipx.syniverse.3gppnetwork.org,,,,,,,,,,,
+7502,3101,NetGenuity,United States,epc.mnc630.mcc312.3gppnetwork.org,312630,hidden,,Indirect,,,,,North America,,
+7457,1959,New Cell Inc. dba Cellcom,United States,epc.mnc620.mcc310.3gppnetwork.org,310620,hidden,NA DSC,Direct,Live,,,,North America,,"Implementation in progress so RMT is hidden status.
+Need customer to provide IR21 to populate MCCMNC in CCB so RIS can monitor its traffic"
+6902,1615,NewCore Wireless,United States,"epc.mnc260.mcc312.3gppnetwork.org,epc.mnc530.mcc311.3gppnetwork.org","311530,312260",online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+7472,3091,Nex-Tech Wireless,United States,epc.mnc420.mcc312.3gppnetwork.org,312420,hidden,,,,,,,,,"*TNS OP,ask customer whether the route is normal bilateral route or muti-lateral rhub route to epc.mnc520.mcc310.3gppnetwork.org  then follow TNS hub route provisioning guide.
+"
+7260,2899,Northeast Wireless Networks,United States,epc.mnc710.mcc311.3gppnetwork.org,"311710,312920",online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,"Connect to S9NA via Globecomm, treated as direct OP"
+12653,3163,Persistent Telecom ,United States,pti.com,338050,hidden,"NA DSC, Digicel Jamaica",Direct,Live,,Contract,Mario.herrera@syniverse.com,North America,,"Persistent Telecom has CCB entry for Billing purpose only.
+Persistent will be a serve market for Digicel Jamaica, however, they will be routing messages using their own private realm,:pti.com  for billing purposes. "
+6901,1578,Pine Telephone,United States,epc.mnc080.mcc311.3gppnetwork.org,311080,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+6853,2856,S9 NA CHI DRA,United States,syniverse.com,,,,,,,,,,,
+6854,2857,S9 NA DAL DRA,United States,syniverse.com,,,,,,,,,,,
+6900,1581,Sagebrush Cellular/Nemont,United States,epc.mnc480.mcc312.3gppnetwork.org,312480,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,North America,,
+7379,3059,Silverstar Communications USA,United States,epc.mnc430.mcc312.3gppnetwork.org,312430,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+7114,2610,Smith Bagley,United States,epc.mnc320.mcc310.3gppnetwork.org,310320,online,NA DSC,Direct,Live,C1 NE Arizona ,,fabian.castillo@syniverse.com,North America,,
+7395,3014,SouthernLINC Wireless,United States,epc.mnc720.mcc312.3gppnetwork.org,312720,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+6966,649,Sprint PCS,United States,epc.mnc120.mcc310.3gppnetwork.org,310120,online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,North America,,
+12565,3133,Sprint-312530,United States,epc.mnc530.mcc312.3gppnetwork.org,312530,online,NA DSC,Direct,,,,fabian.castillo@syniverse.com,North America,,
+7378,3057,Strata Network USA,United States,epc.mnc290.mcc312.3gppnetwork.org,312290,online,NA DSC,Direct,Live,,,Mario.herrera@syniverse.com,North America,,
+6855,2862,Syniverse Account,United States,,111,online,,,,,,,,,
+6471,276,Syniverse Peering Hub,United States,syniverse.com,,,,,,,,,,,
+6648,318,T-Mobile USA Inc,United States,"epc.mnc240.mcc310.3gppnetwork.org,epc.mnc260.mcc310.3gppnetwork.org","310240,310260",online,NA DSC,Direct,Live,,,fabian.castillo@syniverse.com,North America,,AIR Destination realm:dra.ipx.syniverse.3gppnetwork.org
+7512,3105,Tampnet,United States,"epc.mnc170.mcc311.3gppnetwork.org,epc.mnc999.mcc242.3gppnetwork.org","242999,311170",online,NA DSC,Direct,Live,,,,North America,,
+7434,2655,Telna USA,United States,epc.mnc840.mcc310.3gppnetwork.org,310840,hidden,,Indirect,,,,,,,"no ongoing sales project, proceed to open the route."
+7282,2987,Transaction Network Services Peering Hub,United States,epc.mnc520.mcc310.3gppnetwork.org,,online,NA DSC,Peer,,,,,,,"TNS RHUB
+Operator open s6a route with GNS RHUB , communicates with 	epc.mnc520.mcc310.3gppnetwork.org to communicates with all operator under the RHUB"
+7311,742,U.S. Cellular,United States,epc.mnc580.mcc311.3gppnetwork.org,311580,hidden,,Indirect,,,,luisdiego.jimenez@syniverse.com,North America,,
+12637,818,Union Telephone,United States,epc.mnc020.mcc310.3gppnetwork.org,310020,hidden,,Indirect,Live,,,,North America,,
+6538,650,Verizon Wireless,United States,"epc.mnc270.mcc311.3gppnetwork.org,epc.mnc480.mcc311.3gppnetwork.org","311270,311480",online,NA DSC,Direct,Live,All K2R request with VRZ does not need approval,,Mario.herrera@syniverse.com,North America,,
+12616,3153,"Vermont Telephone Company, Inc",United States,epc.mnc990.mcc311.3gppnetwork.org,311990,online,NA DSC,Direct,Pending,,Contract,luisdiego.jimenez@syniverse.com,North America,,
+7299,641,Viaero Wireless,United States,epc.mnc450.mcc310.3gppnetwork.org,310450,hidden,,Indirect,Live,,,,North America,,Viaero is in the process of migrating their traffic to TNS.
+7422,3079,Vodafone US For Life,United States,epc.mnc999.mcc999.3gppnetwork.org,,,,,,,,,,,
+7302,1583,West Central Cellular,United States,epc.mnc180.mcc310.3gppnetwork.org,310180,hidden,,Indirect,,,,,North America,,"*TNS OP,ask customer whether the route is normal bilateral route or muti-lateral rhub route to epc.mnc520.mcc310.3gppnetwork.org  then follow TNS hub route provisioning guide.
+"
+12542,3125,Wireless Partners,United States,epc.mnc710.mcc312.3gppnetwork.org,312710,hidden,,Indirect,Live,,,,North America,,
+7448,3085,Worldcall,United States,epc.mnc990.mcc310.3gppnetwork.org,310990,hidden,,Indirect,,,,,,,"*TNS OP,ask customer whether the route is normal bilateral route or muti-lateral rhub route to epc.mnc520.mcc310.3gppnetwork.org  then follow TNS hub route provisioning guide.
+"
+6624,695,Antel,Uruguay,epc.mnc001.mcc748.3gppnetwork.org,74801,online,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,
+7099,1429,CTI,Uruguay,epc.mnc010.mcc748.3gppnetwork.org,74810,online,,Indirect,Live,,,,CALA,,
+7042,1453,Telefonica Moviles UY,Uruguay,epc.mnc007.mcc748.3gppnetwork.org,74807,online,,Indirect,Live,,,,CALA,,
+7439,1015,Beeline(Unitel) Uzbekistan,Uzbekistan,epc.mnc004.mcc434.3gppnetwork.org,43404,online,,Indirect,Live,,,,EMEA,UZBDU,PM has approved to migrate it from iBasis to BICS on March1 2018
+12487,1340,MTS Uzbekistan,Uzbekistan,epc.mnc007.mcc434.3gppnetwork.org,43407,hidden,,Indirect,,,,,,UZB07,
+6956,1832,Digicel (Vanuatu) Ltd,Vanuatu,epc.mnc002.mcc542.3gppnetwork.org,54105,Group,,Indirect,Live,,,,Asia Pacific,,"""Tonga/Fiji/Vanuatu have the same realm name"" per Digicel group.
+
+Per their IR21, their IMSI prefix are different.
+
+Now only leave Digicel Fiji in RMT, the other 2 was set to ""group"" of RMT status.
+
+"
+12636,1020,Telecom Vanuatu,Vanuatu,epc.mnc001.mcc541.3gppnetwork.org,54101,hidden,,Indirect,,,,,,,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
+"
+12627,506,Corporacion Digitel,Venezuela,,,,,,,,,,,,
+12624,1627,Digicel Venezuela,Venezuela,,,,,,,,,,,,
+12486,706,Mobifone (VMS),Viet Nam,epc.mnc001.mcc452.3gppnetwork.org,45201,online,AP DSC,Direct,Pending,,,tom.yu@syniverse.com,Asia Pacific,,
+7464,1733,Vietnamobile Telecommunications Joint Stock Company,Viet Nam,epc.mnc005.mcc452.3gppnetwork.org,45205,hidden,,Indirect,Pending,,,,Asia Pacific,,"March 8, 2018, BICS states Hanoi is not ready for LTE roaming at the moment, will notice SVR once they does"
+7325,707,Viettel Group,Viet Nam,epc.mnc004.mcc452.3gppnetwork.org,45204,hidden,,Indirect,Live,,,Jason.Qin@syniverse.com,Asia Pacific,,"oct 12 2017
+We are working on setting up DSS direct connection with Viettel Vietnam.
+2018 Jan 22
+Survey sent to customer
+Before the connection status change to Direct, please use comfone."
+7440,507,Vinaphone,Viet Nam,epc.mnc002.mcc452.3gppnetwork.org,45202,online,,Indirect,Live,,,,Asia Pacific,,"Before Vinaphone is our indirect customer, default route is going to FT
+Now Vinaphone is our AP direct customer, will add specific route for new OP, also need to confirm with Vinaphone if migrate current traffic to AP DSC"
+7453,1663,Cable and Wireless British Virgin,Virgin Islands British,epc.mnc170.mcc348.3gppnetwork.org,348170,group,NA DSC,Direct,Live,,,luisdiego.jimenez@syniverse.com,CALA,,Cable and wireless group member
+12767,1717,CCT Boatphone Caribbean,Virgin Islands British,,,,,,,,,,,,
+7478,2601,Digicel British Virgin Islands,Virgin Islands British,,,,,,,,,,,,
+12610,3149,Gigsky Mobile,Virgin Islands U.S.,epc.mnc870.mcc312.3gppnetwork.org,312870,hidden,,,,,,,,,
+12559,2337,Vitelcom Cellular DBA Innovative Wireless,Virgin Islands U.S.,epc.mnc040.mcc311.3gppnetwork.org	,,,,,,,,,,,"Vitelcom (Viya) is a child company of Commnet and share the same realm with Commnet.
+Viya uses the Commnet realm and a subset of the Commnet IMSI prefix for diameter routing. 
+
+As TotalVis customer, Commnet wish to see which traffic belongs to them (parent company) and which traffic belongs to Viya.
+
+From a diameter route election perspective, Viya will not have access to elect routes and would only ¡°inherit¡± Commnet¡¯s roaming relationships.
+
+From a diameter routing perspective, the NA DSCs will route messages from IMSI prefix 3110405, destined toward Commnets realm via the Viya peer connections. All other IMSI prefixes 311040(0-4) & 311040(6-9) destined toward Commnet¡¯s realm will be routed via the Commnet peer connections. 
+"
+12769,1348,Celtel Zambia,Zambia,epc.mnc001.mcc645.3gppnetwork.org,64501,online,,Indirect,,,,,,,
+12751,1718,MTN Zambia,Zambia,epc.mnc002.mcc645.3gppnetwork.org,64502,online,,Indirect,,,,,EMEA,,
+7449,1731,Econet Wireless,Zimbabwe,epc.mnc004.mcc648.3gppnetwork.org,64804,online,EU DSC,Direct,Live,,,joe.feng@syniverse.com,EMEA,,"first trail route opened on Aug6 to MTN Zambia.
+Second route has not been opened yet.
+Please ask Joe feng to open all the route while Econet still in trail phase"
+12738,1834,Telecel Zimbabwe (PVT) Ltd,Zimbabwe,epc.mnc003.mcc648.3gppnetwork.org,64803,,,,,,,,,,

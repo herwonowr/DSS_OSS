@@ -1,0 +1,1464 @@
+name,id,item,value
+Chunghwa Telecom,6596,DRACustomerRealmName,epc.mnc092.mcc466.3gppnetwork.org
+Chunghwa Telecom,6596,DRAIMSIPrefix,46692
+Aicent,6869,DRAIMSIPrefix,000
+SmarTone Mobile,6362,DRACustomerRealmName,epc.mnc006.mcc454.3gppnetwork.org
+SmarTone Mobile,6362,DRAIMSIPrefix,45406
+FarEasTone,6556,DRACustomerRealmName,epc.mnc001.mcc466.3gppnetwork.org
+FarEasTone,6556,DRAIMSIPrefix,46601
+Taiwan Mobile,6595,DRACustomerRealmName,epc.mnc097.mcc466.3gppnetwork.org
+Taiwan Mobile,6595,DRAIMSIPrefix,46697
+China Mobile Hong Kong,6354,DRACustomerRealmName,epc.mnc012.mcc454.3gppnetwork.org
+China Mobile Hong Kong,6354,DRAIMSIPrefix,45412
+China Mobile,6585,DRACustomerRealmName,epc.mnc000.mcc460.3gppnetwork.org
+China Mobile,6585,DRACustomerRealmName,epc.mnc002.mcc460.3gppnetwork.org
+China Mobile,6585,DRACustomerRealmName,epc.mnc007.mcc460.3gppnetwork.org
+China Mobile,6585,DRAIMSIPrefix,46000
+China Mobile,6585,DRAIMSIPrefix,46002
+China Mobile,6585,DRAIMSIPrefix,46007
+StarHub,6120,DRACustomerRealmName,epc.mnc005.mcc525.3gppnetwork.org
+StarHub,6120,DRAIMSIPrefix,52505
+SingTel Mobile,6124,DRACustomerRealmName,epc.mnc001.mcc525.3gppnetwork.org
+SingTel Mobile,6124,DRAIMSIPrefix,52501
+M1 Limited,6360,DRACustomerRealmName,epc.mnc003.mcc525.3gppnetwork.org
+M1 Limited,6360,DRAIMSIPrefix,52503
+Dialog Telekom,6312,DRACustomerRealmName,epc.mnc002.mcc413.3gppnetwork.org
+Dialog Telekom,6312,DRAIMSIPrefix,41302
+Maxis,6504,DRACustomerRealmName,epc.mnc012.mcc502.3gppnetwork.org
+Maxis,6504,DRAIMSIPrefix,50212
+SMART,6192,DRACustomerRealmName,epc.mnc003.mcc515.3gppnetwork.org
+SMART,6192,DRAIMSIPrefix,51503
+DiGi,7045,DRACustomerRealmName,epc.mnc016.mcc502.3gppnetwork.org
+DiGi,7045,DRAIMSIPrefix,50216
+CTM,6962,DRACustomerRealmName,epc.mnc001.mcc455.3gppnetwork.org
+CTM,6962,DRAIMSIPrefix,45501
+Hutchison Macau,7120,DRACustomerRealmName,epc.mnc003.mcc455.3gppnetwork.org
+Hutchison Macau,7120,DRAIMSIPrefix,45503
+SK Telecom,6361,DRACustomerRealmName,epc.mnc005.mcc450.3gppnetwork.org
+SK Telecom,6361,DRAIMSIPrefix,45005
+China Unicom,6684,DRACustomerRealmName,epc.mnc001.mcc460.3gppnetwork.org
+China Unicom,6684,DRACustomerRealmName,epc.mnc006.mcc460.3gppnetwork.org
+China Unicom,6684,DRACustomerRealmName,epc.mnc009.mcc460.3gppnetwork.org
+China Unicom,6684,DRAIMSIPrefix,46001
+China Unicom,6684,DRAIMSIPrefix,46006
+China Unicom,6684,DRAIMSIPrefix,46009
+Comfone/Infonet Peer,6917,CustomerNodeRealm,comfone.com
+TDC Mobil AS,6947,DRACustomerRealmName,epc.mnc001.mcc238.3gppnetwork.org
+TDC Mobil AS,6947,DRAIMSIPrefix,23801
+Telefonica Chile,6622,DRACustomerRealmName,epc.mnc002.mcc730.3gppnetwork.org
+Telefonica Chile,6622,DRAIMSIPrefix,73002
+FranceTelecom Peering Hub,6570,CustomerNodeRealm,dea.orange-multimedia.net
+Syniverse Peering Hub,6471,DRACustomerRealmName,syniverse.com
+Vodafone India (Essar),7271,DRACustomerRealmName,epc.mnc030.mcc404.3gppnetwork.org
+Vodafone India (Essar),7271,DRACustomerRealmName,epc.mnc020.mcc404.3gppnetwork.org
+Vodafone India (Essar),7271,DRACustomerRealmName,epc.mnc027.mcc404.3gppnetwork.org
+Vodafone India (Essar),7271,DRACustomerRealmName,epc.mnc043.mcc404.3gppnetwork.org
+Vodafone India (Essar),7271,DRACustomerRealmName,epc.mnc046.mcc404.3gppnetwork.org
+Vodafone India (Essar),7271,DRACustomerRealmName,epc.mnc011.mcc404.3gppnetwork.org
+Vodafone India (Essar),7271,DRACustomerRealmName,epc.mnc005.mcc404.3gppnetwork.org
+Vodafone India (Essar),7271,DRAIMSIPrefix,40430
+Vodafone India (Essar),7271,DRAIMSIPrefix,40420
+Vodafone India (Essar),7271,DRAIMSIPrefix,40427
+Vodafone India (Essar),7271,DRAIMSIPrefix,40443
+Vodafone India (Essar),7271,DRAIMSIPrefix,40446
+Vodafone India (Essar),7271,DRAIMSIPrefix,40411
+Vodafone India (Essar),7271,DRAIMSIPrefix,40405
+Globe,6123,DRACustomerRealmname,epc.mnc002.mcc515.3gppnetwork.org
+Globe,6123,DRAIMSIPrefix,51502
+Hutchison 3G Hong Kong,6358,DRACustomerRealmName,epc.mnc003.mcc454.3gppnetwork.org
+Hutchison 3G Hong Kong,6358,DRAIMSIPrefix,45403
+Hutchison 3G Hong Kong,6358,DRAIMSIPrefix,45404
+SmarTone Macau,7104,DRACustomerRealmName,epc.mnc000.mcc455.3gppnetwork.org
+SmarTone Macau,7104,DRAIMSIPrefix,45500
+Celcom,6502,DRACustomerRealmName,epc.mnc019.mcc502.3gppnetwork.org
+Celcom,6502,DRAIMSIPrefix,50219
+Celcom,6502,DRAIMSIPrefix,50213
+Sybase Peering Hub,7492,CustomerNodeRealm,sybase.ipx
+OTEGlobe GRX Peer,7012,CustomerNodeRealm,ipx.oteglobe.3gppnetwork.org
+Tele2 Sweden,6723,CustomerNodeRealm,mnc007.mcc240.3gppnetwork.org
+Tele2 Sweden,6723,DRACustomerRealmName,epc.mnc007.mcc240.3gppnetwork.org
+Tele2 Sweden,6723,DRAIMSIPrefix,24007
+Telenor Hungary,6871,DRACustomerRealmName,epc.mnc001.mcc216.3gppnetwork.org
+Telenor Hungary,6871,DRAIMSIPrefix,21601
+T-Mobile USA Inc,6648,DRACustomerRealmName,epc.mnc260.mcc310.3gppnetwork.org
+T-Mobile USA Inc,6648,DRACustomerRealmName,epc.mnc240.mcc310.3gppnetwork.org
+T-Mobile USA Inc,6648,DRAIMSIPrefix,310260
+T-Mobile USA Inc,6648,DRAIMSIPrefix,310240
+Vodafone Romania,6713,DRACustomerRealmName,epc.mnc001.mcc226.3gppnetwork.org
+Vodafone Romania,6713,DRAIMSIPrefix,22601
+Vodafone Portugal,6737,DRACustomerRealmName,epc.mnc001.mcc268.3gppnetwork.org
+Vodafone Portugal,6737,DRAIMSIPrefix,26801
+Mobistar,6695,DRACustomerRealmName,epc.mnc010.mcc206.3gppnetwork.org
+Mobistar,6695,DRAIMSIPrefix,20610
+Bouygues Telecom,6523,DRACustomerRealmName,epc.mnc020.mcc208.3gppnetwork.org
+Bouygues Telecom,6523,DRAIMSIPrefix,20820
+T-Mobile Czech,6898,DRACustomerRealmName,epc.mnc001.mcc230.3gppnetwork.org
+T-Mobile Czech,6898,DRAIMSIPrefix,23001
+BITE Lithuania,7091,DRACustomerRealmName,epc.mnc002.mcc246.3gppnetwork.org
+BITE Lithuania,7091,DRAIMSIPrefix,24602
+Kyivstar,12661,DRACustomerRealmName,epc.mnc003.mcc255.3gppnetwork.org
+Kyivstar,12661,DRAIMSIPrefix,25503
+Orange Slovensko,6938,DRACustomerRealmName,epc.mnc001.mcc231.3gppnetwork.org
+Orange Slovensko,6938,DRAIMSIPrefix,23101
+AS EMT,6837,DRACustomerRealmName,epc.mnc001.mcc248.3gppnetwork.org
+AS EMT,6837,DRAIMSIPrefix,24801
+Telecom Italia Mobile,6580,DRACustomerRealmName,epc.mnc001.mcc222.3gppnetwork.org
+Telecom Italia Mobile,6580,DRAIMSIPrefix,22201
+Vimpelcom Russia,6870,DRACustomerRealmName,epc.mnc099.mcc250.3gppnetwork.org
+Vimpelcom Russia,6870,DRAIMSIPrefix,25099
+AT&T Mobility,6393,DRACustomerRealmName,epc.mnc410.mcc310.3gppnetwork.org
+AT&T Mobility,6393,DRAIMSIPrefix,310410
+Rogers Wireless,6497,DRACustomerRealmName,epc.mnc720.mcc302.3gppnetwork.org
+Rogers Wireless,6497,DRACustomerRealmName,epc.mnc370.mcc302.3gppnetwork.org
+Rogers Wireless,6497,DRAIMSIPrefix,302720
+Rogers Wireless,6497,DRAIMSIPrefix,302370
+Hutchison 3G UK,7301,DRACustomerRealmName,epc.mnc020.mcc234.3gppnetwork.org
+Hutchison 3G UK,7301,DRAIMSIPrefix,23420
+Latvian Mobile Telephone,6839,DRACustomerRealmName,epc.mnc001.mcc247.3gppnetwork.org
+Latvian Mobile Telephone,6839,DRAIMSIPrefix,24701
+Vodafone UK,6736,DRACustomerRealmName,epc.mnc015.mcc234.3gppnetwork.org
+Vodafone UK,6736,DRAIMSIPrefix,23415
+Hutchison 3G Austria GmbH,6951,DRACustomerRealmName,epc.mnc005.mcc232.3gppnetwork.org
+Hutchison 3G Austria GmbH,6951,DRAIMSIPrefix,23205
+Hutchison 3G Austria GmbH,6951,DRAIMSIPrefix,23210
+Proximus,6604,DRACustomerRealmName,epc.mnc001.mcc206.3gppnetwork.org
+Proximus,6604,DRACustomerRealmNameBeforeTranslation,dca.mnc001.mcc206.3gppnetwork.org
+Proximus,6604,DRACustomerRealmNameBeforeTranslation,dma.mnc001.mcc206.3gppnetwork.org
+Proximus,6604,DRACustomerRealmNameBeforeTranslation,gam.mnc001.mcc206.3gppnetwork.org
+Proximus,6604,DRAIMSIPrefix,20601
+Orange Switzerland,6922,DRACustomerRealmName,epc.mnc003.mcc228.3gppnetwork.org
+Orange Switzerland,6922,DRAIMSIPrefix,22803
+Telefonica O2 UK,6532,DRACustomerRealmName,epc.mnc010.mcc234.3gppnetwork.org
+Telefonica O2 UK,6532,DRAIMSIPrefix,23410
+Telefonica O2 Germany,6533,DRACustomerRealmName,epc.mnc007.mcc262.3gppnetwork.org
+Telefonica O2 Germany,6533,DRACustomerRealmName,epc.mnc003.mcc262.3gppnetwork.org
+Telefonica O2 Germany,6533,DRAIMSIPrefix,26207
+Telefonica O2 Germany,6533,DRAIMSIPrefix,26203
+TeliaSonera Finland,6835,DRACustomerRealmName,epc.mnc091.mcc244.3gppnetwork.org
+TeliaSonera Finland,6835,DRAIMSIPrefix,24491
+Swisscom,6490,DRACustomerRealmName,epc.mnc001.mcc228.3gppnetwork.org
+Swisscom,6490,DRAIMSIPrefix,22801
+Telenor Norway,6567,DRACustomerRealmName,epc.mnc001.mcc242.3gppnetwork.org
+Telenor Norway,6567,DRAIMSIPrefix,24201
+Everything Everywhere UK,6582,DRACustomerRealmName,epc.mnc030.mcc234.3gppnetwork.org
+Everything Everywhere UK,6582,DRACustomerRealmName,epc.mnc033.mcc234.3gppnetwork.org
+Everything Everywhere UK,6582,DRAIMSIPrefix,23430
+Everything Everywhere UK,6582,DRAIMSIPrefix,23433
+T-Mobile Germany,6783,DRACustomerRealmName,epc.mnc001.mcc262.3gppnetwork.org
+T-Mobile Germany,6783,DRACustomerRealmName,epc.mnc040.mcc901.3gppnetwork.org
+T-Mobile Germany,6783,DRAIMSIPrefix,26201
+T-Mobile Germany,6783,DRAIMSIPrefix,90140
+Wind Italy,7028,DRACustomerRealmName,epc.mnc088.mcc222.3gppnetwork.org
+Wind Italy,7028,DRAIMSIPrefix,22288
+Vodafone Mobile NZ Limited,6719,DRACustomerRealmName,epc.mnc001.mcc530.3gppnetwork.org
+Vodafone Mobile NZ Limited,6719,DRAIMSIPrefix,53001
+Vodafone Italy,6738,DRACustomerRealmName,epc.mnc010.mcc222.3gppnetwork.org
+Vodafone Italy,6738,DRAIMSIPrefix,22210
+Telenor Denmark,6920,DRACustomerRealmName,epc.mnc002.mcc238.3gppnetwork.org
+Telenor Denmark,6920,DRAIMSIPrefix,23802
+Telenet Group bvba sprl(BASE),6857,DRACustomerRealmName,epc.mnc020.mcc206.3gppnetwork.org
+Telenet Group bvba sprl(BASE),6857,DRAIMSIPrefix,20620
+SFR,6555,DRACustomerRealmName,epc.mnc009.mcc208.3gppnetwork.org
+SFR,6555,DRACustomerRealmName,epc.mnc010.mcc208.3gppnetwork.org
+SFR,6555,DRAIMSIPrefix,20809
+SFR,6555,DRAIMSIPrefix,20810
+Vodafone Netherlands,6712,DRACustomerRealmName,epc.mnc004.mcc204.3gppnetwork.org
+Vodafone Netherlands,6712,DRAIMSIPrefix,20404
+E-Plus,12491,DRACustomerRealmName,epc.mnc003.mcc262.3gppnetwork.org
+E-Plus,12491,DRAIMSIPrefix,26203
+KPN Mobile The Netherlands BV,6697,DRACustomerRealmName,epc.mnc008.mcc204.3gppnetwork.org
+KPN Mobile The Netherlands BV,6697,DRAIMSIPrefix,20408
+Mobitel Slovenia,6807,DRACustomerRealmName,epc.mnc041.mcc293.3gppnetwork.org
+Mobitel Slovenia,6807,DRAIMSIPrefix,29341
+Vodafone Ireland,6750,DRACustomerRealmName,epc.mnc001.mcc272.3gppnetwork.org
+Vodafone Ireland,6750,DRAIMSIPrefix,27201
+Orange Spain,6569,DRACustomerRealmName,epc.mnc003.mcc214.3gppnetwork.org
+Orange Spain,6569,DRAIMSIPrefix,21403
+Partner Communications Company Ltd,6701,DRACustomerRealmName,epc.mnc001.mcc425.3gppnetwork.org
+Partner Communications Company Ltd,6701,DRAIMSIPrefix,42501
+Polkomtel,6925,DRACustomerRealmName,epc.mnc001.mcc260.3gppnetwork.org
+Polkomtel,6925,DRAIMSIPrefix,26001
+Sunrise Switzerland,6787,DRACustomerRealmName,epc.mnc002.mcc228.3gppnetwork.org
+Sunrise Switzerland,6787,DRAIMSIPrefix,22802
+Vodafone Greece,6739,DRACustomerRealmName,epc.mnc005.mcc202.3gppnetwork.org
+Vodafone Greece,6739,DRAIMSIPrefix,20205
+MEO,6535,DRACustomerRealmName,epc.mnc006.mcc268.3gppnetwork.org
+MEO,6535,DRAIMSIPrefix,26806
+Vodafone Germany,6740,DRACustomerRealmName,epc.mnc002.mcc262.3gppnetwork.org
+Vodafone Germany,6740,DRAIMSIPrefix,26202
+TeliaSonera Sweden,6833,DRACustomerRealmName,epc.mnc001.mcc240.3gppnetwork.org
+TeliaSonera Sweden,6833,DRAIMSIPrefix,24001
+Netcom,6836,DRACustomerRealmName,epc.mnc002.mcc242.3gppnetwork.org
+Netcom,6836,DRAIMSIPrefix,24202
+TeliaSonera Denmark,6834,DRACustomerRealmName,epc.mnc020.mcc238.3gppnetwork.org
+TeliaSonera Denmark,6834,DRAIMSIPrefix,23820
+Telenor Sweden,6959,DRACustomerRealmName,epc.mnc008.mcc240.3gppnetwork.org
+Telenor Sweden,6959,DRACustomerRealmName,epc.mnc042.mcc240.3gppnetwork.org
+Telenor Sweden,6959,DRACustomerRealmName,epc.mnc006.mcc240.3gppnetwork.org
+Telenor Sweden,6959,DRAIMSIPrefix,24008
+Telenor Sweden,6959,DRAIMSIPrefix,24042
+Telenor Sweden,6959,DRAIMSIPrefix,24006
+T-Mobile Hungary,6893,DRACustomerRealmName,epc.mnc030.mcc216.3gppnetwork.org
+T-Mobile Hungary,6893,DRAIMSIPrefix,21630
+Avea,7086,DRACustomerRealmName,epc.mnc003.mcc286.3gppnetwork.org
+Avea,7086,DRAIMSIPrefix,28603
+Vodafone Spain,6711,DRACustomerRealmName,epc.mnc001.mcc214.3gppnetwork.org
+Vodafone Spain,6711,DRAIMSIPrefix,21401
+Elisa,6934,DRACustomerRealmName,epc.mnc005.mcc244.3gppnetwork.org
+Elisa,6934,DRACustomerRealmName,epc.mnc021.mcc244.3gppnetwork.org
+Elisa,6934,DRAIMSIPrefix,24405
+Elisa,6934,DRAIMSIPrefix,24421
+T-Mobile Austria,6954,DRACustomerRealmName,epc.mnc003.mcc232.3gppnetwork.org
+T-Mobile Austria,6954,DRACustomerRealmName,epc.mnc007.mcc232.3gppnetwork.org
+T-Mobile Austria,6954,DRAIMSIPrefix,23203
+T-Mobile Austria,6954,DRAIMSIPrefix,23207
+Telefonica Moviles,6581,DRACustomerRealmName,epc.mnc007.mcc214.3gppnetwork.org
+Telefonica Moviles,6581,DRACustomerRealmName,epc.mnc005.mcc214.3gppnetwork.org
+Telefonica Moviles,6581,DRAIMSIPrefix,21407
+Telefonica Moviles,6581,DRAIMSIPrefix,21405
+Optimus,6620,DRACustomerRealmName,epc.mnc003.mcc268.3gppnetwork.org
+Optimus,6620,DRAIMSIPrefix,26803
+Alands Mobiltelefon,7484,DRACustomerRealmName,epc.mnc014.mcc244.3gppnetwork.org
+Alands Mobiltelefon,7484,DRAIMSIPrefix,24414
+Hutchison 3G Sweden,7094,DRACustomerRealmName,epc.mnc002.mcc240.3gppnetwork.org
+Hutchison 3G Sweden,7094,DRAIMSIPrefix,24002
+Orange France,6541,DRACustomerRealmName,epc.mnc001.mcc208.3gppnetwork.org
+Orange France,6541,DRACustomerRealmName,epc.mnc031.mcc901.3gppnetwork.org
+Orange France,6541,DRAIMSIPrefix,20801
+Orange France,6541,DRAIMSIPrefix,90131
+Siminn hf,6957,DRACustomerRealmName,epc.mnc001.mcc274.3gppnetwork.org
+Siminn hf,6957,DRACustomerRealmName,epc.mnc012.mcc274.3gppnetwork.org
+Siminn hf,6957,DRACustomerRealmName,epc.mnc008.mcc274.3gppnetwork.org
+Siminn hf,6957,DRAIMSIPrefix,27401
+Siminn hf,6957,DRAIMSIPrefix,27412
+Siminn hf,6957,DRAIMSIPrefix,27408
+Wind Greece,7287,DRACustomerRealmName,epc.mnc010.mcc202.3gppnetwork.org
+Wind Greece,7287,DRAIMSIPrefix,20210
+Wind Greece,7287,DRAIMSIPrefix,20209
+T-Mobile Netherlands,7026,DRACustomerRealmName,epc.mnc016.mcc204.3gppnetwork.org
+T-Mobile Netherlands,7026,DRACustomerRealmName,epc.mnc020.mcc204.3gppnetwork.org
+T-Mobile Netherlands,7026,DRAIMSIPrefix,20416
+T-Mobile Netherlands,7026,DRAIMSIPrefix,20420
+Croatian Telecom Inc,6941,DRACustomerRealmName,epc.mnc001.mcc219.3gppnetwork.org
+Croatian Telecom Inc,6941,DRAIMSIPrefix,21901
+Vodafone Australia,6793,DRACustomerRealmName,epc.mnc003.mcc505.3gppnetwork.org
+Vodafone Australia,6793,DRAIMSIPrefix,50503
+T-Mobile Poland,6936,DRACustomerRealmName,epc.mnc002.mcc260.3gppnetwork.org
+T-Mobile Poland,6936,DRAIMSIPrefix,26002
+SOFTBANK MOBILE,6199,DRACustomerRealmName,epc.mnc020.mcc440.3gppnetwork.org
+SOFTBANK MOBILE,6199,DRAIMSIPrefix,44020
+Vodafone Turkey,6751,DRACustomerRealmName,epc.mnc002.mcc286.3gppnetwork.org
+Vodafone Turkey,6751,DRAIMSIPrefix,28602
+Vodafone Hungary Ltd,6981,DRACustomerRealmName,epc.mnc070.mcc216.3gppnetwork.org
+Vodafone Hungary Ltd,6981,DRAIMSIPrefix,21670
+O2 Czech Republic,7063,DRACustomerRealmName,epc.mnc002.mcc230.3gppnetwork.org
+O2 Czech Republic,7063,DRAIMSIPrefix,23002
+Mobisle Communications Limited,7317,DRACustomerRealmName,epc.mnc021.mcc278.3gppnetwork.org
+Mobisle Communications Limited,7317,DRAIMSIPrefix,27821
+ETISALAT UAE,6617,DRACustomerRealmName,epc.mnc002.mcc424.3gppnetwork.org
+ETISALAT UAE,6617,DRAIMSIPrefix,42402
+Zain Jordan(JMTS),7113,DRACustomerRealmName,epc.mnc001.mcc416.3gppnetwork.org
+Zain Jordan(JMTS),7113,DRAIMSIPrefix,41601
+Orange Poland,6798,DRACustomerRealmName,epc.mnc003.mcc260.3gppnetwork.org
+Orange Poland,6798,DRAIMSIPrefix,26003
+Omnitel,6838,DRACustomerRealmName,epc.mnc001.mcc246.3gppnetwork.org
+Omnitel,6838,DRAIMSIPrefix,24601
+Turkcell,6872,DRACustomerRealmName,epc.mnc001.mcc286.3gppnetwork.org
+Turkcell,6872,DRAIMSIPrefix,28601
+Cellcom Israel Ltd,6816,DRACustomerRealmName,epc.mnc002.mcc425.3gppnetwork.org
+Cellcom Israel Ltd,6816,DRAIMSIPrefix,42502
+Vodafone Egypt,7293,DRACustomerRealmName,epc.mnc002.mcc602.3gppnetwork.org
+Vodafone Egypt,7293,DRAIMSIPrefix,60202
+Telkomsel,6462,CustomerNodeRealm,telinbtm.3gppnetwork.org
+Telkomsel,6462,CustomerNodeRealm,telinhkg.3gppnetwork.org
+Telkomsel,6462,DRACustomerRealmName,epc.mnc010.mcc510.3gppnetwork.org
+Telkomsel,6462,DRAIMSIPrefix,51010
+A1 Slovenia,6773,DRACustomerRealmName,epc.mnc040.mcc293.3gppnetwork.org
+A1 Slovenia,6773,DRAIMSIPrefix,29340
+Vodafone Malta,6931,DRACustomerRealmName,epc.mnc028.mcc901.3gppnetwork.org
+Vodafone Malta,6931,DRACustomerRealmName,epc.mnc001.mcc278.3gppnetwork.org
+Vodafone Malta,6931,DRAIMSIPrefix,90128
+Vodafone Malta,6931,DRAIMSIPrefix,27801
+EPT Luxembourg,6840,DRACustomerRealmName,epc.mnc001.mcc270.3gppnetwork.org
+EPT Luxembourg,6840,DRAIMSIPrefix,27001
+Bharti Airtel India,7013,CustomerNodeRealm,airtel-west-hss-realm
+Bharti Airtel India,7013,CustomerNodeRealm,airtel-south-hss-realm
+Bharti Airtel India,7013,CustomerNodeRealm,airtel-east-hss-realm
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc002.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc010.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc045.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc040.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc049.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc094.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc095.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc031.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc053.mcc405.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc090.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc092.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc070.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc003.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc096.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc093.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc054.mcc405.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc097.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc055.mcc405.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc051.mcc405.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc056.mcc405.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc098.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc016.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmName,epc.mnc052.mcc405.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,epc.mnc02.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,MME.EPC.MNC031.MCC404.3GPPNETWORK.ORG
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,MME.EPC.MNC053.MCC405.3GPPNETWORK.ORG
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,MME.EPC.MNC090.MCC404.3GPPNETWORK.ORG
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,EPC.MNC092.MCC404.3GPPNETWORK.ORG
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,mme.epc.mnc002.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,epc1.mnc092.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,epc1.mnc090.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRACustomerRealmNameBeforeTranslation,epc2.mnc090.mcc404.3gppnetwork.org
+Bharti Airtel India,7013,DRAIMSIPrefix,40402
+Bharti Airtel India,7013,DRAIMSIPrefix,40410
+Bharti Airtel India,7013,DRAIMSIPrefix,40445
+Bharti Airtel India,7013,DRAIMSIPrefix,40440
+Bharti Airtel India,7013,DRAIMSIPrefix,40449
+Bharti Airtel India,7013,DRAIMSIPrefix,40494
+Bharti Airtel India,7013,DRAIMSIPrefix,40495
+Bharti Airtel India,7013,DRAIMSIPrefix,40431
+Bharti Airtel India,7013,DRAIMSIPrefix,40553
+Bharti Airtel India,7013,DRAIMSIPrefix,40490
+Bharti Airtel India,7013,DRAIMSIPrefix,40492
+Bharti Airtel India,7013,DRAIMSIPrefix,40470
+Bharti Airtel India,7013,DRAIMSIPrefix,40403
+Bharti Airtel India,7013,DRAIMSIPrefix,40496
+Bharti Airtel India,7013,DRAIMSIPrefix,40493
+Bharti Airtel India,7013,DRAIMSIPrefix,40554
+Bharti Airtel India,7013,DRAIMSIPrefix,40497
+Bharti Airtel India,7013,DRAIMSIPrefix,40555
+Bharti Airtel India,7013,DRAIMSIPrefix,40551
+Bharti Airtel India,7013,DRAIMSIPrefix,40556
+Bharti Airtel India,7013,DRAIMSIPrefix,40498
+Bharti Airtel India,7013,DRAIMSIPrefix,40416
+Bharti Airtel India,7013,DRAIMSIPrefix,40552
+MegaFon,6439,DRACustomerRealmName,epc.mnc002.mcc250.3gppnetwork.org
+MegaFon,6439,DRAIMSIPrefix,25002
+Zain Kuwait,7117,DRACustomerRealmName,epc.mnc002.mcc419.3gppnetwork.org
+Zain Kuwait,7117,DRAIMSIPrefix,41902
+ELISA EESTI AS,6930,DRACustomerRealmName,epc.mnc002.mcc248.3gppnetwork.org
+ELISA EESTI AS,6930,DRAIMSIPrefix,24802
+Manx Telecom,7330,DRACustomerRealmName,epc.mnc058.mcc234.3gppnetwork.org
+Manx Telecom,7330,DRAIMSIPrefix,23458
+Indosat - M3,6976,DRACustomerRealmName,epc.mnc001.mcc510.3gppnetwork.org
+Indosat - M3,6976,DRAIMSIPrefix,51001
+Orange Dominicana,7107,DRACustomerRealmName,epc.mnc001.mcc370.3gppnetwork.org
+Orange Dominicana,7107,DRAIMSIPrefix,37001
+Vodacom South Africa,6745,DRACustomerRealmName,epc.mnc001.mcc655.3gppnetwork.org
+Vodacom South Africa,6745,DRAIMSIPrefix,65501
+Telenor Serbia,7074,DRACustomerRealmName,epc.mnc001.mcc220.3gppnetwork.org
+Telenor Serbia,7074,DRAIMSIPrefix,22001
+Cyprus Telecommunications Auth,7351,DRACustomerRealmName,epc.mnc001.mcc280.3gppnetwork.org
+Cyprus Telecommunications Auth,7351,DRAIMSIPrefix,28001
+Jersey Telecom,6937,DRACustomerRealmName,epc.mnc050.mcc234.3gppnetwork.org
+Jersey Telecom,6937,DRAIMSIPrefix,23450
+Mobinil,7433,DRACustomerRealmName,epc.mnc001.mcc602.3gppnetwork.org
+Mobinil,7433,DRAIMSIPrefix,60201
+Maroc Telecom,7036,DRACustomerRealmName,epc.mnc001.mcc604.3gppnetwork.org
+Maroc Telecom,7036,DRAIMSIPrefix,60401
+Orange Romania,6732,DRACustomerRealmName,epc.mnc010.mcc226.3gppnetwork.org
+Orange Romania,6732,DRAIMSIPrefix,22610
+Hutchison 3G,7370,DRACustomerRealmName,epc.mnc099.mcc222.3gppnetwork.org
+Hutchison 3G,7370,DRAIMSIPrefix,22299
+Mobitel Sri Lanka,6910,DRACustomerRealmName,epc.mnc001.mcc413.3gppnetwork.org
+Mobitel Sri Lanka,6910,DRAIMSIPrefix,41301
+KT Corporation,6359,CustomerNodeRealm,dea1a.dea.epc.mnc008.mcc450.3gppnetwork.org
+KT Corporation,6359,DRACustomerRealmName,epc.mnc008.mcc450.3gppnetwork.org
+KT Corporation,6359,DRAIMSIPrefix,45008
+COSMOTE Mobile Telecommunications,6897,DRACustomerRealmName,epc.mnc001.mcc202.3gppnetwork.org
+COSMOTE Mobile Telecommunications,6897,DRAIMSIPrefix,20201
+Radiomovil (TELCEL),6818,DRACustomerRealmName,epc.mnc020.mcc334.3gppnetwork.org
+Radiomovil (TELCEL),6818,DRAIMSIPrefix,334020
+Telstra,6219,DRACustomerRealmName,epc.mnc001.mcc505.3gppnetwork.org
+Telstra,6219,DRAIMSIPrefix,50501
+AMX Argentina S.A.(Claro),7095,DRACustomerRealmName,epc.mnc310.mcc722.3gppnetwork.org
+AMX Argentina S.A.(Claro),7095,DRAIMSIPrefix,722310
+MTS Ukraine,12651,DRACustomerRealmName,epc.mnc001.mcc255.3gppnetwork.org
+MTS Ukraine,12651,DRAIMSIPrefix,25501
+Claro Brazil,6639,DRACustomerRealmName,epc.mnc005.mcc724.3gppnetwork.org
+Claro Brazil,6639,DRAIMSIPrefix,72405
+Ooredoo Kuwait,6866,DRACustomerRealmName,epc.mnc003.mcc419.3gppnetwork.org
+Ooredoo Kuwait,6866,DRAIMSIPrefix,41903
+MTN South Africa,6974,DRACustomerRealmName,epc.mnc010.mcc655.3gppnetwork.org
+MTN South Africa,6974,DRAIMSIPrefix,65510
+A1 Telekom Austria,6731,DRACustomerRealmName,epc.mnc001.mcc232.3gppnetwork.org
+A1 Telekom Austria,6731,DRAIMSIPrefix,23201
+Vodafone Iceland,7096,DRACustomerRealmName,epc.mnc002.mcc274.3gppnetwork.org
+Vodafone Iceland,7096,DRAIMSIPrefix,27402
+NTT DoCoMo,6514,DRACustomerRealmName,epc.mnc010.mcc440.3gppnetwork.org
+NTT DoCoMo,6514,DRAIMSIPrefix,44010
+TIM Brazil,6579,DRACustomerRealmName,epc.mnc002.mcc724.3gppnetwork.org
+TIM Brazil,6579,DRACustomerRealmName,epc.mnc003.mcc724.3gppnetwork.org
+TIM Brazil,6579,DRACustomerRealmName,epc.mnc004.mcc724.3gppnetwork.org
+TIM Brazil,6579,DRAIMSIPrefix,72402
+TIM Brazil,6579,DRAIMSIPrefix,72403
+TIM Brazil,6579,DRAIMSIPrefix,72404
+ENTEL PCS,7305,DRACustomerRealmName,epc.mnc001.mcc730.3gppnetwork.org
+ENTEL PCS,7305,DRAIMSIPrefix,73001
+Zain Bahrain,12496,DRACustomerRealmName,epc.mnc002.mcc426.3gppnetwork.org
+Zain Bahrain,12496,DRAIMSIPrefix,42602
+Batelco Bahrain,7304,DRACustomerRealmName,epc.mnc001.mcc426.3gppnetwork.org
+Batelco Bahrain,7304,DRAIMSIPrefix,42601
+DataStream Technology,6562,DRACustomerRealmName,epc.mnc011.mcc528.3gppnetwork.org
+DataStream Technology,6562,DRAIMSIPrefix,52811
+Telefonica Moviles Mexico,6623,DRACustomerRealmName,epc.mnc030.mcc334.3gppnetwork.org
+Telefonica Moviles Mexico,6623,DRACustomerRealmNameBeforeTranslation,TelefonicaMX.com
+Telefonica Moviles Mexico,6623,DRAIMSIPrefix,33430
+Vinaphone,7440,DRACustomerRealmName,epc.mnc002.mcc452.3gppnetwork.org
+Vinaphone,7440,DRAIMSIPrefix,45202
+Orange Luxembourg,6724,DRACustomerRealmName,epc.mnc099.mcc270.3gppnetwork.org
+Orange Luxembourg,6724,DRAIMSIPrefix,27099
+Mobitel Bulgaria,7340,DRACustomerRealmName,epc.mnc001.mcc284.3gppnetwork.org
+Mobitel Bulgaria,7340,DRAIMSIPrefix,28401
+Orange Jordan,7018,DRACustomerRealmName,epc.mnc077.mcc416.3gppnetwork.org
+Orange Jordan,7018,DRAIMSIPrefix,41677
+Telekom Srbija,7380,DRACustomerRealmName,epc.mnc003.mcc220.3gppnetwork.org
+Telekom Srbija,7380,DRAIMSIPrefix,22003
+Emtel Ltd,7105,DRACustomerRealmName,epc.mnc010.mcc617.3gppnetwork.org
+Emtel Ltd,7105,DRAIMSIPrefix,61710
+Sure Gurnsey,7321,DRACustomerRealmName,epc.mnc055.mcc234.3gppnetwork.org
+Sure Gurnsey,7321,DRAIMSIPrefix,23455
+Telecom Personal SA,7020,DRACustomerRealmName,epc.mnc034.mcc722.3gppnetwork.org
+Telecom Personal SA,7020,DRAIMSIPrefix,72234
+Cable and Wireless Panama,7499,DRACustomerRealmName,epc.mnc001.mcc714.3gppnetwork.org
+Cable and Wireless Panama,7499,DRAIMSIPrefix,71401
+Hong Kong Telecommunications (HKT) Limited 3G,6357,DRACustomerRealmName,epc.mnc019.mcc454.3gppnetwork.org
+Hong Kong Telecommunications (HKT) Limited 3G,6357,DRACustomerRealmName,epc.mnc000.mcc454.3gppnetwork.org
+Hong Kong Telecommunications (HKT) Limited 3G,6357,DRAIMSIPrefix,45419
+Hong Kong Telecommunications (HKT) Limited 3G,6357,DRAIMSIPrefix,45400
+Excelcomindo,6467,DRACustomerRealmName,epc.mnc011.mcc510.3gppnetwork.org
+Excelcomindo,6467,DRAIMSIPrefix,51011
+Telenor Montenegro,6968,DRACustomerRealmName,epc.mnc001.mcc297.3gppnetwork.org
+Telenor Montenegro,6968,DRAIMSIPrefix,29701
+Telenor Pakistan,12515,DRACustomerRealmName,epc.mnc006.mcc410.3gppnetwork.org
+Telenor Pakistan,12515,DRAIMSIPrefix,41006
+Gibtel,7400,DRACustomerRealmName,epc.mnc001.mcc266.3gppnetwork.org
+Gibtel,7400,DRAIMSIPrefix,26601
+Telecom Liechtenstein,7267,DRACustomerRealmName,epc.mnc005.mcc295.3gppnetwork.org
+Telecom Liechtenstein,7267,DRAIMSIPrefix,29505
+Orange Liechtenstein,12762,DRACustomerRealmName,epc.mnc002.mcc295.3gppnetwork.org
+Orange Liechtenstein,12762,DRAIMSIPrefix,29502
+Orange (Antaris SMM),7405,DRACustomerRealmName,epc.mnc002.mcc646.3gppnetwork.org
+Orange (Antaris SMM),7405,DRAIMSIPrefix,64602
+Celtel Malawi,12730,DRACustomerRealmName,epc.mnc010.mcc650.3gppnetwork.org 
+Celtel Malawi,12730,DRAIMSIPrefix,65010
+Oman Mobile,6722,DRACustomerRealmName,epc.mnc002.mcc422.3gppnetwork.org
+Oman Mobile,6722,DRAIMSIPrefix,42202
+Digicel Jamaica,6659,DRACustomerRealmName,epc.mnc050.mcc338.3gppnetwork.org
+Digicel Jamaica,6659,DRAIMSIPrefix,338050
+Digicel Jamaica,6659,DRAIMSIPrefix,348770
+Tango Luxembourg,6715,DRACustomerRealmName,epc.mnc077.mcc270.3gppnetwork.org
+Tango Luxembourg,6715,DRAIMSIPrefix,27077
+Grameen Phone,12564,DRACustomerRealmName,epc.mnc001.mcc470.3gppnetwork.org
+Grameen Phone,12564,DRAIMSIPrefix,47001
+Vodafone Czech,6801,DRACustomerRealmName,epc.mnc003.mcc230.3gppnetwork.org
+Vodafone Czech,6801,DRAIMSIPrefix,23003
+Hutchison 3G Denmark,7126,DRACustomerRealmName,epc.mnc006.mcc238.3gppnetwork.org
+Hutchison 3G Denmark,7126,DRAIMSIPrefix,23806
+Spark New Zealand Trading Limited,6613,DRACustomerRealmName,epc.mnc005.mcc530.3gppnetwork.org
+Spark New Zealand Trading Limited,6613,DRAIMSIPrefix,53005
+Colombia Movil,6714,DRACustomerRealmName,"epc.mnc103.mcc732.3gppnetwork.org,epc.mnc111.mcc732.3gppnetwork.org"
+Colombia Movil,6714,DRAIMSIPrefix,732103
+Colombia Movil,6714,DRAIMSIPrefix,732111
+Faroese Telecom,7477,DRACustomerRealmName,epc.mnc001.mcc288.3gppnetwork.org
+Faroese Telecom,7477,DRAIMSIPrefix,28801
+Conecel,7348,DRACustomerRealmName,epc.mnc001.mcc740.3gppnetwork.org
+Conecel,7348,DRAIMSIPrefix,74001
+Azercell,7465,DRACustomerRealmName,epc.mnc001.mcc400.3gppnetwork.org
+Azercell,7465,DRAIMSIPrefix,40006
+Azercell,7465,DRAIMSIPrefix,40001
+Taiwan Star,6668,DRACustomerRealmName,epc.mnc089.mcc466.3gppnetwork.org
+Taiwan Star,6668,DRAIMSIPrefix,46689
+MagtiCom,7358,DRACustomerRealmName,epc.mnc002.mcc282.3gppnetwork.org
+MagtiCom,7358,DRAIMSIPrefix,28202
+CamGSM,7397,DRACustomerRealmName,epc.mnc001.mcc456.3gppnetwork.org
+CamGSM,7397,DRAIMSIPrefix,45601
+Tele2 Netherlands,12606,DRACustomerRealmName,epc.mnc002.mcc204.3gppnetwork.org
+Tele2 Netherlands,12606,DRAIMSIPrefix,20402
+Meditel,6949,DRACustomerRealmName,epc.mnc000.mcc604.3gppnetwork.org
+Meditel,6949,DRAIMSIPrefix,60400
+Tele2 Russia,7429,DRACustomerRealmName,epc.mnc020.mcc250.3gppnetwork.org
+Tele2 Russia,7429,DRAIMSIPrefix,25020
+Tele2 Latvia,6972,DRACustomerRealmName,epc.mnc002.mcc247.3gppnetwork.org
+Tele2 Latvia,6972,DRAIMSIPrefix,24702
+Tele2 Estonia,6971,DRACustomerRealmName,epc.mnc003.mcc248.3gppnetwork.org
+Tele2 Estonia,6971,DRAIMSIPrefix,24803
+Tele2 Lithuania,6973,DRACustomerRealmName,epc.mnc003.mcc246.3gppnetwork.org
+Tele2 Lithuania,6973,DRAIMSIPrefix,24603
+Tele2 Croatia,6978,DRACustomerRealmName,epc.mnc002.mcc219.3gppnetwork.org
+Tele2 Croatia,6978,DRAIMSIPrefix,21902
+MOLDCELL,12558,DRACustomerRealmName,epc.mnc002.mcc259.3gppnetwork.org
+MOLDCELL,12558,DRAIMSIPrefix,25902
+Viaero Wireless,7299,DRACustomerRealmName,epc.mnc450.mcc310.3gppnetwork.org
+Viaero Wireless,7299,DRAIMSIPrefix,310450
+"Compania Dominicana De Telefonos,S.A.",6912,DRACustomerRealmName,epc.mnc002.mcc370.3gppnetwork.org
+"Compania Dominicana De Telefonos,S.A.",6912,DRAIMSIPrefix,37002
+Sprint PCS,6966,DRACustomerRealmName,epc.mnc120.mcc310.3gppnetwork.org
+Sprint PCS,6966,DRACustomerRealmNameBeforeTranslation,lte.sprint.com
+Sprint PCS,6966,DRAIMSIPrefix,310120
+Verizon Wireless,6538,DRACustomerRealmName,epc.mnc480.mcc311.3gppnetwork.org
+Verizon Wireless,6538,DRACustomerRealmName,epc.mnc270.mcc311.3gppnetwork.org
+Verizon Wireless,6538,DRAIMSIPrefix,311480
+Verizon Wireless,6538,DRAIMSIPrefix,311270
+Cubacel,7483,DRACustomerRealmName,epc.mnc001.mcc368.3gppnetwork.org
+Cubacel,7483,DRAIMSIPrefix,36801
+Hola,12591,DRACustomerRealmName,epc.mnc001.mcc744.3gppnetwork.org
+Hola,12591,DRAIMSIPrefix,74401
+Slovak Telecom,7062,DRACustomerRealmName,epc.mnc002.mcc231.3gppnetwork.org
+Slovak Telecom,7062,DRAIMSIPrefix,23102
+Mobily (Etihad Etisalat),6489,DRACustomerRealmName,epc.mnc003.mcc420.3gppnetwork.org
+Mobily (Etihad Etisalat),6489,DRAIMSIPrefix,42003
+STC,6803,DRACustomerRealmName,epc.mnc001.mcc420.3gppnetwork.org
+STC,6803,DRAIMSIPrefix,42001
+Telenor Bulgaria,7285,DRACustomerRealmName,epc.mnc005.mcc284.3gppnetwork.org
+Telenor Bulgaria,7285,DRAIMSIPrefix,28405
+Ooredoo Qatar,6792,DRACustomerRealmName,epc.mnc001.mcc427.3gppnetwork.org
+Ooredoo Qatar,6792,DRAIMSIPrefix,42701
+Tunisiana,7315,DRACustomerRealmName,epc.mnc003.mcc605.3gppnetwork.org
+Tunisiana,7315,DRAIMSIPrefix,60503
+LG U Plus,6188,DRACustomerRealmName,epc.mnc006.mcc450.3gppnetwork.org
+LG U Plus,6188,DRAIMSIPrefix,45006
+Safaricom,7040,DRACustomerRealmName,epc.mnc002.mcc639.3gppnetwork.org
+Safaricom,7040,DRAIMSIPrefix,63902
+Hutchison Indonesia,7470,DRACustomerRealmName,epc.mnc089.mcc510.3gppnetwork.org
+Hutchison Indonesia,7470,DRAIMSIPrefix,51089
+Geocell,7412,DRACustomerRealmName,epc.mnc001.mcc282.3gppnetwork.org
+Geocell,7412,DRAIMSIPrefix,28201
+Antel,6624,CustomerNodeRealm,test.grx
+Antel,6624,DRACustomerRealmName,epc.mnc001.mcc748.3gppnetwork.org
+Antel,6624,DRACustomerRealmNameBeforeTranslation,antel.com.uy
+Antel,6624,DRACustomerRealmNameBeforeTranslation,antel.lte.com
+Antel,6624,DRAIMSIPrefix,74801
+KDDI,6118,CustomerNodeRealm,tdea.epc.mnc050.mcc440.3gppnetwork.org
+KDDI,6118,DRACustomerRealmName,epc.mnc050.mcc440.3gppnetwork.org
+KDDI,6118,DRACustomerRealmName,epc.mnc051.mcc440.3gppnetwork.org
+KDDI,6118,DRAIMSIPrefix,44050
+KDDI,6118,DRAIMSIPrefix,44051
+Mobifone (VMS),12486,DRACustomerRealmName,epc.mnc001.mcc452.3gppnetwork.org
+Mobifone (VMS),12486,DRAIMSIPrefix,45201
+Viettel Group,7325,DRACustomerRealmName,epc.mnc004.mcc452.3gppnetwork.org
+Viettel Group,7325,DRAIMSIPrefix,45204
+Umniah,7275,DRACustomerRealmName,epc.mnc003.mcc416.3gppnetwork.org
+Umniah,7275,DRAIMSIPrefix,41603
+Djezzy Algeria,7435,DRACustomerRealmName,epc.mnc002.mcc603.3gppnetwork.org
+Djezzy Algeria,7435,DRAIMSIPrefix,60302
+Vodafone Albania,6958,DRACustomerRealmName,epc.mnc002.mcc276.3gppnetwork.org
+Vodafone Albania,6958,DRAIMSIPrefix,27602
+SkyTel Mongolia,12739,DRACustomerRealmName,epc.mnc001.mcc428.3gppnetwork.org
+SkyTel Mongolia,12739,DRAIMSIPrefix,42801
+MobiCom Corporation,7383,DRACustomerRealmName,epc.mnc099.mcc428.3gppnetwork.org
+MobiCom Corporation,7383,DRAIMSIPrefix,42899
+Orange Moldova,6825,DRACustomerRealmName,epc.mnc001.mcc259.3gppnetwork.org
+Orange Moldova,6825,DRAIMSIPrefix,25901
+Three Ireland,7346,DRACustomerRealmName,epc.mnc005.mcc272.3gppnetwork.org
+Three Ireland,7346,DRACustomerRealmName,epc.mnc002.mcc272.3gppnetwork.org
+Three Ireland,7346,DRAIMSIPrefix,27205
+Three Ireland,7346,DRAIMSIPrefix,27202
+U.S. Cellular,7311,DRACustomerRealmName,epc.mnc580.mcc311.3gppnetwork.org
+U.S. Cellular,7311,DRAIMSIPrefix,311580
+Meteor Mobile Telecommunications Limited,7046,DRACustomerRealmName,epc.mnc003.mcc272.3gppnetwork.org
+Meteor Mobile Telecommunications Limited,7046,DRAIMSIPrefix,27203
+MTN Cyprus,7402,DRACustomerRealmName,epc.mnc010.mcc280.3gppnetwork.org
+MTN Cyprus,7402,DRAIMSIPrefix,28010
+IDEA,7264,DRACustomerRealmName,epc.mnc056.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc007.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc024.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc012.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc019.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc078.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc022.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc852.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc850.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc044.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc014.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc849.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc848.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc004.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc070.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc082.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc087.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc089.mcc404.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc799.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc845.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc846.mcc405.3gppnetwork.org
+IDEA,7264,DRACustomerRealmName,epc.mnc853.mcc405.3gppnetwork.org
+IDEA,7264,DRAIMSIPrefix,40456
+IDEA,7264,DRAIMSIPrefix,40407
+IDEA,7264,DRAIMSIPrefix,40424
+IDEA,7264,DRAIMSIPrefix,40412
+IDEA,7264,DRAIMSIPrefix,40419
+IDEA,7264,DRAIMSIPrefix,40478
+IDEA,7264,DRAIMSIPrefix,40422
+IDEA,7264,DRAIMSIPrefix,405852
+IDEA,7264,DRAIMSIPrefix,405850
+IDEA,7264,DRAIMSIPrefix,40444
+IDEA,7264,DRAIMSIPrefix,40414
+IDEA,7264,DRAIMSIPrefix,405849
+IDEA,7264,DRAIMSIPrefix,40404
+IDEA,7264,DRAIMSIPrefix,40570
+IDEA,7264,DRAIMSIPrefix,40482
+IDEA,7264,DRAIMSIPrefix,40487
+IDEA,7264,DRAIMSIPrefix,40489
+IDEA,7264,DRAIMSIPrefix,405799
+IDEA,7264,DRAIMSIPrefix,405845
+IDEA,7264,DRAIMSIPrefix,405846
+IDEA,7264,DRAIMSIPrefix,405848
+IDEA,7264,DRAIMSIPrefix,405853
+Telemach Mobil,7338,DRACustomerRealmName,epc.mnc070.mcc293.3gppnetwork.org
+Telemach Mobil,7338,DRAIMSIPrefix,29370
+Digicel Trinidad and Tobago,12756,DRACustomerRealmName,epc.mnc130.mcc374.3gppnetwork.org
+Digicel Trinidad and Tobago,12756,DRAIMSIPrefix,374130
+O2 Slovakia,7064,DRACustomerRealmName,epc.mnc006.mcc231.3gppnetwork.org
+O2 Slovakia,7064,DRAIMSIPrefix,23106
+Bell Mobility,6566,DRACustomerRealmName,epc.mnc610.mcc302.3gppnetwork.org
+Bell Mobility,6566,DRACustomerRealmName,epc.mnc690.mcc302.3gppnetwork.org
+Bell Mobility,6566,DRAIMSIPrefix,302610
+Bell Mobility,6566,DRAIMSIPrefix,302690
+Telus Mobility,6121,DRACustomerRealmName,epc.mnc220.mcc302.3gppnetwork.org
+Telus Mobility,6121,DRACustomerRealmName,epc.mnc760.mcc302.3gppnetwork.org
+Telus Mobility,6121,DRAIMSIPrefix,302220
+Telus Mobility,6121,DRAIMSIPrefix,302760
+Iusacell,7031,DRACustomerRealmName,epc.mnc050.mcc334.3gppnetwork.org
+Iusacell,7031,DRACustomerRealmName,epc.mnc044.mcc901.3gppnetwork.org
+Iusacell,7031,DRACustomerRealmName,epc.mnc070.mcc334.3gppnetwork.org
+Iusacell,7031,DRAIMSIPrefix,334050
+Iusacell,7031,DRAIMSIPrefix,901044
+Iusacell,7031,DRAIMSIPrefix,334070
+Vodafone Spain MVNO,7416,DRACustomerRealmName,epc.mnc006.mcc214.3gppnetwork.org
+Vodafone Spain MVNO,7416,DRAIMSIPrefix,21406
+Warid Telecom Pakistan,7100,DRACustomerRealmName,epc.mnc007.mcc410.3gppnetwork.org
+Warid Telecom Pakistan,7100,DRACustomerRealmName,epc.mnc001.mcc410.3gppnetwork.org
+Warid Telecom Pakistan,7100,DRAIMSIPrefix,41007
+Warid Telecom Pakistan,7100,DRAIMSIPrefix,41001
+Pelephone Israel,6935,DRACustomerRealmName,epc.mnc003.mcc425.3gppnetwork.org
+Pelephone Israel,6935,DRAIMSIPrefix,42503
+CELLPLUS MAURITIUS,6952,DRACustomerRealmName,epc.mnc001.mcc617.3gppnetwork.org
+CELLPLUS MAURITIUS,6952,DRAIMSIPrefix,61701
+Play Mobile,6950,DRACustomerRealmName,epc.mnc006.mcc260.3gppnetwork.org
+Play Mobile,6950,DRAIMSIPrefix,26006
+Unitel Mongolia,7329,DRACustomerRealmName,epc.mnc088.mcc428.3gppnetwork.org
+Unitel Mongolia,7329,DRAIMSIPrefix,42888
+Velcom Belarus,12604,DRACustomerRealmName,epc.mnc001.mcc257.3gppnetwork.org
+Velcom Belarus,12604,DRAIMSIPrefix,25701
+Life Ukraine,7308,DRACustomerRealmName,epc.mnc006.mcc255.3gppnetwork.org
+Life Ukraine,7308,DRAIMSIPrefix,25506
+Jersey Airtel,7049,DRACustomerRealmName,epc.mnc003.mcc234.3gppnetwork.org
+Jersey Airtel,7049,DRAIMSIPrefix,23403
+Pulse Mobile Guam,7445,DRACustomerRealmName,epc.mnc140.mcc310.3gppnetwork.org
+Pulse Mobile Guam,7445,DRAIMSIPrefix,310140
+Union Telephone,12637,DRACustomerRealmName,epc.mnc020.mcc310.3gppnetwork.org
+Union Telephone,12637,DRAIMSIPrefix,310020
+Wataniya Algeria,7495,DRACustomerRealmName,epc.mnc003.mcc603.3gppnetwork.org
+Wataniya Algeria,7495,DRAIMSIPrefix,60303
+Telekom Romania Mobile Communications S.A.,7097,DRACustomerRealmName,epc.mnc003.mcc226.3gppnetwork.org
+Telekom Romania Mobile Communications S.A.,7097,DRAIMSIPrefix,22603
+Vodacom Tanzania,7350,DRACustomerRealmName,epc.mnc004.mcc640.3gppnetwork.org
+Vodacom Tanzania,7350,DRAIMSIPrefix,64004
+VIPNet,6832,DRACustomerRealmName,epc.mnc010.mcc219.3gppnetwork.org
+VIPNet,6832,DRAIMSIPrefix,21910
+Oi Movel SA,6594,DRACustomerRealmName,epc.mnc031.mcc724.3gppnetwork.org
+Oi Movel SA,6594,DRAIMSIPrefix,72431
+STA Andorra,7476,DRACustomerRealmName,epc.mnc003.mcc213.3gppnetwork.org
+STA Andorra,7476,DRAIMSIPrefix,21303
+SETAR,7318,DRACustomerRealmName,epc.mnc001.mcc363.3gppnetwork.org
+SETAR,7318,DRAIMSIPrefix,36301
+Ekaterinburg-2000,12630,DRACustomerRealmName,epc.mnc035.mcc250.3gppnetwork.org
+Ekaterinburg-2000,12630,DRAIMSIPrefix,25035
+TSTT,12748,DRACustomerRealmName,epc.mnc012.mcc374.3gppnetwork.org
+TSTT,12748,DRAIMSIPrefix,37412
+MT Vala Kosovo,7421,DRACustomerRealmName,epc.mnc001.mcc212.3gppnetwork.org
+MT Vala Kosovo,7421,DRAIMSIPrefix,21201
+Telefonica Argentina,7044,DRACustomerRealmName,epc.mnc007.mcc722.3gppnetwork.org
+Telefonica Argentina,7044,DRAIMSIPrefix,72207
+MCP,7497,DRACustomerRealmName,epc.mnc012.mcc901.3gppnetwork.org
+MCP,7497,DRAIMSIPrefix,90112
+Wataniya Maldives,7261,DRACustomerRealmName,epc.mnc002.mcc472.3gppnetwork.org
+Wataniya Maldives,7261,DRAIMSIPrefix,47202
+Ooredoo OMN,6619,DRACustomerRealmName,epc.mnc003.mcc422.3gppnetwork.org
+Ooredoo OMN,6619,DRAIMSIPrefix,42203
+BMobile Limited,12746,DRACustomerRealmName,epc.mnc001.mcc537.3gppnetwork.org
+BMobile Limited,12746,DRAIMSIPrefix,53701
+BTC Bulgaria,7298,DRACustomerRealmName,epc.mnc003.mcc284.3gppnetwork.org
+BTC Bulgaria,7298,DRAIMSIPrefix,28403
+Jasper Wireless,6977,DRACustomerRealmName,epc.mnc170.mcc310.3gppnetwork.org
+Jasper Wireless,6977,DRACustomerRealmName,epc.mnc150.mcc310.3gppnetwork.org
+Jasper Wireless,6977,DRACustomerRealmName,epc.mnc016.mcc901.3gppnetwork.org
+Jasper Wireless,6977,DRAIMSIPrefix,310150
+Jasper Wireless,6977,DRAIMSIPrefix,310170
+Jasper Wireless,6977,DRAIMSIPrefix,901016
+SONATEL,7493,DRACustomerRealmName,epc.mnc001.mcc608.3gppnetwork.org
+SONATEL,7493,DRAIMSIPrefix,60801
+Vodafone Ghana,7479,DRAIMSIPrefix,62002
+Cable and Wireless Seychelles,7076,DRACustomerRealmName,epc.mnc001.mcc633.3gppnetwork.org
+Cable and Wireless Seychelles,7076,DRAIMSIPrefix,63301
+Orange Cameroon,7420,DRACustomerRealmName,epc.mnc002.mcc624.3gppnetwork.org
+Orange Cameroon,7420,DRAIMSIPrefix,62402
+MTN Nigeria,12597,DRACustomerRealmName,epc.mnc030.mcc621.3gppnetwork.org
+MTN Nigeria,12597,DRAIMSIPrefix,62130
+Robi Axiata,12553,DRACustomerRealmName,epc.mnc002.mcc470.3gppnetwork.org
+Robi Axiata,12553,DRACustomerRealmName,epc.mnc007.mcc470.3gppnetwork.org
+Robi Axiata,12553,DRAIMSIPrefix,47002
+Robi Axiata,12553,DRAIMSIPrefix,47007
+MOBILIS,7426,DRACustomerRealmName,epc.mnc001.mcc603.3gppnetwork.org
+MOBILIS,7426,DRAIMSIPrefix,60301
+Telecel Paraguay,7343,DRACustomerRealmName,epc.mnc004.mcc744.3gppnetwork.org
+Telecel Paraguay,7343,DRAIMSIPrefix,74404
+ETISALAT Egypt,7411,DRACustomerRealmName,epc.mnc003.mcc602.3gppnetwork.org
+ETISALAT Egypt,7411,DRAIMSIPrefix,60203
+MTS Belarus,7359,DRACustomerRealmName,epc.mnc002.mcc257.3gppnetwork.org
+MTS Belarus,7359,DRAIMSIPrefix,25702
+Du,6795,DRACustomerRealmName,epc.mnc003.mcc424.3gppnetwork.org
+Du,6795,DRAIMSIPrefix,42403
+Docomo Pacific,6561,DRACustomerRealmName,epc.mnc470.mcc310.3gppnetwork.org
+Docomo Pacific,6561,DRACustomerRealmName,epc.mnc370.mcc310.3gppnetwork.org
+Docomo Pacific,6561,DRAIMSIPrefix,310470
+Docomo Pacific,6561,DRAIMSIPrefix,310370
+Comcel Colombia (Claro),6980,DRACustomerRealmName,epc.mnc101.mcc732.3gppnetwork.org
+Comcel Colombia (Claro),6980,DRAIMSIPrefix,732101
+Xfera,6896,DRACustomerRealmName,epc.mnc004.mcc214.3gppnetwork.org
+Xfera,6896,DRAIMSIPrefix,21404
+Orange Ivory Coast,7431,DRACustomerRealmName,epc.mnc003.mcc612.3gppnetwork.org
+Orange Ivory Coast,7431,DRAIMSIPrefix,61203
+BITE Latvia,7092,DRACustomerRealmName,epc.mnc005.mcc247.3gppnetwork.org
+BITE Latvia,7092,DRAIMSIPrefix,24705
+Tunisie Telecom,7314,DRACustomerRealmName,epc.mnc002.mcc605.3gppnetwork.org
+Tunisie Telecom,7314,DRAIMSIPrefix,60502
+SamoaTel Samoa,12532,DRACustomerRealmName,epc.mnc027.mcc549.3gppnetwork.org
+SamoaTel Samoa,12532,DRACustomerRealmName,epc.mnc110.mcc544.3gppnetwork.org 
+SamoaTel Samoa,12532,DRAIMSIPrefix,54927
+SamoaTel Samoa,12532,DRAIMSIPrefix,544110
+Vivo,6363,DRACustomerRealmName,EPC.MNC006.MCC724.3GPPNETWORK.ORG
+Vivo,6363,DRACustomerRealmName,EPC.MNC010.MCC724.3GPPNETWORK.ORG
+Vivo,6363,DRACustomerRealmName,EPC.MNC011.MCC724.3GPPNETWORK.ORG
+Vivo,6363,DRACustomerRealmName,EPC.MNC023.MCC724.3GPPNETWORK.ORG
+Vivo,6363,DRAIMSIPrefix,72406
+Vivo,6363,DRAIMSIPrefix,72410
+Vivo,6363,DRAIMSIPrefix,72411
+Vivo,6363,DRAIMSIPrefix,72423
+Nucleo,12492,DRACustomerRealmName,epc.mnc005.mcc744.3gppnetwork.org
+Nucleo,12492,DRAIMSIPrefix,74405
+Orange Reunion,12512,DRACustomerRealmName,epc.mnc000.mcc647.3gppnetwork.org
+Orange Reunion,12512,DRAIMSIPrefix,64700
+Vodafone Fiji,6796,DRACustomerRealmName,epc.mnc001.mcc542.3gppnetwork.org
+Vodafone Fiji,6796,DRAIMSIPrefix,54201
+Airtel Nigeria,12663,DRACustomerRealmName,epc.mnc020.mcc621.3gppnetwork.org
+Airtel Nigeria,12663,DRAIMSIPrefix,62120
+Entel,12578,DRACustomerRealmName,epc.mnc002.mcc736.3gppnetwork.org
+Entel,12578,DRAIMSIPrefix,73602
+Orange Mali,7428,DRACustomerRealmName,epc.mnc002.mcc610.3gppnetwork.org
+Orange Mali,7428,DRAIMSIPrefix,61002
+Lycamobile Sweden,7368,DRACustomerRealmName,epc.mnc012.mcc240.3gppnetwork.org
+Lycamobile Sweden,7368,DRAIMSIPrefix,24012
+Com4,7443,DRACustomerRealmName,epc.mnc009.mcc242.3gppnetwork.org
+Com4,7443,DRAIMSIPrefix,24209
+Airtel Networks Kenya,12621,DRACustomerRealmName,epc.mnc003.mcc639.3gppnetwork.org
+Airtel Networks Kenya,12621,DRAIMSIPrefix,63903
+Airtel Networks Kenya,12621,DRAIMSIPrefix,63905
+Enitel,7353,DRACustomerRealmName,epc.mnc021.mcc710.3gppnetwork.org
+Enitel,7353,DRAIMSIPrefix,71021
+Cell C,12749,DRACustomerRealmName,epc.mnc007.mcc655.3gppnetwork.org
+Cell C,12749,DRAIMSIPrefix,65507
+Digicel FWI,12652,DRACustomerRealmName,epc.mnc020.mcc340.3gppnetwork.org
+Digicel FWI,12652,DRAIMSIPrefix,34020
+Belize Telecom,7403,DRACustomerRealmName,epc.mnc067.mcc702.3gppnetwork.org
+Belize Telecom,7403,DRAIMSIPrefix,70267
+Tigo Guatemala,12534,DRACustomerRealmName,epc.mnc002.mcc704.3gppnetwork.org
+Tigo Guatemala,12534,DRAIMSIPrefix,70402
+Beeline(Unitel) Uzbekistan,7439,DRACustomerRealmName,epc.mnc004.mcc434.3gppnetwork.org
+Beeline(Unitel) Uzbekistan,7439,DRAIMSIPrefix,43404
+MOLDTELECOM Moldova,7419,DRACustomerRealmName,epc.mnc005.mcc259.3gppnetwork.org
+MOLDTELECOM Moldova,7419,DRAIMSIPrefix,25905
+Telecom Vanuatu,12636,DRACustomerRealmName,epc.mnc001.mcc541.3gppnetwork.org
+Telecom Vanuatu,12636,DRAIMSIPrefix,54101
+Banglalink,12607,DRACustomerRealmName,epc.mnc003.mcc470.3gppnetwork.org
+Banglalink,12607,DRAIMSIPrefix,47003
+Claro Honduras,7273,DRACustomerRealmName,epc.mnc001.mcc708.3gppnetwork.org
+Claro Honduras,7273,DRAIMSIPrefix,708001
+Kcell,7415,DRACustomerRealmName,epc.mnc002.mcc401.3gppnetwork.org
+Kcell,7415,DRAIMSIPrefix,40102
+K-Mobile-GSM Mobile network Kazakhstan,7384,DRACustomerRealmName,epc.mnc001.mcc401.3gppnetwork.org
+K-Mobile-GSM Mobile network Kazakhstan,7384,DRAIMSIPrefix,40101
+Mobile Telecom Service Kazakhstan,7444,DRACustomerRealmName,epc.mnc077.mcc401.3gppnetwork.org
+Mobile Telecom Service Kazakhstan,7444,DRAIMSIPrefix,40177
+Altel-Mobile network Kazakhstan,6311,DRACustomerRealmName,epc.mnc007.mcc401.3gppnetwork.org
+Altel-Mobile network Kazakhstan,6311,DRAIMSIPrefix,40107
+K-Telecom,6975,DRACustomerRealmName,epc.mnc005.mcc283.3gppnetwork.org
+K-Telecom,6975,DRAIMSIPrefix,28305
+Cmpak Pakistan,12527,DRACustomerRealmName,epc.mnc004.mcc410.3gppnetwork.org
+Cmpak Pakistan,12527,DRAIMSIPrefix,41004
+Claro Peru,6811,DRACustomerRealmName,epc.mnc010.mcc716.3gppnetwork.org
+Claro Peru,6811,DRAIMSIPrefix,71610
+Airtel Chad,12626,DRACustomerRealmName,epc.mnc001.mcc622.3gppnetwork.org
+Airtel Chad,12626,DRAIMSIPrefix,62201
+Celtel Gabon,12731,DRACustomerRealmName,epc.mnc003.mcc628.3gppnetwork.org
+Celtel Gabon,12731,DRAIMSIPrefix,62803
+Libertis Telecom,7491,DRACustomerRealmName,epc.mnc001.mcc628.3gppnetwork.org
+Libertis Telecom,7491,DRAIMSIPrefix,62801
+Telecel Gabon,12732,DRACustomerRealmName,epc.mnc002.mcc628.3gppnetwork.org
+Telecel Gabon,12732,DRAIMSIPrefix,62802
+MTN Bissau,12657,DRACustomerRealmName,epc.mnc002.mcc632.3gppnetwork.org
+MTN Bissau,12657,DRAIMSIPrefix,63202
+MTN Sudan,12757,DRACustomerRealmName,epc.mnc002.mcc634.3gppnetwork.org
+MTN Sudan,12757,DRAIMSIPrefix,63402
+MTS Russia,6125,DRACustomerRealmName,epc.mnc001.mcc250.3gppnetwork.org
+MTS Russia,6125,DRAIMSIPrefix,25001
+AMC,7029,DRACustomerRealmName,epc.mnc001.mcc276.3gppnetwork.org
+AMC,7029,DRAIMSIPrefix,27601
+Sky Mobile,7442,DRACustomerRealmName,epc.mnc001.mcc437.3gppnetwork.org
+Sky Mobile,7442,DRAIMSIPrefix,43701
+Orange Botswana,7394,DRACustomerRealmName,epc.mnc002.mcc652.3gppnetwork.org
+Orange Botswana,7394,DRAIMSIPrefix,65202
+MTN Iran,7296,DRACustomerRealmName,epc.mnc035.mcc432.3gppnetwork.org
+MTN Iran,7296,DRAIMSIPrefix,43235
+MTS Uzbekistan,12487,DRACustomerRealmName,epc.mnc007.mcc434.3gppnetwork.org
+MTS Uzbekistan,12487,DRAIMSIPrefix,43407
+Nova,7262,DRACustomerRealmName,epc.mnc011.mcc274.3gppnetwork.org
+Nova,7262,DRAIMSIPrefix,27411
+VIP Serbia,7039,DRACustomerRealmName,epc.mnc005.mcc220.3gppnetwork.org
+VIP Serbia,7039,DRAIMSIPrefix,22005
+MTN Cameroon,7490,DRACustomerRealmName,epc.mnc001.mcc624.3gppnetwork.org
+MTN Cameroon,7490,DRAIMSIPrefix,62401
+Asia Pacific Telecom,6829,DRACustomerRealmName,epc.mnc005.mcc466.3gppnetwork.org
+Asia Pacific Telecom,6829,DRAIMSIPrefix,46605
+INSTITUTO COSTARRICENSE DE ELECTRICIDAD,7352,DRACustomerRealmName,epc.mnc001.mcc712.3gppnetwork.org
+INSTITUTO COSTARRICENSE DE ELECTRICIDAD,7352,DRAIMSIPrefix,71201
+Nextel Mexico,6982,DRACustomerRealmName,epc.mnc090.mcc334.3gppnetwork.org
+Nextel Mexico,6982,DRAIMSIPrefix,334090
+U Mobile,7019,CustomerNodeRealm,mnc018.mcc502.3gppnetwork.org
+U Mobile,7019,DRACustomerRealmName,epc.mnc018.mcc502.3gppnetwork.org
+U Mobile,7019,DRAIMSIPrefix,50218
+Telefonica Colombia (Movistar),6621,DRACustomerRealmName,epc.mnc123.mcc732.3gppnetwork.org
+Telefonica Colombia (Movistar),6621,DRAIMSIPrefix,732123
+Mtel Montenegro,7316,DRACustomerRealmName,epc.mnc003.mcc297.3gppnetwork.org
+Mtel Montenegro,7316,DRAIMSIPrefix,29703
+Telma Mobile,7389,DRACustomerRealmName,epc.mnc004.mcc646.3gppnetwork.org
+Telma Mobile,7389,DRAIMSIPrefix,64604
+Telefonica Moviles Ecuador,7050,DRACustomerRealmName,epc.mnc000.mcc740.3gppnetwork.org
+Telefonica Moviles Ecuador,7050,DRAIMSIPrefix,74000
+Telefonica Moviles Guatemala,7066,DRACustomerRealmName,epc.mnc003.mcc704.3gppnetwork.org
+Telefonica Moviles Guatemala,7066,DRAIMSIPrefix,70403
+Telefonica Moviles EL Salvador,7399,DRACustomerRealmName,epc.mnc004.mcc706.3gppnetwork.org
+Telefonica Moviles EL Salvador,7399,DRAIMSIPrefix,70604
+Telefonica Moviles Peru,7011,DRACustomerRealmName,epc.mnc006.mcc716.3gppnetwork.org
+Telefonica Moviles Peru,7011,DRAIMSIPrefix,71606
+Albtelecom,7087,CustomerNodeRealm,albtelecom.com
+Albtelecom,7087,DRACustomerRealmName,epc.mnc003.mcc276.3gppnetwork.org
+Albtelecom,7087,DRAIMSIPrefix,27603
+IT&E,7032,DRACustomerRealmName,epc.mnc110.mcc310.3gppnetwork.org
+IT&E,7032,DRAIMSIPrefix,310110
+Zain Saudi Arabia,6618,CustomerNodeRealm,dra.mnc004.mcc420.3gppnetwork.org
+Zain Saudi Arabia,6618,DRACustomerRealmName,epc.mnc004.mcc420.3gppnetwork.org
+Zain Saudi Arabia,6618,DRAIMSIPrefix,42004
+Claro Chile,6979,DRACustomerRealmName,epc.mnc003.mcc730.3gppnetwork.org
+Claro Chile,6979,DRAIMSIPrefix,73003
+Warid Uganda,7461,DRACustomerRealmName,epc.mnc022.mcc641.3gppnetwork.org
+Warid Uganda,7461,DRACustomerRealmName,epc.mnc001.mcc641.3gppnetwork.org
+Warid Uganda,7461,DRAIMSIPrefix,64122
+Warid Uganda,7461,DRAIMSIPrefix,64101
+CTE Telecom Personal,12650,DRACustomerRealmName,epc.mnc001.mcc706.3gppnetwork.org
+CTE Telecom Personal,12650,DRAIMSIPrefix,70601
+Tigo(Telemovil) El Salvador,12500,CustomerNodeRealm,tigo.com.sv
+Tigo(Telemovil) El Salvador,12500,DRACustomerRealmName,epc.mnc003.mcc706.3gppnetwork.org
+Tigo(Telemovil) El Salvador,12500,DRAIMSIPrefix,70603
+CTI,7099,DRACustomerRealmName,epc.mnc010.mcc748.3gppnetwork.org
+CTI,7099,DRAIMSIPrefix,74810
+Digicel Aruba,12555,DRACustomerRealmName,epc.mnc002.mcc363.3gppnetwork.org
+Digicel Aruba,12555,DRAIMSIPrefix,36302
+BTC Bahamas,6895,DRACustomerRealmName,epc.mnc039.mcc364.3gppnetwork.org
+BTC Bahamas,6895,DRAIMSIPrefix,36439
+Claro Paraguay,7413,DRACustomerRealmName,epc.mnc002.mcc744.3gppnetwork.org
+Claro Paraguay,7413,DRAIMSIPrefix,74402
+T-Mobile Macedon,12497,DRACustomerRealmName,epc.mnc001.mcc294.3gppnetwork.org
+T-Mobile Macedon,12497,DRAIMSIPrefix,29401
+Two Degrees Mobile Limited,12656,DRACustomerRealmName,epc.mnc024.mcc530.3gppnetwork.org
+Two Degrees Mobile Limited,12656,DRAIMSIPrefix,53024
+China Telecom,6748,DRACustomerRealmName,epc.mnc011.mcc460.3gppnetwork.org
+China Telecom,6748,DRAIMSIPrefix,46011
+Smartfren Telecom Indonesia,7037,DRACustomerRealmName,epc.mnc009.mcc510.3gppnetwork.org
+Smartfren Telecom Indonesia,7037,DRAIMSIPrefix,51009
+Smartfren Telecom Indonesia,7037,DRAIMSIPrefix,51028
+MTS Turkmenistan,7401,DRACustomerRealmName,epc.mnc001.mcc438.3gppnetwork.org
+MTS Turkmenistan,7401,DRAIMSIPrefix,43801
+Telefonica Moviles UY,7042,DRACustomerRealmName,epc.mnc007.mcc748.3gppnetwork.org
+Telefonica Moviles UY,7042,DRAIMSIPrefix,74807
+Claro Puerto Rico,7319,DRACustomerRealmName,epc.mnc110.mcc330.3gppnetwork.org
+Claro Puerto Rico,7319,DRAIMSIPrefix,330110
+VIP Operator,6961,DRACustomerRealmName,epc.mnc003.mcc294.3gppnetwork.org
+VIP Operator,6961,DRAIMSIPrefix,29403
+MTN Ivory Coast,7450,DRACustomerRealmName,epc.mnc005.mcc612.3gppnetwork.org
+MTN Ivory Coast,7450,DRAIMSIPrefix,61205
+Alfa Telecom,7503,DRACustomerRealmName,epc.mnc005.mcc437.3gppnetwork.org
+Alfa Telecom,7503,DRAIMSIPrefix,43705
+Spice Nepal Private Limited,7436,DRACustomerRealmName,epc.mnc002.mcc429.3gppnetwork.org
+Spice Nepal Private Limited,7436,DRAIMSIPrefix,42902
+Smart Axiata,6810,DRACustomerRealmName,epc.mnc006.mcc456.3gppnetwork.org
+Smart Axiata,6810,DRACustomerRealmName,epc.mnc002.mcc456.3gppnetwork.org
+Smart Axiata,6810,DRAIMSIPrefix,45606
+Smart Axiata,6810,DRAIMSIPrefix,45602
+KTC Kuwait (VIVA),6678,DRACustomerRealmName,epc.mnc004.mcc419.3gppnetwork.org
+KTC Kuwait (VIVA),6678,DRAIMSIPrefix,41904
+Azerfon,7103,DRACustomerRealmName,epc.mnc004.mcc400.3gppnetwork.org
+Azerfon,7103,DRAIMSIPrefix,40004
+Viettel Cambodia ,7270,DRACustomerRealmName,epc.mnc008.mcc456.3gppnetwork.org
+Viettel Cambodia ,7270,DRAIMSIPrefix,45608
+Best Belarus,7500,DRACustomerRealmName,epc.mnc004.mcc257.3gppnetwork.org
+Best Belarus,7500,DRAIMSIPrefix,25704
+Finnet (DNA) Finland,7125,DRACustomerRealmName,epc.mnc012.mcc244.3gppnetwork.org
+Finnet (DNA) Finland,7125,DRAIMSIPrefix,24412
+Orange Uganda,7475,DRACustomerRealmName,epc.mnc014.mcc641.3gppnetwork.org
+Orange Uganda,7475,DRAIMSIPrefix,64114
+Claro Guatemala,7345,DRACustomerRealmName,epc.mnc001.mcc704.3gppnetwork.org
+Claro Guatemala,7345,DRAIMSIPrefix,70401
+CNT EP,12554,DRACustomerRealmName,epc.mnc002.mcc740.3gppnetwork.org
+CNT EP,12554,DRAIMSIPrefix,74002
+iBasis Peer,6677,CustomerNodeRealm,ibasis.grx
+China Unicom International,6861,DRACustomerRealmName,epc.mnc007.mcc454.3gppnetwork.org
+China Unicom International,6861,DRAIMSIPrefix,45407
+Chariton Valley Cellular,7438,DRACustomerRealmName,epc.mnc220.mcc312.3gppnetwork.org
+Chariton Valley Cellular,7438,DRAIMSIPrefix,311010
+Chariton Valley Cellular,7438,DRAIMSIPrefix,311020
+Chariton Valley Cellular,7438,DRAIMSIPrefix,312220
+Alaska Wireless Network,6913,DRACustomerRealmName,epc.mnc370.mcc311.3gppnetwork.org
+Alaska Wireless Network,6913,DRACustomerRealmNameBeforeTranslation,acsalaska.net
+Alaska Wireless Network,6913,DRAIMSIPrefix,311370
+Alaska Wireless Network,6913,DRAIMSIPrefix,310050
+Iowa Wireless,7079,DRACustomerRealmName,epc.mnc770.mcc310.3gppnetwork.org
+Iowa Wireless,7079,DRAIMSIPrefix,310770
+Pine Telephone,6901,DRACustomerRealmName,epc.mnc080.mcc311.3gppnetwork.org
+Pine Telephone,6901,DRAIMSIPrefix,311080
+Sagebrush Cellular/Nemont,6900,DRACustomerRealmName,epc.mnc480.mcc312.3gppnetwork.org
+Sagebrush Cellular/Nemont,6900,DRAIMSIPrefix,312480
+Conecto,7447,DRACustomerRealmName,epc.mnc460.mcc310.3gppnetwork.org
+Conecto,7447,DRAIMSIPrefix,310460
+West Central Cellular,7302,DRACustomerRealmName,epc.mnc180.mcc310.3gppnetwork.org
+West Central Cellular,7302,DRACustomerRealmNameBeforeTranslation,4g.westcentral.com
+West Central Cellular,7302,DRAIMSIPrefix,310180
+Armentel,7313,DRACustomerRealmName,epc.mnc001.mcc283.3gppnetwork.org
+Armentel,7313,DRAIMSIPrefix,28301
+Telecom Seychelles,7425,DRACustomerRealmName,epc.mnc010.mcc633.3gppnetwork.org
+Telecom Seychelles,7425,DRAIMSIPrefix,63310
+Digicel Papua New Guinea,7326,DRACustomerRealmName,epc.mnc003.mcc537.3gppnetwork.org
+Digicel Papua New Guinea,7326,DRAIMSIPrefix,53703
+Atlantique Telecom,12528,DRACustomerRealmName,epc.mnc002.mcc612.3gppnetwork.org
+Atlantique Telecom,12528,DRAIMSIPrefix,61202
+NewCore Wireless,6902,DRACustomerRealmName,epc.mnc530.mcc311.3gppnetwork.org
+NewCore Wireless,6902,DRACustomerRealmName,epc.mnc260.mcc312.3gppnetwork.org
+NewCore Wireless,6902,DRAIMSIPrefix,311530
+NewCore Wireless,6902,DRAIMSIPrefix,312260
+Nepal Telecom,12608,DRACustomerRealmName,epc.mnc001.mcc429.3gppnetwork.org
+Nepal Telecom,12608,DRAIMSIPrefix,42901
+AeroMobile,12605,DRACustomerRealmName,epc.mnc014.mcc901.3gppnetwork.org
+AeroMobile,12605,DRAIMSIPrefix,90114
+Babilon-Mobile,6308,DRACustomerRealmName,epc.mnc004.mcc436.3gppnetwork.org
+Babilon-Mobile,6308,DRAIMSIPrefix,43604
+MTN Rwanda,12659,DRACustomerRealmName,epc.mnc010.mcc635.3gppnetwork.org
+MTN Rwanda,12659,DRAIMSIPrefix,63510
+Cable and Wireless Jamaica,7332,DRACustomerRealmName,epc.mnc180.mcc338.3gppnetwork.org
+Cable and Wireless Jamaica,7332,DRAIMSIPrefix,338180
+Cable and Wireless Cayman,7057,DRACustomerRealmName,epc.mnc140.mcc346.3gppnetwork.org
+Cable and Wireless Cayman,7057,DRAIMSIPrefix,346140
+Cable and Wireless Anguilla,7337,DRACustomerRealmName,epc.mnc840.mcc365.3gppnetwork.org
+Cable and Wireless Anguilla,7337,DRAIMSIPrefix,365840
+Cable and Wireless Antigua,7056,DRACustomerRealmName,epc.mnc920.mcc344.3gppnetwork.org
+Cable and Wireless Antigua,7056,DRAIMSIPrefix,344920
+Cable and Wireless Barbados,7452,DRACustomerRealmName,epc.mnc600.mcc342.3gppnetwork.org
+Cable and Wireless Barbados,7452,DRAIMSIPrefix,342600
+Cable and Wireless Dominica,12639,DRACustomerRealmName,epc.mnc110.mcc366.3gppnetwork.org
+Cable and Wireless Dominica,12639,DRAIMSIPrefix,366110
+Cable and Wireless St Kitts,12736,DRACustomerRealmName,epc.mnc110.mcc356.3gppnetwork.org
+Cable and Wireless St Kitts,12736,DRAIMSIPrefix,356110
+Cable and Wireless St Lucia,12737,DRACustomerRealmName,epc.mnc110.mcc358.3gppnetwork.org
+Cable and Wireless St Lucia,12737,DRAIMSIPrefix,358110
+Cable and Wireless Turks,7331,DRACustomerRealmName,epc.mnc350.mcc376.3gppnetwork.org
+Cable and Wireless Turks,7331,DRAIMSIPrefix,376350
+Cable and Wireless British Virgin,7453,DRACustomerRealmName,epc.mnc170.mcc348.3gppnetwork.org
+Cable and Wireless British Virgin,7453,DRAIMSIPrefix,348170
+Zain Sudan,12593,DRACustomerRealmName,epc.mnc001.mcc634.3gppnetwork.org
+Zain Sudan,12593,DRAIMSIPrefix,63401
+Millicom Tchad,7507,DRACustomerRealmName,epc.mnc003.mcc622.3gppnetwork.org
+Millicom Tchad,7507,DRAIMSIPrefix,62203
+Tigo Honduras,7430,DRACustomerRealmName,epc.mnc002.mcc708.3gppnetwork.org
+Tigo Honduras,7430,DRAIMSIPrefix,70802
+Orange Armenia,7437,DRACustomerRealmName,epc.mnc010.mcc283.3gppnetwork.org
+Orange Armenia,7437,DRAIMSIPrefix,28310
+TashiCell,7469,DRACustomerRealmName,epc.mnc077.mcc402.3gppnetwork.org
+TashiCell,7469,DRAIMSIPrefix,40277
+Telecel Bolivia,7269,DRACustomerRealmName,epc.mnc003.mcc736.3gppnetwork.org
+Telecel Bolivia,7269,DRAIMSIPrefix,73603
+Mascom Botswana,12754,DRACustomerRealmName,epc.mnc001.mcc652.3gppnetwork.org
+Mascom Botswana,12754,DRAIMSIPrefix,65201
+TikiPhone,12764,DRACustomerRealmName,epc.mnc020.mcc547.3gppnetwork.org
+TikiPhone,12764,DRAIMSIPrefix,54720
+Mobitel Georgia ,7067,DRACustomerRealmName,epc.mnc004.mcc282.3gppnetwork.org
+Mobitel Georgia ,7067,DRAIMSIPrefix,28204
+Telkom Kenya,12622,DRACustomerRealmName,epc.mnc007.mcc639.3gppnetwork.org
+Telkom Kenya,12622,DRAIMSIPrefix,63907
+NurTelecom Kyrgyzstan,6960,DRACustomerRealmName,epc.mnc009.mcc437.3gppnetwork.org
+NurTelecom Kyrgyzstan,6960,DRAIMSIPrefix,43709
+Vodacom Lesotho,7320,DRACustomerRealmName,epc.mnc001.mcc651.3gppnetwork.org
+Vodacom Lesotho,7320,DRAIMSIPrefix,65101
+Cell One Namibia,12745,DRACustomerRealmName,epc.mnc003.mcc649.3gppnetwork.org
+Cell One Namibia,12745,DRAIMSIPrefix,64903
+UTS Curacao,7041,DRACustomerRealmName,epc.mnc091.mcc362.3gppnetwork.org
+UTS Curacao,7041,DRAIMSIPrefix,36291
+Telcell St. Maarten,7360,DRACustomerRealmName,epc.mnc051.mcc362.3gppnetwork.org
+Telcell St. Maarten,7360,DRAIMSIPrefix,36251
+Network Norway,7116,DRACustomerRealmName,epc.mnc005.mcc242.3gppnetwork.org
+Network Norway,7116,DRAIMSIPrefix,24205
+Claro Panama,7385,DRACustomerRealmName,epc.mnc003.mcc714.3gppnetwork.org
+Claro Panama,7385,DRAIMSIPrefix,71403
+Tigo Tanzania,7454,DRACustomerRealmName,epc.mnc002.mcc640.3gppnetwork.org
+Tigo Tanzania,7454,DRAIMSIPrefix,64002
+iSmart Mobile,7023,DRACustomerRealmName,epc.mnc300.mcc310.3gppnetwork.org
+iSmart Mobile,7023,DRAIMSIPrefix,310300
+MTN Zambia,12751,DRACustomerRealmName,epc.mnc002.mcc645.3gppnetwork.org
+MTN Zambia,12751,DRAIMSIPrefix,64502
+Trilogy Dominicana,12531,DRACustomerRealmName,epc.mnc004.mcc370.3gppnetwork.org
+Trilogy Dominicana,12531,DRAIMSIPrefix,37004
+Digicel Fiji,6863,DRACustomerRealmName,epc.mnc002.mcc542.3gppnetwork.org
+Digicel Fiji,6863,DRAIMSIPrefix,54202
+Digital Bermuda,7334,CustomerNodeRealm,atni.com
+Digital Bermuda,7334,DRACustomerRealmName,epc.mnc000.mcc350.3gppnetwork.org
+Digital Bermuda,7334,DRAIMSIPrefix,35000
+NUEVATEL Bolivia,7118,DRACustomerRealmName,epc.mnc001.mcc736.3gppnetwork.org
+NUEVATEL Bolivia,7118,DRAIMSIPrefix,73601
+TDCA (Roshan) Afghanistan,12743,DRACustomerRealmName,epc.mnc020.mcc412.3gppnetwork.org
+TDCA (Roshan) Afghanistan,12743,DRAIMSIPrefix,41220
+Econet Wireless,7449,DRACustomerRealmName,epc.mnc004.mcc648.3gppnetwork.org
+Econet Wireless,7449,DRAIMSIPrefix,64804
+B-Mobile Bhutan,12760,DRACustomerRealmName,epc.mnc011.mcc402.3gppnetwork.org
+B-Mobile Bhutan,12760,DRAIMSIPrefix,40211
+Vietnamobile Telecommunications Joint Stock Company,7464,DRACustomerRealmName,epc.mnc005.mcc452.3gppnetwork.org
+Vietnamobile Telecommunications Joint Stock Company,7464,DRAIMSIPrefix,45205
+BAKCELL Ltd,6948,DRACustomerRealmName,epc.mnc002.mcc400.3gppnetwork.org
+BAKCELL Ltd,6948,DRAIMSIPrefix,40002
+Digicel Panama,12557,DRACustomerRealmName,epc.mnc004.mcc714.3gppnetwork.org
+Digicel Panama,12557,DRAIMSIPrefix,71404
+AT&T (mobilephone) Lab,7404,DRACustomerRealmName,epc.mnc180.mcc311.3gppnetwork.org
+Afghan Wireless Communication Company ,7471,DRACustomerRealmName,epc.mnc001.mcc412.3gppnetwork.org
+Afghan Wireless Communication Company ,7471,DRAIMSIPrefix,41201
+Etisalat Afghanistan,12579,DRACustomerRealmName,epc.mnc050.mcc412.3gppnetwork.org
+Etisalat Afghanistan,12579,DRAIMSIPrefix,41250
+UNITEL S.a.r.l.,12733,DRACustomerRealmName,epc.mnc002.mcc631.3gppnetwork.org
+UNITEL S.a.r.l.,12733,DRAIMSIPrefix,63102
+Orange Bissau,12753,DRACustomerRealmName,epc.mnc003.mcc632.3gppnetwork.org
+Orange Bissau,12753,DRAIMSIPrefix,63203
+Freedom Mobile,7341,DRACustomerRealmName,epc.mnc490.mcc302.3gppnetwork.org
+Freedom Mobile,7341,DRAIMSIPrefix,302490
+CVMovel SA,12742,DRACustomerRealmName,epc.mnc001.mcc625.3gppnetwork.org
+CVMovel SA,12742,DRAIMSIPrefix,62501
+T+ Telecomunicacoes,12761,DRACustomerRealmName,epc.mnc002.mcc625.3gppnetwork.org
+T+ Telecomunicacoes,12761,DRAIMSIPrefix,62502
+Societe Nationale des Telecommunications (Comores Telecom),12664,DRACustomerRealmName,epc.mnc001.mcc654.3gppnetwork.org
+Societe Nationale des Telecommunications (Comores Telecom),12664,DRAIMSIPrefix,65401
+Telecom Cook Islands,12521,DRACustomerRealmName,epc.mnc001.mcc548.3gppnetwork.org
+Telecom Cook Islands,12521,DRAIMSIPrefix,54801
+Africell (Gambia) Ltd,12507,DRACustomerRealmName,epc.mnc002.mcc607.3gppnetwork.org
+Africell (Gambia) Ltd,12507,DRAIMSIPrefix,60702
+MCI,7371,DRACustomerRealmName,epc.mnc011.mcc432.3gppnetwork.org
+MCI,7371,DRAIMSIPrefix,43211
+MIC 1,7423,DRACustomerRealmName,epc.mnc001.mcc415.3gppnetwork.org
+MIC 1,7423,DRAIMSIPrefix,41501
+Libyana Mobile Phone ,12744,DRACustomerRealmName,epc.mnc000.mcc606.3gppnetwork.org
+Libyana Mobile Phone ,12744,DRAIMSIPrefix,60600
+Myanmar Posts and Telecommunications,12490,DRACustomerRealmName,epc.mnc001.mcc414.3gppnetwork.org
+Myanmar Posts and Telecommunications,12490,DRAIMSIPrefix,41401
+Curacao Telecom N.V.,12556,DRACustomerRealmName,epc.mnc069.mcc362.3gppnetwork.org
+Curacao Telecom N.V.,12556,DRAIMSIPrefix,36269
+Telefonica Celular de Nicaragua S.A.,7281,DRACustomerRealmName,epc.mnc300.mcc710.3gppnetwork.org
+Telefonica Celular de Nicaragua S.A.,7281,DRAIMSIPrefix,710300
+Wataniya Palestine,12750,DRACustomerRealmName,epc.mnc006.mcc425.3gppnetwork.org
+Wataniya Palestine,12750,DRAIMSIPrefix,42506
+Telefonica Moviles Panama,7065,DRACustomerRealmName,epc.mnc020.mcc714.3gppnetwork.org
+Telefonica Moviles Panama,7065,DRAIMSIPrefix,71420
+Vodafone Qatar Q.S.C.,6761,DRACustomerRealmName,epc.mnc002.mcc427.3gppnetwork.org
+Vodafone Qatar Q.S.C.,6761,DRACustomerRealmNameBeforeTranslation,vodafone.com.qa
+Vodafone Qatar Q.S.C.,6761,DRAIMSIPrefix,42702
+RCS & RDS ,12526,DRACustomerRealmName,epc.mnc005.mcc226.3gppnetwork.org
+RCS & RDS ,12526,DRAIMSIPrefix,22605
+TIGO RWANDA S.A,7456,DRACustomerRealmName,epc.mnc013.mcc635.3gppnetwork.org
+TIGO RWANDA S.A,7456,DRAIMSIPrefix,63513
+Africell Sierra Leone,12614,DRACustomerRealmName,epc.mnc005.mcc619.3gppnetwork.org
+Africell Sierra Leone,12614,DRAIMSIPrefix,61905
+Solomon Telekom Co Ltd,12763,DRACustomerRealmName,epc.mnc001.mcc540.3gppnetwork.org
+Solomon Telekom Co Ltd,12763,DRAIMSIPrefix,54001
+Tonga Communications Corporation,12642,DRACustomerRealmName,epc.mnc001.mcc539.3gppnetwork.org
+Tonga Communications Corporation,12642,DRAIMSIPrefix,53901
+Digicel (Tonga) Limited,12594,CustomerNodeRealm,epc.mnc002.mcc542.3gppnetwork.org
+Digicel (Tonga) Limited,12594,DRAIMSIPrefix,53988
+Digicel (Vanuatu) Ltd,6956,DRACustomerRealmName,epc.mnc002.mcc542.3gppnetwork.org
+Digicel (Vanuatu) Ltd,6956,DRAIMSIPrefix,54105
+Telecel Zimbabwe (PVT) Ltd,12738,DRACustomerRealmName,epc.mnc003.mcc648.3gppnetwork.org
+Telecel Zimbabwe (PVT) Ltd,12738,DRAIMSIPrefix,64803
+STC Bahrain,12658,DRACustomerRealmName,epc.mnc004.mcc426.3gppnetwork.org
+STC Bahrain,12658,DRAIMSIPrefix,42604
+Videotron,7054,CustomerNodeRealm,videotron.com
+Videotron,7054,DRACustomerRealmName,epc.mnc500.mcc302.3gppnetwork.org
+Videotron,7054,DRAIMSIPrefix,302500
+T-Mobile Montenegro ,7038,DRACustomerRealmName,epc.mnc002.mcc297.3gppnetwork.org
+T-Mobile Montenegro ,7038,DRAIMSIPrefix,29702
+Indigo Wireless,7488,DRACustomerRealmName,epc.mnc030.mcc311.3gppnetwork.org
+Indigo Wireless,7488,DRAIMSIPrefix,311030
+Lycamobile UK,6534,DRACustomerRealmName,epc.mnc026.mcc234.3gppnetwork.org
+Lycamobile UK,6534,DRAIMSIPrefix,23426
+Bluegrass Cellular LLC,7055,DRACustomerRealmName,epc.mnc810.mcc311.3gppnetwork.org
+Bluegrass Cellular LLC,7055,DRACustomerRealmNameBeforeTranslation,bgclte.com
+Bluegrass Cellular LLC,7055,DRAIMSIPrefix,311810
+Commnet Wireless,6955,CustomerNodeRealm,atni.com
+Commnet Wireless,6955,DRACustomerRealmName,epc.mnc040.mcc311.3gppnetwork.org
+Commnet Wireless,6955,DRAIMSIPrefix,311040
+Digicel Anguilla,6626,DRACustomerRealmName,epc.mnc050.mcc338.3gppnetwork.org
+Digicel Anguilla,6626,DRAIMSIPrefix,33850
+Evatis (Djibouti Telekom),12728,DRACustomerRealmName,epc.mnc001.mcc638.3gppnetwork.org
+Evatis (Djibouti Telekom),12728,DRAIMSIPrefix,63801
+Ice Wireless GSM,12520,CustomerNodeRealm,epc.mnc620.mcc302.3gppnetwork.org
+Ice Wireless GSM,12520,DRACustomerRealmName,epc.mnc620.mcc302.3gppnetwork.org
+Ice Wireless GSM,12520,DRAIMSIPrefix,302620
+Limitless Mobile USA,7052,DRACustomerRealmName,epc.mnc690.mcc310.3gppnetwork.org
+Limitless Mobile USA,7052,DRAIMSIPrefix,310690
+HOT Mobile,7132,DRACustomerRealmName,epc.mnc007.mcc425.3gppnetwork.org
+HOT Mobile,7132,DRAIMSIPrefix,42507
+New Cell Inc. dba Cellcom,7457,DRACustomerRealmName,epc.mnc620.mcc310.3gppnetwork.org
+New Cell Inc. dba Cellcom,7457,DRAIMSIPrefix,310620
+Nigeria Telecommunications Ltd (NITEL GSM),7506,DRACustomerRealmName,epc.mnc040.mcc621.3gppnetwork.org
+Nigeria Telecommunications Ltd (NITEL GSM),7506,DRAIMSIPrefix,62140
+Orange (France Caraibe Mobiles),7323,DRACustomerRealmName,epc.mnc001.mcc340.3gppnetwork.org
+Orange (France Caraibe Mobiles),7323,DRAIMSIPrefix,34001
+Outremer Telecom French Guiana,12662,DRACustomerRealmName,epc.mnc002.mcc340.3gppnetwork.org
+Outremer Telecom French Guiana,12662,DRAIMSIPrefix,34002
+Sasktel Mobility,7344,DRACustomerRealmName,epc.mnc780.mcc302.3gppnetwork.org
+Sasktel Mobility,7344,DRAIMSIPrefix,302780
+Choice Wireless,12625,DRACustomerRealmName,epc.mnc630.mcc310.3gppnetwork.org
+Choice Wireless,12625,DRAIMSIPrefix,310630
+Wana Corporate,7093,DRACustomerRealmName,epc.mnc002.mcc604.3gppnetwork.org
+Wana Corporate,7093,DRAIMSIPrefix,60402
+TDC Mobil Norway,7310,DRACustomerRealmName,epc.mnc008.mcc242.3gppnetwork.org
+TDC Mobil Norway,7310,DRAIMSIPrefix,24208
+SMART Tanzania,7386,DRACustomerRealmName,epc.mnc008.mcc640.3gppnetwork.org
+SMART Tanzania,7386,DRAIMSIPrefix,64008
+Truphone UK,6967,DRACustomerRealmName,epc.mnc025.mcc234.3gppnetwork.org
+Truphone UK,6967,DRAIMSIPrefix,23425
+Orange Tunisia,7277,DRACustomerRealmName,epc.mnc001.mcc605.3gppnetwork.org
+Orange Tunisia,7277,DRAIMSIPrefix,60501
+Entel Peru,7339,DRACustomerRealmName,epc.mnc017.mcc716.3gppnetwork.org
+Entel Peru,7339,DRAIMSIPrefix,71617
+Optus,6085,DRACustomerRealmName,epc.mnc002.mcc505.3gppnetwork.org
+Optus,6085,DRAIMSIPrefix,50502
+Telefonica International Wholesale,7043,CustomerNodeRealm,drabr01.tgsolutions.grx
+Tele2 peering,6817,CustomerNodeRealm,mnc007.mcc240.3gppnetwork.org
+Appalachian Wireless,7417,DRACustomerRealmName,epc.mnc130.mcc312.3gppnetwork.org
+Appalachian Wireless,7417,DRAIMSIPrefix,312130
+BICS SMS peering,6397,CustomerNodeRealm,dra.bics.3gppnetwork.org
+YTL Communication,7335,DRACustomerRealmName,epc.mnc152.mcc502.3gppnetwork.org
+YTL Communication,7335,DRAIMSIPrefix,502152
+Monaco Telecom,7030,DRACustomerRealmName,epc.mnc010.mcc212.3gppnetwork.org
+Monaco Telecom,7030,DRAIMSIPrefix,21210
+Open Mobile PR,6625,DRACustomerRealmName,epc.mnc120.mcc330.3gppnetwork.org
+Open Mobile PR,6625,DRAIMSIPrefix,330120
+Digicel Samoa,12655,DRACustomerRealmName,epc.mnc000.mcc549.3gppnetwork.org
+Digicel Samoa,12655,DRAIMSIPrefix,54900
+Telenet Belgium,12495,DRACustomerRealmName,epc.mnc005.mcc206.3gppnetwork.org
+Telenet Belgium,12495,DRAIMSIPrefix,20605
+Claro CR Telecomunicaciones,7312,DRACustomerRealmName,epc.mnc003.mcc712.3gppnetwork.org
+Claro CR Telecomunicaciones,7312,DRAIMSIPrefix,71203
+Vitelcom Cellular DBA Innovative Wireless,12559,DRACustomerRealmName,epc.mnc040.mcc311.3gppnetwork.org	
+Truemove 3G,6526,CustomerNodeRealm,dra.mnc004.mcc520.3gppnetwork.org
+Truemove 3G,6526,DRACustomerRealmName,epc.mnc004.mcc520.3gppnetwork.org
+Truemove 3G,6526,DRACustomerRealmName,epc.mnc000.mcc520.3gppnetwork.org
+Truemove 3G,6526,DRAIMSIPrefix,52000
+Truemove 3G,6526,DRAIMSIPrefix,52004
+Mahanagar Telephone (Mauritius) Ltd,7508,DRACustomerRealmName,epc.mnc003.mcc617.3gppnetwork.org
+Mahanagar Telephone (Mauritius) Ltd,7508,DRAIMSIPrefix,61703
+Lycamobile Ireland,12752,DRACustomerRealmName,epc.mnc013.mcc272.3gppnetwork.org
+Lycamobile Ireland,12752,DRAIMSIPrefix,27213
+Lycamobile Switzerland,6698,DRACustomerRealmName,epc.mnc054.mcc228.3gppnetwork.org
+Lycamobile Switzerland,6698,DRAIMSIPrefix,22854
+PrimeTel Cyprus,7034,DRACustomerRealmName,epc.mnc020.mcc280.3gppnetwork.org
+PrimeTel Cyprus,7034,DRAIMSIPrefix,28020
+PCCW Global Peer,7446,CustomerNodeRealm,pccwglobal.ipxnetwork.org
+Telefonica Moviles Costa Rica,6794,DRACustomerRealmName,epc.mnc004.mcc712.3gppnetwork.org
+Telefonica Moviles Costa Rica,6794,DRAIMSIPrefix,71204
+Execulink Telecom,7458,DRACustomerRealmName,epc.mnc340.mcc302.3gppnetwork.org
+Execulink Telecom,7458,DRAIMSIPrefix,302340
+Movicel Angola,12511,DRACustomerRealmName,epc.mnc004.mcc631.3gppnetwork.org
+Movicel Angola,12511,DRAIMSIPrefix,63104
+TDC Sweden,7309,DRACustomerRealmName,epc.mnc014.mcc240.3gppnetwork.org
+TDC Sweden,7309,DRAIMSIPrefix,24014
+DRA1.HKG2,6355,DRACustomerRealmName,hkgdra001.aicent.grx
+CMI Peer,6586,CustomerNodeRealm,dra.ipx.cmi.3gppnetwork.org
+CMI Peer,6586,DRACustomerRealmName,dra.ipx.cmi.3gppnetwork.org
+Cubic Telecom,7082,DRACustomerRealmName,epc.mnc006.mcc295.3gppnetwork.org
+Cubic Telecom,7082,DRAIMSIPrefix,29506
+DRA1.SIN2,6356,DRACustomerRealmName,sindra001.aicent.grx
+Bragg Communications,7268,CustomerNodeRealm,mobi.eastlink.ca
+Bragg Communications,7268,DRACustomerRealmName,epc.mnc270.mcc302.3gppnetwork.org
+Bragg Communications,7268,DRACustomerRealmNameBeforeTranslation,mobi.eastlink.ca
+Bragg Communications,7268,DRAIMSIPrefix,302270
+Inland Cellular,7381,DRACustomerRealmName,epc.mnc580.mcc310.3gppnetwork.org
+Inland Cellular,7381,DRAIMSIPrefix,310580
+DRA1.SJC3,6208,DRACustomerRealmName,sjcdra001.aicent.grx
+Bug Tussel,7377,DRACustomerRealmName,epc.mnc330.mcc311.3gppnetwork.org
+Bug Tussel,7377,DRAIMSIPrefix,311330
+DRA1.NYK1,6230,DRACustomerRealmName,nycdra001.aicent.grx
+Advanced Wireless Network,7278,DRACustomerRealmName,epc.mnc003.mcc520.3gppnetwork.org
+Advanced Wireless Network,7278,DRAIMSIPrefix,52003
+dtac TriNet,6867,DRACustomerRealmName,epc.mnc005.mcc520.3gppnetwork.org
+dtac TriNet,6867,DRAIMSIPrefix,52005
+TATA Communications Peer,7303,CustomerNodeRealm,tatacomm.ipxnetwork.org
+UK Broadband,6542,DRACustomerRealmName,ukb.com
+UK Broadband,6542,DRAIMSIPrefix,23451
+Unitel Laos,7414,DRACustomerRealmName,epc.mnc003.mcc457.3gppnetwork.org
+Unitel Laos,7414,DRAIMSIPrefix,45703
+DRA1.AMS2,6310,DRACustomerRealmName,amsdra001.aicent.grx
+DRA1.LON2,6406,DRACustomerRealmName,londra001.aicent.grx
+Smith Bagley,7114,DRACustomerRealmName,epc.mnc320.mcc310.3gppnetwork.org
+Smith Bagley,7114,DRAIMSIPrefix,310320
+DCC,7127,DRACustomerRealmName,epc.mnc210.mcc312.3gppnetwork.org
+DCC,7127,DRAIMSIPrefix,312210
+Mobiquithings France,7496,DRACustomerRealmName,epc.mnc024.mcc208.3gppnetwork.org
+Mobiquithings France,7496,DRAIMSIPrefix,20824
+B-Mobile SLB,12747,DRACustomerRealmName,epc.mnc002.mcc540.3gppnetwork.org
+B-Mobile SLB,12747,DRAIMSIPrefix,54002
+Telna USA,7434,DRACustomerRealmName,epc.mnc840.mcc310.3gppnetwork.org
+Telna USA,7434,DRAIMSIPrefix,310840
+HALYS,6916,DRACustomerRealmName,epc.mnc094.mcc208.3gppnetwork.org
+HALYS,6916,DRAIMSIPrefix,20894
+TRANSATEL France,7075,DRACustomerRealmName,epc.mnc037.mcc901.3gppnetwork.org
+TRANSATEL France,7075,DRAIMSIPrefix,90137
+BOB Austria,12499,DRACustomerRealmName,epc.mnc011.mcc232.3gppnetwork.org
+BOB Austria,12499,DRAIMSIPrefix,23211
+AT&T Mobility Maritime,12514,DRACustomerRealmName,epc.mnc018.mcc901.3gppnetwork.org
+AT&T Mobility Maritime,12514,DRAIMSIPrefix,90118
+Telstra DSS Peer,6609,CustomerNodeRealm,dra.ipx.telstra-global.3gppnetwork.org
+Rightel,7357,DRACustomerRealmName,epc.mnc020.mcc432.3gppnetwork.org
+Rightel,7357,DRAIMSIPrefix,43220
+TelecomAustria DSS Peer,6632,CustomerNodeRealm,spn28834.ipxsp.org
+Telecom Italia Sparkle DSS Peer,6633,CustomerNodeRealm,net2mobile.grx
+Telenor Peering DSS,6635,CustomerNodeRealm,telenor.grx
+Ooredoo Myanmar Limited,7115,DRACustomerRealmName,epc.mnc005.mcc414.3gppnetwork.org
+Ooredoo Myanmar Limited,7115,DRAIMSIPrefix,41405
+Telenor Myanmar,7391,DRACustomerRealmName,epc.mnc006.mcc414.3gppnetwork.org
+Telenor Myanmar,7391,DRAIMSIPrefix,41406
+Vodafone IPX Peering Hub,6726,CustomerNodeRealm,vodafone.grx
+ETISALAT UAE Peer,6815,CustomerNodeRealm,ipx.etisalat.3gppnetwork.org
+AP-HKG-DSC-01,6851,DRACustomerRealmName,dra.ipx.syniverse.3gppnetwork.org
+AP-SNG-DSC-01,6852,DRACustomerRealmName,dra.ipx.syniverse.3gppnetwork.org
+MTT Peering Hub,6848,CustomerNodeRealm,dra18.mtt.grx
+MTT Peering Hub,6848,CustomerNodeRealm,dra1.mtt.grx
+S9 NA CHI DRA,6853,DRACustomerRealmName,syniverse.com
+S9 NA DAL DRA,6854,DRACustomerRealmName,syniverse.com
+TeliaSonera Peer Hub,6847,CustomerNodeRealm,signal.teliasonera.ipxnetwork.org
+Syniverse Account,6855,DRAIMSIPrefix,111
+Deutsche Telekom Peering Hub,6856,CustomerNodeRealm,diameter.dtag.grx
+Wightman,7459,DRACustomerRealmName,epc.mnc940.mcc302.3gppnetwork.org
+Wightman,7459,DRAIMSIPrefix,302940
+AT&T-310280,6907,DRACustomerRealmName,epc.mnc280.mcc310.3gppnetwork.org
+AT&T-310280,6907,DRAIMSIPrefix,310280
+AT&T-310030,6906,DRACustomerRealmName,epc.mnc030.mcc310.3gppnetwork.org
+AT&T-310030,6906,DRAIMSIPrefix,310030
+AT&T-JASPER-310150,6908,DRACustomerRealmName,epc.mnc150.mcc310.3gppnetwork.org
+AT&T-JASPER-310150,6908,DRAIMSIPrefix,310150
+AT&T-JASPER-310170,6909,DRACustomerRealmName,epc.mnc170.mcc310.3gppnetwork.org
+AT&T-JASPER-310170,6909,DRAIMSIPrefix,310170
+MTX Connect,7288,DRACustomerRealmName,epc.mnc002.mcc270.3gppnetwork.org
+MTX Connect,7288,DRACustomerRealmName,epc.mnc039.mcc901.3gppnetwork.org
+MTX Connect,7288,DRAIMSIPrefix,27002
+MTX Connect,7288,DRAIMSIPrefix,90139
+Northeast Wireless Networks,7260,DRACustomerRealmName,epc.mnc710.mcc311.3gppnetwork.org
+Northeast Wireless Networks,7260,DRAIMSIPrefix,311710
+Northeast Wireless Networks,7260,DRAIMSIPrefix,312920
+EU-AMS-DSC-01,7047,DRACustomerRealmName,dra.ipx.syniverse.3gppnetwork.org
+EU-FRT-DSC-01,7048,DRACustomerRealmName,dra.ipx.syniverse.3gppnetwork.org
+Beezz Communication,12535,DRACustomerRealmName,epc.mnc023.mcc425.3gppnetwork.org
+Beezz Communication,12535,DRAIMSIPrefix,42523
+Globetouch US,7069,CustomerNodeRealm,uscsim.globetouch.com
+Globetouch US,7069,DRACustomerRealmName,epc.mnc620.mcc312.3gppnetwork.org
+Globetouch US,7069,DRACustomerRealmName,epc.mnc276.mcc240.3gppnetwork.org	
+Globetouch US,7069,DRAIMSIPrefix,312620
+Globetouch US,7069,DRAIMSIPrefix,240276
+Globetouch Sweden,7068,DRACustomerRealmName,epc.mnc027.mcc240.3gppnetwork.org
+Globetouch Sweden,7068,DRACustomerRealmName,epc.mnc270.mcc240.3gppnetwork.org
+Globetouch Sweden,7068,DRACustomerRealmName,epc.mnc271.mcc240.3gppnetwork.org
+Globetouch Sweden,7068,DRACustomerRealmName,epc.mnc275.mcc240.3gppnetwork.org
+Globetouch Sweden,7068,DRAIMSIPrefix,24027
+Globetouch Sweden,7068,DRAIMSIPrefix,240270
+Globetouch Sweden,7068,DRAIMSIPrefix,240271
+Globetouch Sweden,7068,DRAIMSIPrefix,240275
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc140.mcc346.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc920.mcc344.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc350.mcc376.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc180.mcc338.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc840.mcc365.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc600.mcc342.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc170.mcc348.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc110.mcc358.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc110.mcc356.3gppnetwork.org
+Cable and Wireless Group,7070,DRACustomerRealmName,epc.mnc110.mcc366.3gppnetwork.org
+Cable and Wireless Group,7070,DRAIMSIPrefix,346140
+Cable and Wireless Group,7070,DRAIMSIPrefix,344920
+Cable and Wireless Group,7070,DRAIMSIPrefix,376350
+Cable and Wireless Group,7070,DRAIMSIPrefix,338180
+Cable and Wireless Group,7070,DRAIMSIPrefix,365840
+Cable and Wireless Group,7070,DRAIMSIPrefix,342600
+Cable and Wireless Group,7070,DRAIMSIPrefix,348170
+Cable and Wireless Group,7070,DRAIMSIPrefix,358110
+Cable and Wireless Group,7070,DRAIMSIPrefix,356110
+Cable and Wireless Group,7070,DRAIMSIPrefix,366110
+MYS/PACONE,7077,DRACustomerRealmName,epc.mnc153.mcc502.3gppnetwork.org
+MYS/PACONE,7077,DRACustomerRealmName,epc.mnc011.mcc502.3gppnetwork.org
+MYS/PACONE,7077,DRAIMSIPrefix,502153
+MYS/PACONE,7077,DRAIMSIPrefix,50211
+Reliance Jio,7083,CustomerNodeRealm,rjil
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc874.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc840.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc854.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc855.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc856.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc857.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc858.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc859.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc860.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc861.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc862.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc863.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc864.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc865.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc866.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc867.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc868.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc869.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc870.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc871.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc872.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRACustomerRealmName,epc.mnc873.mcc405.3gppnetwork.org
+Reliance Jio,7083,DRAIMSIPrefix,405874
+Reliance Jio,7083,DRAIMSIPrefix,405840
+Reliance Jio,7083,DRAIMSIPrefix,405854
+Reliance Jio,7083,DRAIMSIPrefix,405855
+Reliance Jio,7083,DRAIMSIPrefix,405856
+Reliance Jio,7083,DRAIMSIPrefix,405857
+Reliance Jio,7083,DRAIMSIPrefix,405858
+Reliance Jio,7083,DRAIMSIPrefix,405859
+Reliance Jio,7083,DRAIMSIPrefix,405860
+Reliance Jio,7083,DRAIMSIPrefix,405861
+Reliance Jio,7083,DRAIMSIPrefix,405862
+Reliance Jio,7083,DRAIMSIPrefix,405863
+Reliance Jio,7083,DRAIMSIPrefix,405864
+Reliance Jio,7083,DRAIMSIPrefix,405865
+Reliance Jio,7083,DRAIMSIPrefix,405866
+Reliance Jio,7083,DRAIMSIPrefix,405867
+Reliance Jio,7083,DRAIMSIPrefix,405868
+Reliance Jio,7083,DRAIMSIPrefix,405869
+Reliance Jio,7083,DRAIMSIPrefix,405870
+Reliance Jio,7083,DRAIMSIPrefix,405871
+Reliance Jio,7083,DRAIMSIPrefix,405872
+Reliance Jio,7083,DRAIMSIPrefix,405873
+BT Global Services Peer,7085,CustomerNodeRealm,ipx.bt.com
+South East Asia Telecom,7119,DRACustomerRealmName,epc.mnc011.mcc456.3gppnetwork.org
+South East Asia Telecom,7119,DRAIMSIPrefix,45611
+ICE Communication Norge AS,7361,DRACustomerRealmName,epc.mnc014.mcc242.3gppnetwork.org
+ICE Communication Norge AS,7361,DRAIMSIPrefix,24214
+Transaction Network Services Peering Hub,7282,CustomerNodeRealm,tnsi.com
+Transaction Network Services Peering Hub,7282,DRACustomerRealmName,epc.mnc520.mcc310.3gppnetwork.org
+At&t Cricket,7342,DRACustomerRealmName,epc.mnc150.mcc310.3gppnetwork.org
+At&t Cricket,7342,DRAIMSIPrefix,310150
+globecomm,7297,DRACustomerRealmName,epc.mnc890.mcc311.3gppnetwork.org
+globecomm,7297,DRAIMSIPrefix,311890
+SouthernLINC Wireless,7395,DRACustomerRealmName,epc.mnc720.mcc312.3gppnetwork.org
+SouthernLINC Wireless,7395,DRAIMSIPrefix,312720
+Hewlett-Packard Communication Services LLC,7367,DRACustomerRealmName,epc.mnc930.mcc312.3gppnetwork.org
+Hewlett-Packard Communication Services LLC,7367,DRAIMSIPrefix,312930
+Emnify,12633,DRACustomerRealmName,epc.mnc009.mcc295.3gppnetwork.org
+Emnify,12633,DRAIMSIPrefix,29509
+LLC KTKTELEKOM,7427,DRACustomerRealmName,epc.mnc060.mcc250.3gppnetwork.org
+LLC KTKTELEKOM,7427,DRAIMSIPrefix,25060
+JVT,7441,DRACustomerRealmName,epc.mnc920.mcc310.3gppnetwork.org
+JVT,7441,DRAIMSIPrefix,310920
+Hewlett-Packard Communication Frech,7369,DRACustomerRealmName,epc.mnc012.mcc208.3gppnetwork.org
+Hewlett-Packard Communication Frech,7369,DRAIMSIPrefix,20812
+Strata Network USA,7378,CustomerNodeRealm,rinawireless.com
+Strata Network USA,7378,DRACustomerRealmName,epc.mnc290.mcc312.3gppnetwork.org
+Strata Network USA,7378,DRAIMSIPrefix,312290
+Silverstar Communications USA,7379,DRACustomerRealmName,epc.mnc430.mcc312.3gppnetwork.org
+Silverstar Communications USA,7379,DRAIMSIPrefix,312430
+NA-CHI-DSC-01,7408,DRACustomerRealmName,dra.ipx.syniverse.3gppnetwork.org
+NA-DAL-DSC-01,7409,DRACustomerRealmName,dra.ipx.syniverse.3gppnetwork.org
+TMT Russian,7494,DRACustomerRealmName,epc.mnc027.mcc250.3gppnetwork.org
+TMT Russian,7494,DRAIMSIPrefix,25027
+GlobeTouch EU M2M,7406,CustomerNodeRealm,eucsim.globetouch.com
+GlobeTouch EU M2M,7406,DRACustomerRealmName,eumvne.globetouch.com
+AT&T-310380,7410,DRACustomerRealmName,epc.mnc380.mcc310.3gppnetwork.org
+AT&T-310380,7410,DRAIMSIPrefix,310380
+Speednet,7467,DRACustomerRealmName,epc.mnc069.mcc702.3gppnetwork.org
+Speednet,7467,DRAIMSIPrefix,70269
+Vodafone US For Life,7422,DRACustomerRealmName,epc.mnc999.mcc999.3gppnetwork.org
+NewCo2015 Bahamas,7424,DRACustomerRealmName,epc.mnc049.mcc364.3gppnetwork.org
+NewCo2015 Bahamas,7424,DRAIMSIPrefix,36449
+Worldcall,7448,DRACustomerRealmName,epc.mnc990.mcc310.3gppnetwork.org
+Worldcall,7448,DRAIMSIPrefix,310990
+Eltopia Communications,7460,DRACustomerRealmName,epc.mnc410.mcc312.3gppnetwork.org
+Eltopia Communications,7460,DRAIMSIPrefix,312410
+Nex-Tech Wireless,7472,DRACustomerRealmName,epc.mnc420.mcc312.3gppnetwork.org
+Nex-Tech Wireless,7472,DRAIMSIPrefix,312420
+NetGenuity,7502,DRACustomerRealmName,epc.mnc630.mcc312.3gppnetwork.org
+NetGenuity,7502,DRAIMSIPrefix,312630
+China Telecom C2G,7505,DRACustomerRealmName,epc.mnc099.mcc460.3gppnetwork.org
+Tampnet,7512,DRACustomerRealmName,epc.mnc170.mcc311.3gppnetwork.org
+Tampnet,7512,DRACustomerRealmName,epc.mnc999.mcc242.3gppnetwork.org
+Tampnet,7512,DRAIMSIPrefix,311170
+Tampnet,7512,DRAIMSIPrefix,242999
+Yesss Austria,12498,DRACustomerRealmName,epc.mnc012.mcc232.3gppnetwork.org
+Yesss Austria,12498,DRAIMSIPrefix,23212
+EMnify GmbH,12504,DRACustomerRealmName,epc.mnc043.mcc901.3gppnetwork.org
+EMnify GmbH,12504,DRAIMSIPrefix,90143
+C Spire,12529,DRACustomerRealmName,epc.mnc230.mcc311.3gppnetwork.org
+C Spire,12529,DRAIMSIPrefix,311230
+Cross Wireless,12530,DRACustomerRealmName,epc.mnc010.mcc313.3gppnetwork.org
+Cross Wireless,12530,DRAIMSIPrefix,313010
+Cellular Network Partnership dba Pioneer Cellular,12539,DRACustomerRealmName,epc.mnc280.mcc312.3gppnetwork.org
+Cellular Network Partnership dba Pioneer Cellular,12539,DRAIMSIPrefix,312280
+Wireless Partners,12542,DRACustomerRealmName,epc.mnc710.mcc312.3gppnetwork.org
+Wireless Partners,12542,DRAIMSIPrefix,312710
+Expeto Wireless Inc,12545,DRACustomerRealmName,epc.mnc260.mcc313.3gppnetwork.org
+Expeto Wireless Inc,12545,DRAIMSIPrefix,313260
+Regional Telecom Company,12563,DRACustomerRealmName,epc.mnc066.mcc418.3gppnetwork.org
+Regional Telecom Company,12563,DRAIMSIPrefix,41866
+Sprint-312530,12565,DRACustomerRealmName,epc.mnc530.mcc312.3gppnetwork.org
+Sprint-312530,12565,DRAIMSIPrefix,312530
+IPKO Telecommunications LLC,12568,DRACustomerRealmName,epc.mnc002.mcc221.3gppnetwork.org
+IPKO Telecommunications LLC,12568,DRAIMSIPrefix,22102
+Teleena Netherlands,12571,DRACustomerRealmName,epc.mnc007.mcc204.3gppnetwork.org
+Teleena Netherlands,12571,DRACustomerRealmName,epc.mnc054.mcc901.3gppnetwork.org
+Teleena Netherlands,12571,DRAIMSIPrefix,20407
+Teleena Netherlands,12571,DRAIMSIPrefix,90154
+Telecom26,12580,DRACustomerRealmName,epc.mnc046.mcc901.3gppnetwork.org
+Telecom26,12580,DRAIMSIPrefix,90146
+SSi Micro LTD,12596,DRACustomerRealmName,epc.mnc480.mcc302.3gppnetwork.org
+SSi Micro LTD,12596,DRAIMSIPrefix,302480
+AT&T-313100,12599,DRACustomerRealmName,epc.mnc100.mcc313.3gppnetwork.org
+AT&T-313100,12599,DRAIMSIPrefix,313100
+Gigsky Mobile,12610,DRACustomerRealmName,epc.mnc870.mcc312.3gppnetwork.org
+Gigsky Mobile,12610,DRAIMSIPrefix,312870
+Swazi Mobile,12612,DRACustomerRealmName,epc.mnc002.mcc653.3gppnetwork.org
+Swazi Mobile,12612,DRAIMSIPrefix,65302
+"Vermont Telephone Company, Inc",12616,DRACustomerRealmName,epc.mnc990.mcc311.3gppnetwork.org
+"Vermont Telephone Company, Inc",12616,DRAIMSIPrefix,311990
+Wavely,12618,DRACustomerRealmName,epc.mnc042.mcc238.3gppnetwork.org
+Wavely,12618,DRAIMSIPrefix,23842
+Webbing Hong Kong Limited,12643,DRACustomerRealmName,epc.mnc035.mcc454.3gppnetwork.org
+Webbing Hong Kong Limited,12643,DRAIMSIPrefix,45435
+Midwest Network Solutions Hub,12645,DRACustomerRealmName,epc.mnc070.mcc313.3gppnetwork.org
+Midwest Network Solutions Hub,12645,DRACustomerRealmName,epc.mnc700.mcc311.3gppnetwork.org
+Midwest Network Solutions Hub,12645,DRAIMSIPrefix,313070
+Midwest Network Solutions Hub,12645,DRAIMSIPrefix,311700
+Persistent Telecom ,12653,DRACustomerRealmName,pti.com
+Persistent Telecom ,12653,DRAIMSIPrefix,338050
+Xplornet,12741,DRACustomerRealmName,epc.mnc130.mcc302.3gppnetwork.org
+Xplornet,12741,DRAIMSIPrefix,302130

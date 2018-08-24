@@ -1,0 +1,53 @@
+REGION,TYPE,CONSEQUENCE,CONDITION
+EU,Direct HSS,"DEST_REALM:=""#REPLACEME#"";ALTERNATE_REALM:=""FAILOVER"";POLICY_FALLBACK := 0",(IsNotExist(#AVP293)&amp;&amp;((((GetCmdCode()==316)||(GetCmdCode()==318))||(GetCmdCode()==321))||(GetCmdCode()==323)))
+EU,Direct DEA,"DEST_REALM:=""#REPLACEME#"";ALTERNATE_REALM:=""FAILOVER"";POLICY_FALLBACK := 0",1
+EU,MME/HSS on AMS,"DEST_HOST:= AVP293;ALTERNATE_HOST := ""frt-01.dra.ipx.syniverse.3gppnetwork.org"";POLICY_FALLBACK := 0",IsExist(#AVP293)
+EU,MME/HSS on FRT,"DEST_HOST:= AVP293;ALTERNATE_HOST := ""ams-01.dra.ipx.syniverse.3gppnetwork.org"";POLICY_FALLBACK := 0",IsExist(#AVP293)
+EU,NA DSR,"DEST_REALM:=""CHI-A-DAL-A"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,AP DSC,"DEST_REALM:=""HKG-A-SNG-A"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,NA DSC,"DEST_REALM:=""chi-dsc-a-dal-dsc-a"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,bics,"DEST_REALM:=""bics.3gppnetwork.org"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,DT,"DEST_REALM:=""dt-peeringhub"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,ibasis,"DEST_REALM:=""ibasis.grx"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,Vimpelcom,"DEST_REALM:=""LON-A-AMS-A"";ALTERNATE_REALM:=""FAILOVER"";POLICY_FALLBACK := 0","(IsExist(#AVP296)&&InList(ToLower(AVP296),""LIST_VIMPELCOM_DIRECT_OP""))"
+EU,Telenor,"DEST_REALM:=""telenor.grx"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,TIM/Sparkle,"DEST_REALM:=""tis.net2mobile.grx"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,Telekom Austria,"DEST_REALM:=""spn28834.ipxsp.org"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,FT,"DEST_REALM:=""dea.orange-multimedia.net"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,Vodafone,"DEST_REALM:=""vodafone.grx"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,Tele2,"DEST_REALM:=""mnc007.mcc240.3gppnetwork.org"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,GlobeTouchHub,"DEST_REALM:=""globetouch-peeringhub"";ALTERNATE_REALM:=""FAILOVER""",1
+EU,SAP,"DEST_REALM:=""sybase"";ALTERNATE_REALM:="" FAILOVER""",1
+EU,Lyca,"DEST_REALM:=""lyca"";ALTERNATE_REALM:="" FAILOVER""",1
+AP,Direct HSS,"DEST_REALM:=""#REPLACEME#"";ALTERNATE_REALM:=""FAILOVER"";POLICY_FALLBACK := 0",(IsNotExist(#AVP293)&amp;&amp;((((GetCmdCode()==316)||(GetCmdCode()==318))||(GetCmdCode()==321))||(GetCmdCode()==323)))
+AP,Direct DEA,"DEST_REALM:=""#REPLACEME#"";ALTERNATE_REALM:=""FAILOVER"";POLICY_FALLBACK := 0",1
+AP,MME/HSS on HKG,"DEST_HOST:= AVP293;ALTERNATE_HOST := ""sng-01.dra.ipx.syniverse.3gppnetwork.org"";POLICY_FALLBACK := 0",IsExist(#AVP293)
+AP,MME/HSS on SNG,"DEST_HOST:= AVP293;ALTERNATE_HOST := ""hkg-01.dra.ipx.syniverse.3gppnetwork.org"";POLICY_FALLBACK := 0",IsExist(#AVP293)
+AP,EU DSC,"DEST_REALM:=""ams-a-frt-a"";ALTERNATE_REALM:=""failover""",1
+AP,NA DSC,"DEST_REALM:=""chi-dsc-a-dal-dsc-a"";ALTERNATE_REALM:=""failover""",1
+AP,Telenor,"DEST_REALM:=""telenor.grx"";ALTERNATE_REALM:=""failover""",1
+AP,lyca,"DEST_REALM:=""lyca"";ALTERNATE_REALM:="" FAILOVER""",1
+AP,SAP,"DEST_REALM:=""sybase"";ALTERNATE_REALM:="" FAILOVER""",1
+NA,Direct HSS,"DEST_REALM:=""#REPLACEME#"";ALTERNATE_REALM:=""FAILOVER"";POLICY_FALLBACK := 0",(IsNotExist(#AVP293)&amp;&amp;((((GetCmdCode()==316)||(GetCmdCode()==318))||(GetCmdCode()==321))||(GetCmdCode()==323)))
+NA,Direct DEA,"DEST_REALM:=""#REPLACEME#"";ALTERNATE_REALM:=""FAILOVER"";POLICY_FALLBACK := 0",1
+NA,MME/HSS on CHI,"DEST_HOST:= AVP293;ALTERNATE_HOST := ""dal-01.dra.ipx.syniverse.3gppnetwork.org"";POLICY_FALLBACK := 0",IsExist(#AVP293)
+NA,MME/HSS on DAL,"DEST_HOST:= AVP293;ALTERNATE_HOST := ""chi-01.dra.ipx.syniverse.3gppnetwork.org"";POLICY_FALLBACK := 0",IsExist(#AVP293)
+NA,EU DSC,"DEST_REALM:=""ams-a-frt-a"";ALTERNATE_REALM:=""failover""",1
+NA,AP DSC,"DEST_REALM:=""hkg-a-sng-a"";ALTERNATE_REALM:=""failover""",1
+NA,NA DSR,"DEST_REALM:=""chi-a-dal-a"";ALTERNATE_REALM:=""failover""",1
+NA,TeliaSonera,"DEST_REALM:=""signal.teliasonera.ipxnetwork.org"";ALTERNATE_REALM:=""failover""",1
+NA,A6NA DRA,"DEST_REALM:=""a6na.dra"";ALTERNATE_REALM:=""failover""",1
+NA,BISC,"DEST_REALM:=""dra.bics.3gppnetwork.org"";ALTERNATE_REALM:=""failover""",1
+NA,FT,"DEST_REALM:=""dea.orange-multimedia.net"";ALTERNATE_REALM:=""failover""",1
+NA,DT,"DEST_REALM:=""diameter.dtag.grx"";ALTERNATE_REALM:=""failover""",1
+NA,TNS,"DEST_REALM:=""tnsi.com"";ALTERNATE_REALM:=""failover""",1
+NA,MTT,"DEST_REALM:=""mtt.grx"";ALTERNATE_REALM:=""failover""",1
+NA,Telstra,"DEST_REALM:=""dra.ipx.telstra-global.3gppnetwork.org"";ALTERNATE_REALM:=""failover""",1
+NA,Telenor,"DEST_REALM:=""telenor.grx"";ALTERNATE_REALM:=""failover""",1
+NA,iBasis,"DEST_REALM:=""ibasis.grx"";ALTERNATE_REALM:=""failover""",1
+NA,OTE GLOBE,"DEST_REALM:=""dea.ipx.oteglobe.3gppnetwork.org"";ALTERNATE_REALM:=""failover""",1
+NA,CMI,"DEST_REALM:=""dra.ipx.cmi.3gppnetwork.org"";ALTERNATE_REALM:=""failover""",1
+NA,TIS,"DEST_REALM:=""net2mobile.grx"";ALTERNATE_REALM:=""failover""",1
+NA,Comfone,"DEST_REALM:=""comfone.com"";ALTERNATE_REALM:=""failover""",1
+NA,TATA,"DEST_REALM:=""tatacomm.ipxnetwork.org"";ALTERNATE_REALM:=""failover""",1
+NA,TIWS,"DEST_REALM:=""tgsolutions.grx"";ALTERNATE_REALM:=""failover""",1
