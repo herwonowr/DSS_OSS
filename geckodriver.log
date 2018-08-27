@@ -1,0 +1,63 @@
+1535337880279	geckodriver	INFO	geckodriver 0.21.0
+1535337880298	geckodriver	INFO	Listening on 127.0.0.1:54248
+1535337883300	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\g707414\\AppData\\Local\\Temp\\rust_mozprofile.QkPG1SjhUA6k"
+1535337887179	Marionette	INFO	Listening on port 54256
+1535337887675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1535337974990	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1535338533453	geckodriver	INFO	geckodriver 0.21.0
+1535338533468	geckodriver	INFO	Listening on 127.0.0.1:54794
+1535338536531	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\g707414\\AppData\\Local\\Temp\\rust_mozprofile.ZGQQ40UTpNHa"
+1535338539002	Marionette	INFO	Listening on port 54803
+1535338539305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1535338998585	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 10792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ XHR, status: 0, reason: error
+127.0.0.1:55054
+1535338851987	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\g707414\\AppData\\Local\\Temp\\rust_mozprofile.rbeRwfKcdJnv"
+1535338854887	Marionette	INFO	Listening on port 55066
+1535338855308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1535339004375	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1535339013555	geckodriver	INFO	geckodriver 0.21.0
+1535339013574	geckodriver	INFO	Listening on 127.0.0.1:55215
+1535339016600	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\g707414\\AppData\\Local\\Temp\\rust_mozprofile.2ROe0QwabB35"
+1535339019481	Marionette	INFO	Listening on port 55224
+1535339019827	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1535339168413	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1535339653041	geckodriver	INFO	geckodriver 0.21.0
+1535339653057	geckodriver	INFO	Listening on 127.0.0.1:63858
+1535339656114	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\g707414\\AppData\\Local\\Temp\\rust_mozprofile.zU4liP9qnBCO"
+1535339658557	Marionette	INFO	Listening on port 63866
+1535339658911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1535339919198	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+127.0.0.1:64016
+1535339807346	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\g707414\\AppData\\Local\\Temp\\rust_mozprofile.wKCAiilm4bGE"
+1535339810409	Marionette	INFO	Listening on port 64028
+1535339810631	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1535339918566	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1535341128678	geckodriver	INFO	geckodriver 0.21.0
+1535341128700	geckodriver	INFO	Listening on 127.0.0.1:65098
+1535341131681	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\g707414\\AppData\\Local\\Temp\\rust_mozprofile.7CRPe2Lkevjc"
+1535341134293	Marionette	INFO	Listening on port 65107
+1535341134632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://dssrmt.syniverse.com/rmt/assets/plugins/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1535341365852	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error

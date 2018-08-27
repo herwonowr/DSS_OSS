@@ -4313,7 +4313,7 @@ class XML(QMainWindow, Ui_XML):
 						for exist_row in merged_ip_host:
 							if row[0] == exist_row[0]:
 								match =1
-						if match == 0 and row[1]!="s6a-test-client":
+						if match == 0 and "s6a-test" not in row[1]:
 							merged_ip_host.append(row)
 							#print(row)
 			except FileNotFoundError:
@@ -4339,7 +4339,7 @@ class XML(QMainWindow, Ui_XML):
 class Main_TabWidget(QTabWidget):
     def __init__(self, parent=None):
         super(Main_TabWidget, self).__init__(parent)
-        self.setWindowTitle("DSS OSS 20180822")
+        self.setWindowTitle("DSS OSS 20180827")
         #self.setStyleSheet("background:lightgrey")
         self.resize(1366, 768)
         self.mContent = OPEN_ROUTE()

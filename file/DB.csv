@@ -447,6 +447,7 @@ Comfone K2R:Prefered(Default)",LIST_7030_MONACO_TELECOM,"EU,NA"
 7093,2012,Wana Corporate,Morocco,epc.mnc002.mcc604.3gppnetwork.org,60402,online,,Indirect,Live,,,,EMEA,MARM3,,:BICS,BICS:Prefered(Default),LIST_7093_WANA_CORPORATE,"EU,NA"
 12490,1800,Myanmar Posts and Telecommunications,Myanmar,epc.mnc001.mcc414.3gppnetwork.org,41401,online,,Indirect,Live,,,,Asia Pacific,MMRPT,,:FT,FT:Prefered(Default),LIST_12490_MYANMAR_POSTS_AND_TELECOMMUNICATIONS,"EU,NA"
 7115,2776,Ooredoo Myanmar Limited,Myanmar,epc.mnc005.mcc414.3gppnetwork.org,41405,online,AP DSC,Direct,Live,,,Jason.Qin@syniverse.com,Asia Pacific,MMROM,,,,LIST_7115_OOREDOO_MYANMAR_LIMITED,AP
+12771,3179,Telecom International Myanmar,Myanmar,epc.mnc009.mcc414.3gppnetwork.org,41409,hidden,,Indirect,,,,,EMEA,MMRVG,,:Comfone,Comfone:Prefered(Default),,
 7391,2783,Telenor Myanmar,Myanmar,epc.mnc006.mcc414.3gppnetwork.org,41406,online,,Indirect,Live,,,,Asia Pacific,MMRTN,,:Telenor,Telenor:Prefered(Default),LIST_7391_TELENOR_MYANMAR,"EU,NA"
 12745,1699,Cell One Namibia,Namibia,epc.mnc003.mcc649.3gppnetwork.org,64903,hidden,,Indirect,,,,,,NAM03,"We do not have this OPs defalut peering hub information now, so decide route, request filter and list cache are all not configured on DSC, it is only used for K2R route currently, if get their IPX provider info in the future, will bring it online completely by then.--------2018-07-17
 ",:Comfone K2R,Comfone K2R:Prefered(Default),,
@@ -640,6 +641,7 @@ BICS:Need approval",LIST_6596_CHUNGHWA_TELECOM,AP
 6308,1633,Babilon-Mobile,Tajikistan,epc.mnc004.mcc436.3gppnetwork.org,43604,online,EU DSC,Direct,Live,,,Jason.Qin@syniverse.com,EMEA,TJKBM,,:Comfone K2R,Comfone K2R:Need approval,LIST_6308_BABILONMOBILE,"EU,NA"
 7386,2028,SMART Tanzania,Tanzania United Republic,epc.mnc008.mcc640.3gppnetwork.org,64008,hidden,,Indirect,Live,,,balram.jayaram@syniverse.com,EMEA,TZAYA,,:Comfone,Comfone:Prefered(Default),,
 7454,1710,Tigo Tanzania,Tanzania United Republic,epc.mnc002.mcc640.3gppnetwork.org,64002,online,,Indirect,,,,,EMEA,TZAMB,,:BICS,BICS:Prefered(Default),LIST_7454_TIGO_TANZANIA,"EU,NA"
+12770,3177,Viettel Tanzania,Tanzania United Republic,,,,,,,,,,,TZAVT;TZAVG,,,,,
 7350,825,Vodacom Tanzania,Tanzania United Republic,epc.mnc004.mcc640.3gppnetwork.org,64004,online,,Indirect,Live,,,,EMEA,TZAVC,,:VCS,VCS:Prefered(Default),LIST_7350_VODACOM_TANZANIA,EU
 7278,2576,Advanced Wireless Network,Thailand,epc.mnc003.mcc520.3gppnetwork.org,52003,online,AP DSC,Direct,Live,,,joe.feng@syniverse.com,Asia Pacific,THAWN,,:BICS,BICS:Need approval,LIST_7278_ADVANCED_WIRELESS_NETWORK,"AP,NA"
 6867,2578,dtac TriNet,Thailand,epc.mnc005.mcc520.3gppnetwork.org,52005,online,,Indirect,Live,,,,Asia Pacific,THADT,,:Telenor,Telenor:Prefered(Default),LIST_6867_DTAC_TRINET,"AP,EU,NA"
