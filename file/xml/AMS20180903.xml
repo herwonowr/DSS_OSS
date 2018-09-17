@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration xmlns="http://www.syniverse.com/diameter-server">
+  <DLBPeer>
+    <DLBIPGroups>
+      <DLBIPGroup name="virtual-IF">
+        <InternalIPGroup>
+          <IPAddress value="10.160.40.7"/>
+          <IPAddress value="10.160.40.39"/>
+        </InternalIPGroup>
+        <ExternalIPGroup>
+          <IPAddress value="173.209.215.102"/>
+          <IPAddress value="173.209.215.118"/>
+        </ExternalIPGroup>
+      </DLBIPGroup>
+      <DLBIPGroup name="virtual-single-IF">
+        <InternalIPGroup>
+          <IPAddress value="10.160.40.7"/>
+        </InternalIPGroup>
+        <ExternalIPGroup>
+          <IPAddress value="173.209.215.102"/>
+        </ExternalIPGroup>
+      </DLBIPGroup>
+      <DLBIPGroup name="virtual-loopback-IF">
+        <InternalIPGroup>
+          <IPAddress value="10.160.40.7"/>
+          <IPAddress value="10.160.40.39"/>
+        </InternalIPGroup>
+        <ExternalIPGroup>
+          <IPAddress value="173.209.215.102"/>
+          <IPAddress value="173.209.215.118"/>
+        </ExternalIPGroup>
+      </DLBIPGroup>
+    </DLBIPGroups>
+    <Servers>
+      <Server secure="false" protocol="sctp" port="3868" ipgroup="virtual-IF"/>
+      <Server secure="false" protocol="sctp" port="3869" ipgroup="virtual-single-IF"/>
+      <Server secure="false" protocol="sctp" port="3870" ipgroup="virtual-loopback-IF"/>
+    </Servers>
+  </DLBPeer>
+  <LocalPeer security_ref="securityData_dscadm">
+    <IPGroups name="am1p-gen-dsc-app001" id="111" enabled="true">
+      <IPGroup name="virtual-IF">
+        <IPAddress value="10.160.40.8"/>
+        <IPAddress value="10.160.40.40"/>
+      </IPGroup>
+      <IPGroup name="virtual-single-IF">
+        <IPAddress value="10.160.40.8"/>
+      </IPGroup>
+      <IPGroup name="virtual-loopback-IF">
+        <IPAddress value="10.160.40.8"/>
+        <IPAddress value="10.160.40.40"/>
+      </IPGroup>
+    </IPGroups>
+    <IPGroups name="am1p-gen-dsc-app002" id="112" enabled="true">
+      <IPGroup name="virtual-IF">
+        <IPAddress value="10.160.40.9"/>
+        <IPAddress value="10.160.40.41"/>
+      </IPGroup>
+      <IPGroup name="virtual-single-IF">
+        <IPAddress value="10.160.40.9"/>
+      </IPGroup>
+      <IPGroup name="virtual-loopback-IF">
+        <IPAddress value="10.160.40.9"/>
+        <IPAddress value="10.160.40.41"/>
+      </IPGroup>
+    </IPGroups>
+    <IPGroups name="am1p-gen-dsc-app003" id="113" enabled="true">
+      <IPGroup name="virtual-IF">
+        <IPAddress value="10.160.40.10"/>
+        <IPAddress value="10.160.40.42"/>
+      </IPGroup>
+      <IPGroup name="virtual-single-IF">
+        <IPAddress value="10.160.40.10"/>
+      </IPGroup>
+      <IPGroup name="virtual-loopback-IF">
+        <IPAddress value="10.160.40.10"/>
+        <IPAddress value="10.160.40.42"/>
+      </IPGroup>
+    </IPGroups>
+    <Profiles>
+      <Profile name="default-profile">
+        <host value="ams-01.dra.ipx.syniverse.3gppnetwork.org"/>
+        <realm value="dra.ipx.syniverse.3gppnetwork.org"/>
+        <ipgroup value="virtual-IF"/>
+      </Profile>
+      <Profile name="default-single-profile">
+        <host value="ams-01.dra.ipx.syniverse.3gppnetwork.org"/>
+        <realm value="dra.ipx.syniverse.3gppnetwork.org"/>
+        <ipgroup value="virtual-single-IF"/>
+      </Profile>
+      <Profile name="default-loopback-profile">
+        <host value="ams-01-lo.dra.ipx.syniverse.3gppnetwork.org"/>
+        <realm value="dra.ipx.syniverse.3gppnetwork.org"/>
+        <ipgroup value="virtual-loopback-IF"/>
+      </Profile>
+    </Profiles>
+    <Servers>
+      <Server secure="false" protocol="sctp" port="3868" ipgroup="virtual-IF"/>
+      <Server secure="false" protocol="sctp" port="3869" ipgroup="virtual-single-IF"/>
+      <Server secure="false" protocol="sctp" port="3870" ipgroup="virtual-loopback-IF"/>
+    </Servers>
+    <VendorID value="0"/>
+    <ProductName value="DSC"/>
+    <ConfigRevision value="1.0.6.9"/>
+    <Applications>
+      <ApplicationID>
+        <VendorId value="10415"/>
+        <AuthApplId value="16777267"/>
+      </ApplicationID>
+      <ApplicationID>
+        <VendorId value="10415"/>
+        <AuthApplId value="16777251"/>
+      </ApplicationID>
+      <ApplicationID>
+        <VendorId value="0"/>
+        <AuthApplId value="4"/>
+      </ApplicationID>
+      <ApplicationID>
+        <VendorId value="0"/>
+        <AuthApplId value="-1"/>
+      </ApplicationID>
+    </Applications>
+    <OverloadMonitor>
+      <Entry index="1" lowThreshold="0.5" highThreshold="0.6">
+        <ApplicationID>
+          <VendorId value="0"/>
+          <AuthApplId value="4"/>
+        </ApplicationID>
+      </Entry>
+      <Entry index="2" lowThreshold="0.5" highThreshold="0.6">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+      </Entry>
+    </OverloadMonitor>
+    <OverloadProtection>
+      <HardDrop tpsLimit="3000"/>
+      <PrioritizedDrop tpsLimit="-1">
+        <HighPriorityMsg appId="16777251" cmdCode="316"/>
+        <HighPriorityMsg appId="16777251" cmdCode="318"/>
+      </PrioritizedDrop>
+    </OverloadProtection>
+  </LocalPeer>
+  <Parameters>
+    <SynchronizeCER value="false"/>
+    <RejectPeerWithWrongIP value="false"/>
+    <RejectCERWhenNoPeer value="false"/>
+    <CopyProxyInfo value="true"/>
+    <IncomingLoopDetect value="true"/>
+    <OutgoingLoopDetect value="true"/>
+    <ThreadsPerPeer value="1"/>
+    <AcceptUndefinedPeer value="false"/>
+    <DuplicateProtection value="false"/>
+    <DuplicateTimer value="240000"/>
+    <DuplicateSize value="5000"/>
+    <UseUriAsFqdn value="false"/>
+    <CaseSensitiveHostRealm value="false"/>
+    <QueueSize value="10000"/>
+    <MessageTimeOut value="10000"/>
+    <MessageResendMax value="0"/>
+    <StopTimeOut value="10000"/>
+    <CeaTimeOut value="10000"/>
+    <IacTimeOut value="30000"/>
+    <DwaTimeOut value="10000"/>
+    <DpaTimeOut value="5000"/>
+    <RecTimeOut value="45000"/>
+    <SocketSendBufferSize value="64000"/>
+    <SocketRecvBufferSize value="64000"/>
+    <MaxInboundStreams value="65535"/>
+    <MaxOutboundStreams value="65535"/>
+    <EventQueueTimeOut value="0"/>
+    <LoadingReportInterval value="120000"/>
+    <SessionStoreInitSize value="10000"/>
+    <SessionHousekeepInterval value="300000"/>
+    <StatFile generation_time_cron="0 0/5 * * * ?" filepath="stat"/>
+    <ReBindIPInterval value="5000"/>
+    <BatchProcessThreshold value="5"/>
+    <BatchProcessWaitTime value="2"/>
+    <LogPeriod value="60"/>
+    <AsyncBackingCacheManager value="org.jdiameter.client.impl.controller.PooledRedisDistCacheManager"/>
+    <LocalSnmpAgent address="0.0.0.0/16111" community="m4Z3lt0v"/>
+    <EnablePeerStat value="true"/>
+    <Statistics pause="1000" delay="1000" enabled="false" active_records="Concurrent,ScheduledExecService,Network,ScheduledExecService,AppGenRequestPerSecond,NetGenRequestPerSecond,Peer,Peer.local,PeerFSM"/>
+    <Concurrent>
+      <Entity name="ThreadGroup" size="64"/>
+      <Entity name="ProcessingMessageTimer" size="1"/>
+      <Entity name="DuplicationMessageTimer" size="1"/>
+      <Entity name="RedirectMessageTimer" size="1"/>
+      <Entity name="PeerOverloadTimer" size="1"/>
+      <Entity name="ConnectionTimer" size="1"/>
+      <Entity name="StatisticTimer" size="1"/>
+      <Entity name="ApplicationSession" size="16"/>
+      <Entity name="SessionManagerTimer" size="1"/>
+      <Entity name="TrackerProcessor" size="1"/>
+    </Concurrent>
+    <Dictionary enabled="false" sendLevel="MESSAGE" receiveLevel="OFF"/>
+    <RequestTable size="2" clear_size="1"/>
+    <RawMessageTraceLog enabled="true" type="both" file_format="pcap" filepath="trace" filename="dsc_trace" append="true" date_pattern="'.'yyyyMMdd" max_file_size="50000000" max_file_rotate="3"/>
+  </Parameters>
+  <Network>
+    <Peers>
+      <Peer display_name="HSS-EastLink" name="aaa://wadl-hss01.mobi.eastlink.ca:3868;transport=sctp" realm="mobi.eastlink.ca" remote_ip="71.7.198.84,71.7.198.85" remote_pip="10.232.1.103,10.232.1.104" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://wadl-hss01.mobi.eastlink.ca:3868;transport=sctp" rating="1" local_port_range="17119"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="1"/>
+          <MaxOutboundStreams value="1"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="AlbTelecom_HSS" name="aaa://hss.albtelecom.com:3868;transport=sctp" realm="albtelecom.com" remote_ip="217.24.242.180,217.24.242.188" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hss.albtelecom.com:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Globetouch-HUB-DEA1" name="aaa://drabr1.eucsim.globetouch.com;transport=sctp" realm="eucsim.globetouch.com" remote_ip="193.240.185.86,193.240.185.102" remote_pip="" attempt_connect="false" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drabr1.eucsim.globetouch.com;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Globetouch-HUB-DEA2" name="aaa://drabr2.eucsim.globetouch.com;transport=sctp" realm="eucsim.globetouch.com" remote_ip="193.240.185.87,193.240.185.103" remote_pip="" attempt_connect="false" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drabr2.eucsim.globetouch.com;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Globetouch-HUB-DEA3" name="aaa://draln1.eucsim.globetouch.com;transport=sctp" realm="eucsim.globetouch.com" remote_ip="185.81.136.167,185.81.136.183" remote_pip="" attempt_connect="false" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://draln1.eucsim.globetouch.com;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Globetouch-HUB-DEA4" name="aaa://draln2.eucsim.globetouch.com;transport=sctp" realm="eucsim.globetouch.com" remote_ip="185.81.136.168,185.81.136.184" remote_pip="" attempt_connect="false" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://draln2.eucsim.globetouch.com;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Syn-Chicago-DRA" name="aaa://dp01-chi.syniverse.com:3868;transport=sctp" realm="syniverse.com" remote_ip="205.174.191.6,205.174.191.22" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Syniverse-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dp01-chi.syniverse.com:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+        <!--        <PeerParameters>
+          <MessageTimeOut value="5000"/>
+        </PeerParameters>-->
+      </Peer>
+      <Peer display_name="Syn-Dallas-DRA" name="aaa://dp01-dal.syniverse.com:3868;transport=sctp" realm="syniverse.com" remote_ip="205.174.191.38,205.174.191.54" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Syniverse-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dp01-dal.syniverse.com:3868;transport=sctp" rating="1" local_port_range="17011"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MessageTimeOut value="5000"/>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="dsc-nl-ams-eq01" name="aaa://dsc-nl-ams-eq01:3868;transport=sctp" realm="ipx.bt.com" remote_ip="147.152.56.10,147.152.56.14" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc-nl-ams-eq01:3868;transport=sctp" rating="1" local_port_range="17145"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="1"/>
+          <MaxOutboundStreams value="1"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="DTAG-FFM01-DRA" name="aaa://sdc-ffm01.diameter.dtag.grx:3868;transport=sctp" realm="diameter.dtag.grx" remote_ip="81.28.79.65,81.28.79.89" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://sdc-ffm01.diameter.dtag.grx:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="DTAG-FFM21-DRA" name="aaa://sdc-ffm21.diameter.dtag.grx:3868;transport=sctp" realm="diameter.dtag.grx" remote_ip="81.28.79.81,81.28.79.73" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://sdc-ffm21.diameter.dtag.grx:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="ibasis-draams101-dea" name="aaa://draams101.ibasis.grx;transport=sctp" realm="ibasis.grx" remote_ip="62.93.153.4,62.93.153.36" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://draams101.ibasis.grx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="ibasis-draams102-dea" name="aaa://draams102.ibasis.grx;transport=sctp" realm="ibasis.grx" remote_ip="62.93.153.5,62.93.153.37" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://draams102.ibasis.grx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="tis-dra01-dea" name="aaa://dra01.net2mobile.grx;transport=sctp" realm="net2mobile.grx" remote_ip="93.186.140.134,93.186.140.150" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra01.net2mobile.grx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="tis-dra02-dea" name="aaa://dra02.net2mobile.grx;transport=sctp" realm="net2mobile.grx" remote_ip="93.186.140.198,93.186.140.214" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra02.net2mobile.grx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="vh-osl1dra1-dea" name="aaa://dtosl1dra1.telenor.grx:3868;transport=sctp" realm="telenor.grx" remote_ip="213.230.171.36,213.230.171.164" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://dtosl1dra1.telenor.grx:3868;transport=sctp" rating="1" local_port_range="17109"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="vh-osl2dra1-dea" name="aaa://dtosl2dra1.telenor.grx:3868;transport=sctp" realm="telenor.grx" remote_ip="213.230.171.52,213.230.171.180" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://dtosl2dra1.telenor.grx:3868;transport=sctp" rating="1" local_port_range="17110"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="osl1dra1-dea" name="aaa://osl1dra1.telenor.grx:3868;transport=sctp" realm="telenor.grx" remote_ip="213.230.171.37,213.230.171.165" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://osl1dra1.telenor.grx:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="osl2dra1-dea" name="aaa://osl2dra1.telenor.grx:3868;transport=sctp" realm="telenor.grx" remote_ip="213.230.171.53,213.230.171.181" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://osl2dra1.telenor.grx:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Vodafone-drs11-dea" name="aaa://drs11.vodafone.grx:3868;transport=sctp" realm="vodafone.grx" remote_ip="47.73.161.36,47.73.161.4" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drs11.vodafone.grx:3868;transport=sctp" rating="1" local_port_range="17113"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="2048"/>
+          <MaxOutboundStreams value="10"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Vodafone-drs12-dea" name="aaa://drs12.vodafone.grx:3868;transport=sctp" realm="vodafone.grx" remote_ip="47.73.161.100,47.73.161.68" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drs12.vodafone.grx:3868;transport=sctp" rating="1" local_port_range="17114"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="2048"/>
+          <MaxOutboundStreams value="10"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Vodafone-drs21-dea" name="aaa://drs21.vodafone.grx:3868;transport=sctp" realm="vodafone.grx" remote_ip="47.73.169.36,47.73.169.4" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drs21.vodafone.grx:3868;transport=sctp" rating="1" local_port_range="17115"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="2048"/>
+          <MaxOutboundStreams value="10"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Vodafone-drs22-dea" name="aaa://drs22.vodafone.grx:3868;transport=sctp" realm="vodafone.grx" remote_ip="47.73.169.196,47.73.169.164" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drs22.vodafone.grx:3868;transport=sctp" rating="1" local_port_range="17116"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="2048"/>
+          <MaxOutboundStreams value="10"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="sybase-dra1" name="aaa://dra01.sybase.ipx;transport=sctp" realm="sybase.ipx" remote_ip="178.248.225.129" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-single-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra01.sybase.ipx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="sybase-dra2" name="aaa://dra02.sybase.ipx;transport=sctp" realm="sybase.ipx" remote_ip="178.248.225.130" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" security_ref="securityData_dscadm" profile="default-single-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra02.sybase.ipx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="FT-MP1Paris-DEA" name="aaa://mp1.dsrparis.dea.orange-multimedia.net:3868;transport=sctp" realm="dea.orange-multimedia.net" remote_ip="193.249.224.129,193.249.224.145" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mp1.dsrparis.dea.orange-multimedia.net:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="FT-MP2Paris-DEA" name="aaa://mp2.dsrparis.dea.orange-multimedia.net:3868;transport=sctp" realm="dea.orange-multimedia.net" remote_ip="193.249.224.130,193.249.224.146" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mp2.dsrparis.dea.orange-multimedia.net:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="FT-MP1Reims-DEA" name="aaa://mp1.dsrreims.dea.orange-multimedia.net:3868;transport=sctp" realm="dea.orange-multimedia.net" remote_ip="193.249.224.161,193.249.224.177" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mp1.dsrreims.dea.orange-multimedia.net:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="FT-MP2Reims-DEA" name="aaa://mp2.dsrreims.dea.orange-multimedia.net:3868;transport=sctp" realm="dea.orange-multimedia.net" remote_ip="193.249.224.162,193.249.224.178" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mp2.dsrreims.dea.orange-multimedia.net:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="BICS-BRU11-DRA01-DRA" name="aaa://dra01b11.dra.bics.3gppnetwork.org:3868;transport=sctp" realm="dra.bics.3gppnetwork.org" remote_ip="94.102.167.135,94.102.167.151" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra01b11.dra.bics.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="BICS-BRU22-DRA01-DRA" name="aaa://dra01b22.dra.bics.3gppnetwork.org:3868;transport=sctp" realm="dra.bics.3gppnetwork.org" remote_ip="94.102.167.167,94.102.167.183" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra01b22.dra.bics.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Etisalat-UAE-DEA1" name="aaa://drx1.ipx.etisalat.3gppnetwork.org:3868;transport=sctp" realm="ipx.etisalat.3gppnetwork.org" remote_ip="31.219.178.14,31.219.178.46" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drx1.ipx.etisalat.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17129"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Etisalat-UAE-DEA2" name="aaa://drx2.ipx.etisalat.3gppnetwork.org:3868;transport=sctp" realm="ipx.etisalat.3gppnetwork.org" remote_ip="31.219.178.78,31.219.178.110" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drx2.ipx.etisalat.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17130"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Sunrise-alts01sps01" name="aaa://alts01sps01.epc.mnc002.mcc228.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc002.mcc228.3gppnetwork.org" remote_ip="194.230.149.1" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-single-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://alts01sps01.epc.mnc002.mcc228.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Sunrise-walb01sps01" name="aaa://walb01sps01.epc.mnc002.mcc228.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc002.mcc228.3gppnetwork.org" remote_ip="194.230.149.129" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-single-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://walb01sps01.epc.mnc002.mcc228.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="O2UK-DSC01-DEA" name="aaa://dsc01.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" realm="epc.mnc010.mcc234.3gppnetwork.org" remote_ip="158.230.120.134,158.230.122.134" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc01.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="O2UK-DSC02-DEA" name="aaa://dsc02.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" realm="epc.mnc010.mcc234.3gppnetwork.org" remote_ip="158.230.120.38,158.230.122.38" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc02.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="O2UK-lab-DSC98-DEA" name="aaa://dsc98.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" realm="epc.mnc010.mcc234.3gppnetwork.org" remote_ip="158.230.108.6,158.230.108.134" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc98.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="O2UK-lab-DSC99-DEA" name="aaa://dsc99.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" realm="epc.mnc010.mcc234.3gppnetwork.org" remote_ip="158.230.108.22,158.230.108.150" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc99.epc.mnc010.mcc234.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Truphone-pea-DEA" name="aaa://peamssdc.epc.mnc025.mcc234.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc025.mcc234.3gppnetwork.org" remote_ip="194.88.243.226,194.88.243.227" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://peamssdc.epc.mnc025.mcc234.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17112"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="1"/>
+          <MaxOutboundStreams value="1"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Truphone-pel-DEA" name="aaa://peldnsdc.epc.mnc025.mcc234.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc025.mcc234.3gppnetwork.org" remote_ip="194.88.242.226,194.88.242.227" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://peldnsdc.epc.mnc025.mcc234.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17111"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="1"/>
+          <MaxOutboundStreams value="1"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Lyca_EQDRA1" name="aaa://dra01.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" realm="epc.mnc026.mcc234.3gppnetwork.org" remote_ip="83.137.4.193,83.137.4.201" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra01.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" rating="1" local_port_range="17131"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Lyca_EQDRA2" name="aaa://dra02.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" realm="epc.mnc026.mcc234.3gppnetwork.org" remote_ip="83.137.4.209,83.137.4.217" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra02.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" rating="1" local_port_range="17133"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Lyca_EQDRA3" name="aaa://dra03.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" realm="epc.mnc026.mcc234.3gppnetwork.org" remote_ip="83.137.4.194,83.137.4.202" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra03.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" rating="1" local_port_range="17132"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Lyca_EQDRA4" name="aaa://dra04.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" realm="epc.mnc026.mcc234.3gppnetwork.org" remote_ip="83.137.4.210,83.137.4.218" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra04.epc.mnc026.mcc234.3gppnetwork.org:3872;transport=sctp" rating="1" local_port_range="17134"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="LycaUK-test-HSS" name="aaa://hssuk01.epc.mnc026.mcc234.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc026.mcc234.3gppnetwork.org" remote_ip="83.137.0.50" remote_pip="10.89.2.22" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="true" peer_test_mode="true" peer_type="Operator" peer_mtu="1200" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hssuk01.epc.mnc026.mcc234.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17140"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MessageTimeOut value="10000"/>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="nodea.hssuk01" name="aaa://nodea.hssuk01.epc.mnc026.mcc234.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc026.mcc234.3gppnetwork.org" remote_ip="83.137.4.225,83.137.4.233" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1200" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://nodea.hssuk01.epc.mnc026.mcc234.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17105"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MessageTimeOut value="10000"/>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="nodeb.hssuk01" name="aaa://nodeb.hssuk01.epc.mnc026.mcc234.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc026.mcc234.3gppnetwork.org" remote_ip="83.137.4.226,83.137.4.234" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1200" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://nodeb.hssuk01.epc.mnc026.mcc234.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17106"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MessageTimeOut value="10000"/>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Tele2-avk6-dea" name="aaa://avk6-dea-1a.mnc007.mcc240.3gppnetwork.org:3868;transport=sctp" realm="mnc007.mcc240.3gppnetwork.org" remote_ip="193.216.123.128,193.216.123.129" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://avk6-dea-1a.mnc007.mcc240.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Tele2-hgd-dea" name="aaa://hgd-dea-1a.mnc007.mcc240.3gppnetwork.org:3868;transport=sctp" realm="mnc007.mcc240.3gppnetwork.org" remote_ip="193.216.123.130,193.216.123.131" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hgd-dea-1a.mnc007.mcc240.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="ICE_Osl3_DEA" name="aaa://osl3dsc1.epc.mnc014.mcc242.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc014.mcc242.3gppnetwork.org" remote_ip="185.83.167.36,185.83.167.52" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://osl3dsc1.epc.mnc014.mcc242.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17122"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="5"/>
+          <MaxOutboundStreams value="5"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="ICE_Osl4_DEA" name="aaa://osl4dsc1.epc.mnc014.mcc242.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc014.mcc242.3gppnetwork.org" remote_ip="185.83.167.100,185.83.167.116" remote_pip="" attempt_connect="true" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://osl4dsc1.epc.mnc014.mcc242.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17123"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="5"/>
+          <MaxOutboundStreams value="5"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Vimplecom-dra11-DEA" name="aaa://dra11.msk.epc.mnc099.mcc250.3gppnetwork.org;transport=sctp" realm="epc.mnc099.mcc250.3gppnetwork.org" remote_ip="78.107.125.227,78.107.125.235" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra11.msk.epc.mnc099.mcc250.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Vimplecom-dra21-DEA" name="aaa://dra21.msk.epc.mnc099.mcc250.3gppnetwork.org;transport=sctp" realm="epc.mnc099.mcc250.3gppnetwork.org" remote_ip="85.115.240.115,85.115.240.123" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra21.msk.epc.mnc099.mcc250.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="O2DE-hdeafra1-DEA" name="aaa://hdeafra1.epc.mnc007.mcc262.3gppnetwork.org;transport=sctp" realm="epc.mnc007.mcc262.3gppnetwork.org" remote_ip="82.113.120.164,82.113.120.180" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hdeafra1.epc.mnc007.mcc262.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="O2DE-hdeamun1-DEA" name="aaa://hdeamun1.epc.mnc007.mcc262.3gppnetwork.org;transport=sctp" realm="epc.mnc007.mcc262.3gppnetwork.org" remote_ip="82.113.120.132,82.113.120.148" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hdeamun1.epc.mnc007.mcc262.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Gibtelecom-sgsnhv01-MME" name="aaa://sgsnhv01.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc266.3gppnetwork.org" remote_ip="195.244.199.68,195.244.199.69" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://sgsnhv01.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Gibtelecom-sgsnmp01-MME" name="aaa://sgsnmp01.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc266.3gppnetwork.org" remote_ip="195.244.199.52,195.244.199.53" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://sgsnmp01.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Gibtelecom-SLFMP01-HSS" name="aaa://slfmp01.epc.mnc001.mcc266.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc266.3gppnetwork.org" remote_ip="195.244.199.57,195.244.199.58" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="2" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://slfmp01.epc.mnc001.mcc266.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17101"/>
+          <PeerConnection name="aaa://slfmp01.epc.mnc001.mcc266.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17102"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="1"/>
+          <MaxOutboundStreams value="1"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="MEO-drabnf102-DEA" name="aaa://drabnf102.epc.mnc006.mcc268.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc006.mcc268.3gppnetwork.org" remote_ip="88.214.191.22,88.214.191.30" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1200" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drabnf102.epc.mnc006.mcc268.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="MEO-drapic102-DEA" name="aaa://drapic102.epc.mnc006.mcc268.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc006.mcc268.3gppnetwork.org" remote_ip="88.214.191.6,88.214.191.14" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1200" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drapic102.epc.mnc006.mcc268.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three-DT0MME81-MME" name="aaa://mmec01.mmegi2001.mme.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="83.136.44.42,83.136.44.46" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec01.mmegi2001.mme.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-DN1MME01-MME" name="aaa://mmec00.mmegi8000.mme.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="92.251.255.98,92.251.255.102" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec00.mmegi8000.mme.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-DN1MME02-MME" name="aaa://mmec01.mmegi8000.mme.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="92.251.255.106,92.251.255.110" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec01.mmegi8000.mme.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="AlbTelecom_MME" name="aaa://mme-asr5000.epc.mnc003.mcc276.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc003.mcc276.3gppnetwork.org" remote_ip="217.24.242.178,217.24.242.186" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mme-asr5000.epc.mnc003.mcc276.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="MME-EastLink-New" name="aaa://mmec02.mmegi8000.mme.epc.mnc270.mcc302.3gppnetwork.org;transport=sctp" realm="epc.mnc270.mcc302.3gppnetwork.org" remote_ip="71.7.198.118,71.7.198.119" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec02.mmegi8000.mme.epc.mnc270.mcc302.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Alfa-MIC-1-admadsc01-DEA1" name="aaa://admadsc01.epc.mnc001.mcc415.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc415.3gppnetwork.org" remote_ip="185.81.141.181,185.81.141.182" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://admadsc01.epc.mnc001.mcc415.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Alfa-MIC-1-libdsc01-DEA" name="aaa://libdsc01.epc.mnc001.mcc415.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc415.3gppnetwork.org" remote_ip="91.232.101.181,91.232.101.182" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://libdsc01.epc.mnc001.mcc415.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Mobily-m1ds1-DRA" name="aaa://m1ds1-dra.epc.mnc003.mcc420.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc003.mcc420.3gppnetwork.org" remote_ip="84.23.101.226,84.23.101.230" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://m1ds1-dra.epc.mnc003.mcc420.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Mobily-m3ds1-DRA" name="aaa://m3ds1-dra.epc.mnc003.mcc420.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc003.mcc420.3gppnetwork.org" remote_ip="86.51.46.173,86.51.46.177" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://m3ds1-dra.epc.mnc003.mcc420.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooOman-bohss1-hss" name="aaa://bohss1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" realm="epc.mnc003.mcc422.3gppnetwork.org" remote_ip="5.162.220.172,5.162.221.173" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://bohss1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooOman-bomme1-mme" name="aaa://bomme1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" realm="epc.mnc003.mcc422.3gppnetwork.org" remote_ip="5.162.221.92,5.162.221.93" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://bomme1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooOman-sohss1-hss" name="aaa://sohss1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" realm="epc.mnc003.mcc422.3gppnetwork.org" remote_ip="5.162.216.100,5.162.221.101" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://sohss1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooOman-somme1-mme" name="aaa://somme1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" realm="epc.mnc003.mcc422.3gppnetwork.org" remote_ip="5.162.221.94,5.162.221.95" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://somme1.epc.mnc003.mcc422.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Partner-Israel-RH-DSC" name="aaa://dsc01rh.epc.mnc001.mcc425.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc425.3gppnetwork.org" remote_ip="82.102.191.40,82.102.191.41" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc01rh.epc.mnc001.mcc425.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Partner-Israel-RV-DSC" name="aaa://dsc01rv.epc.mnc001.mcc425.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc425.3gppnetwork.org" remote_ip="82.102.191.43,82.102.191.44" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc01rv.epc.mnc001.mcc425.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Pelephone-KA-DEA" name="aaa://deaka.epc.mnc003.mcc425.3gppnetwork.org;transport=sctp" realm="epc.mnc003.mcc425.3gppnetwork.org" remote_ip="185.80.109.65,185.80.109.73" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://deaka.epc.mnc003.mcc425.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Pelephone-RM-DEA" name="aaa://dearm.epc.mnc003.mcc425.3gppnetwork.org;transport=sctp" realm="epc.mnc003.mcc425.3gppnetwork.org" remote_ip="185.80.109.1,185.80.109.9" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dearm.epc.mnc003.mcc425.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Batelco-MHZ-DSC" name="aaa://dscmhz.epc.mnc001.mcc426.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc426.3gppnetwork.org" remote_ip="88.201.64.37,88.201.64.38" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dscmhz.epc.mnc001.mcc426.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="17"/>
+          <MaxOutboundStreams value="17"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Batelco-TPH-DSC" name="aaa://dsctph.epc.mnc001.mcc426.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc426.3gppnetwork.org" remote_ip="88.201.64.33,88.201.64.34" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsctph.epc.mnc001.mcc426.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="17"/>
+          <MaxOutboundStreams value="17"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="OoredooQT-apc101-vHSS" name="aaa://apcvhss101.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.127.4,82.148.127.20" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://apcvhss101.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17138"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="OoredooQT-Lab-HSS" name="aaa://hsstb101.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.105.116" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="true" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hsstb101.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17126"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooQT-mmec02-MME" name="aaa://mmec02.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.114.34" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec02.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooQT-mmec03-MME" name="aaa://mmec03.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.114.178" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec03.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooQT-mmec04-MME" name="aaa://mmec04.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.123.82" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec04.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooQT-njc201-vHSS" name="aaa://njcvhss201.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.127.68,82.148.127.84" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://njcvhss201.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17139"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="32"/>
+          <MaxOutboundStreams value="32"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="OoredooQT-NTR-1" name="aaa://lte01.ntr.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.114.103" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://lte01.ntr.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17136"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="10"/>
+          <MaxOutboundStreams value="65535"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="OoredooQT-NTR-2" name="aaa://lte02.ntr.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.114.104" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://lte02.ntr.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17137"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="10"/>
+          <MaxOutboundStreams value="65535"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="babilon-tjkbm-dea" name="aaa://tjkbm-d01-dea.epc.mnc004.mcc436.3gppnetwork.org;transport=sctp" realm="epc.mnc004.mcc436.3gppnetwork.org" remote_ip="193.111.11.177,193.111.11.187" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://tjkbm-d01-dea.epc.mnc004.mcc436.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="CWSSeychelles-sps1-dea" name="aaa://sps1.epc.mnc001.mcc633.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc633.3gppnetwork.org" remote_ip="41.86.49.81,41.86.49.83" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="2" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://sps1.epc.mnc001.mcc633.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="2"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="MTN_SA_nldea1" name="aaa://nldea1.epc.mnc010.mcc655.3gppnetwork.org;transport=sctp" realm="epc.mnc010.mcc655.3gppnetwork.org" remote_ip="41.208.54.130,41.208.54.131" remote_pip="" attempt_connect="false" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://nldea1.epc.mnc010.mcc655.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="MTN_SA_rbdea1" name="aaa://rbdea1.epc.mnc010.mcc655.3gppnetwork.org;transport=sctp" realm="epc.mnc010.mcc655.3gppnetwork.org" remote_ip="41.208.54.128,41.208.54.129" remote_pip="" attempt_connect="false" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://rbdea1.epc.mnc010.mcc655.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="NA-CHI-DSC01" name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" realm="dra.ipx.syniverse.3gppnetwork.org" remote_ip="131.166.129.119,131.166.129.135" remote_pip="" attempt_connect="true" maxActive="10" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Syniverse-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17001"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17002"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17003"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17004"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17005"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17006"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17007"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17008"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17009"/>
+          <PeerConnection name="aaa://chi-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17010"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="NA-DAL-DSC01" name="aaa://dal-01.dra.ipx.syniverse.3gppnetwork.org;transport=sctp" realm="dra.ipx.syniverse.3gppnetwork.org" remote_ip="131.166.129.151,131.166.129.167" remote_pip="" attempt_connect="false" maxActive="10" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dal-01.dra.ipx.syniverse.3gppnetwork.org;transport=sctp" rating="1" max_connection="10"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="EU-FRT-DSC01" name="aaa://frt-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" realm="dra.ipx.syniverse.3gppnetwork.org" remote_ip="173.209.215.166,173.209.215.182" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Syniverse-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://frt-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17012"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="AP-HKG-DSC01" name="aaa://hkg-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" realm="dra.ipx.syniverse.3gppnetwork.org" remote_ip="173.209.220.115,173.209.220.123" remote_pip="" attempt_connect="false" maxActive="10" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Syniverse-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hkg-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="10"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="AP-SNG-DSC01" name="aaa://sng-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" realm="dra.ipx.syniverse.3gppnetwork.org" remote_ip="173.209.221.115,173.209.221.123" remote_pip="" attempt_connect="false" maxActive="10" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Syniverse-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://sng-01.dra.ipx.syniverse.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="10"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="PCCWG-Belgium-DEA1" name="aaa://dra01-n1-bru01.pccwglobal.ipxnetwork.org:3868;transport=sctp" realm="pccwglobal.ipxnetwork.org" remote_ip="93.95.48.154,93.95.48.158" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra01-n1-bru01.pccwglobal.ipxnetwork.org:3868;transport=sctp" rating="1" local_port_range="17120"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="65535"/>
+          <MaxOutboundStreams value="100"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="PCCWG-Belgium-DEA2" name="aaa://dra01-n2-bru01.pccwglobal.ipxnetwork.org:3868;transport=sctp" realm="pccwglobal.ipxnetwork.org" remote_ip="93.95.48.178,93.95.48.182" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dra01-n2-bru01.pccwglobal.ipxnetwork.org:3868;transport=sctp" rating="1" local_port_range="17121"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="65535"/>
+          <MaxOutboundStreams value="10"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="TelekomAustria-ifad-DRA" name="aaa://lfad-tag-dxa-02.spn28834.ipxsp.org:3868;transport=sctp" realm="spn28834.ipxsp.org" remote_ip="213.157.140.53,213.157.140.61" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://lfad-tag-dxa-02.spn28834.ipxsp.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="TelekomAustria-wars-DRA" name="aaa://wars-tag-dxa-01.spn28834.ipxsp.org:3868;transport=sctp" realm="spn28834.ipxsp.org" remote_ip="213.157.140.21,213.157.140.29" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://wars-tag-dxa-01.spn28834.ipxsp.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooQT-mmec05-MME" name="aaa://mmec05.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.127.130" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec05.mmegi8000.mme.epc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="SAFARICOM-THK-DEA" name="aaa://dea1-thk.epc.mnc002.mcc639.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc002.mcc639.3gppnetwork.org" remote_ip="196.201.211.52,196.201.211.244" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dea1-thk.epc.mnc002.mcc639.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17147"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="SAFARICOM-MSA-DEA" name="aaa://dea2-msa.epc.mnc002.mcc639.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc002.mcc639.3gppnetwork.org" remote_ip="196.201.220.84,196.201.220.100" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dea2-msa.epc.mnc002.mcc639.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17148"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="ibasis-drartm101-dea" name="aaa://drartm101.ibasis.grx;transport=sctp" realm="ibasis.grx" remote_ip="62.93.155.6,62.93.155.38" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drartm101.ibasis.grx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="ibasis-drartm102-dea" name="aaa://drartm102.ibasis.grx;transport=sctp" realm="ibasis.grx" remote_ip="62.93.155.7,62.93.155.39" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drartm102.ibasis.grx;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="VFQ_MME_SGSN_QSTP" name="aaa://mmec69.mmegi8000.mme.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc002.mcc427.3gppnetwork.org" remote_ip="80.76.164.146,80.76.164.147" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec69.mmegi8000.mme.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="VFQ_MME_SGSN_QDC" name="aaa://mmeccd.mmegi8000.mme.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc002.mcc427.3gppnetwork.org" remote_ip="80.76.162.239,80.76.162.240" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmeccd.mmegi8000.mme.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Beezz-HSS-hlr1srv" name="aaa://hlr1srv.epc.mnc023.mcc425.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc023.mcc425.3gppnetwork.org" remote_ip="185.82.68.65,185.82.68.66" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hlr1srv.epc.mnc023.mcc425.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17149"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="10"/>
+          <MaxOutboundStreams value="65535"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Beezz-HSS-hlr2srv" name="aaa://hlr2srv.epc.mnc023.mcc425.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc023.mcc425.3gppnetwork.org" remote_ip="185.82.68.67,185.82.68.68" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://hlr2srv.epc.mnc023.mcc425.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17150"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="10"/>
+          <MaxOutboundStreams value="65535"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="TIWS-SDRAFRAAC" name="aaa://drafra01.tgsolutions.grx:3868;transport=sctp" realm="tgsolutions.grx" remote_ip="66.119.86.36,66.119.86.52" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drafra01.tgsolutions.grx:3868;transport=sctp" rating="1" local_port_range="17153"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="TIWS-vh-SDRAFRAAC" name="aaa://vh-drafra01.tgsolutions.grx:3868;transport=sctp" realm="tgsolutions.grx" remote_ip="66.119.86.37,66.119.86.53" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://vh-drafra01.tgsolutions.grx:3868;transport=sctp" rating="1" local_port_range="17154"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="TIWS-SDRAMADPE" name="aaa://dramad01.tgsolutions.grx:3868;transport=sctp" realm="tgsolutions.grx" remote_ip="66.119.86.4,66.119.86.20" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="false" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dramad01.tgsolutions.grx:3868;transport=sctp" rating="1" local_port_range="17151"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="TIWS-vh-SDRAMADPE" name="aaa://vh-dramad01.tgsolutions.grx:3868;transport=sctp" realm="tgsolutions.grx" remote_ip="66.119.86.5,66.119.86.21" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://vh-dramad01.tgsolutions.grx:3868;transport=sctp" rating="1" local_port_range="17152"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Zain-Jordan-HQ-DEA" name="aaa://zainamm.dra.ims.mnc001.mcc416.3gppnetwork.org:3868;transport=sctp" realm="ims.mnc001.mcc416.3gppnetwork.org" remote_ip="77.245.14.197,188.247.66.253" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://zainamm.dra.ims.mnc001.mcc416.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17155"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="10"/>
+          <MaxOutboundStreams value="65535"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="MTS-Russia-DEA11" name="aaa://dea11.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc250.3gppnetwork.org" remote_ip="213.87.78.45,213.87.78.53" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dea11.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17163"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="MTS-Russia-DEA12" name="aaa://dea12.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc250.3gppnetwork.org" remote_ip="213.87.78.197,213.87.78.205" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dea12.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17164"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="OoredooQT-mmec4-MME" name="aaa://mmec4.mmegi100.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.114.218" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://mmec4.mmegi100.mme.epc.mnc001.mcc427.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-DT0HSS81-HSS" name="aaa://dt0hss81.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="185.60.124.2,185.60.124.6" remote_pip="172.30.233.35,172.30.233.51" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://dt0hss81.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-DT0HSS82-HSS" name="aaa://dt0hss82.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="185.60.124.1,185.60.124.5" remote_pip="172.30.233.38,172.30.233.53" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://dt0hss82.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-DN1HSS03-HSS" name="aaa://dn1hss03.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="83.136.44.130,83.136.44.138" remote_pip="172.23.49.163,172.23.49.179" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://dn1hss03.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-DN1HSS04-HSS" name="aaa://dn1hss04.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="83.136.44.131,83.136.44.139" remote_pip="172.23.49.166,172.23.49.181" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://dn1hss04.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-BL0HSS05-HSS" name="aaa://bl0hss05.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="83.136.44.132,83.136.44.140" remote_pip="172.16.49.163,172.16.49.179" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://bl0hss05.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-BL0HSS06-HSS" name="aaa://bl0hss06.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="83.136.44.133,83.136.44.141" remote_pip="172.16.49.166,172.16.49.181" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://bl0hss06.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Econet-DSC-HRE1002" name="aaa://phedsc.econet.co.zw:3868;transport=sctp" realm="econetlte.co.zw" remote_ip="77.246.52.82" remote_pip="172.22.2.177" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-single-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://phedsc.econet.co.zw:3868;transport=sctp" rating="1" local_port_range="17156"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="17"/>
+          <MaxOutboundStreams value="17"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Econet-DSC-HRE1001" name="aaa://wvedsc.econet.co.zw:3868;transport=sctp" realm="econetlte.co.zw" remote_ip="217.15.121.229,217.15.121.240" remote_pip="172.18.6.144,172.18.6.145" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://wvedsc.econet.co.zw:3868;transport=sctp" rating="1" local_port_range="17157"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="17"/>
+          <MaxOutboundStreams value="17"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Africell-ftmme01-mme" name="aaa://ftmme01.epc.mnc005.mcc619.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc619.3gppnetwork.org" remote_ip="41.223.132.96,41.223.132.97" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://ftmme01.epc.mnc005.mcc619.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Africell-fthss01-hss" name="aaa://fthss01.epc.mnc005.mcc619.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc619.3gppnetwork.org" remote_ip="41.223.132.98,41.223.132.99" remote_pip="10.190.1.6,10.190.1.14" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://fthss01.epc.mnc005.mcc619.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="OoredooQT-labvhss101-hss" name="aaa://labvhss101.testepc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" realm="testepc.mnc001.mcc427.3gppnetwork.org" remote_ip="82.148.127.36,82.148.127.52" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://labvhss101.testepc.mnc001.mcc427.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17158"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Bouygues-DSC21-DEA" name="aaa://dsc00021.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc020.mcc208.3gppnetwork.org" remote_ip="62.201.128.130,62.201.141.131" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc00021.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17159"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="16"/>
+          <MaxOutboundStreams value="16"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Bouygues-DSC22-DEA" name="aaa://dsc00022.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc020.mcc208.3gppnetwork.org" remote_ip="62.201.128.131,62.201.141.130" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc00022.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17160"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="16"/>
+          <MaxOutboundStreams value="16"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Bouygues-DSC41-DEA" name="aaa://dsc00041.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc020.mcc208.3gppnetwork.org" remote_ip="62.201.141.170,62.201.141.181" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc00041.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17161"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="16"/>
+          <MaxOutboundStreams value="16"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Bouygues-DSC42-DEA" name="aaa://dsc00042.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc020.mcc208.3gppnetwork.org" remote_ip="62.201.141.171,62.201.141.180" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dsc00042.epc.mnc020.mcc208.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17162"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="16"/>
+          <MaxOutboundStreams value="16"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Three_Ireland-Mobileum-SoR1" name="aaa://dn2mobap01.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="185.60.127.82,185.60.127.90" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dn2mobap01.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Three_Ireland-Mobileum-SoR2" name="aaa://dn2mobap02.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" realm="epc.mnc005.mcc272.3gppnetwork.org" remote_ip="185.60.127.83,185.60.127.91" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dn2mobap02.epc.mnc005.mcc272.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="MTS-Russia-DEA11-vh" name="aaa://vh-dea11.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc250.3gppnetwork.org" remote_ip="213.87.78.41" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-single-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://vh-dea11.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17165"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="MTS-Russia-DEA12-vh" name="aaa://vh-dea12.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc250.3gppnetwork.org" remote_ip="213.87.78.193" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-single-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://vh-dea12.epc.mnc001.mcc250.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17166"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="8"/>
+          <MaxOutboundStreams value="8"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Gibtelecom-dramp01-DEA" name="aaa://dramp01.dra.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc266.3gppnetwork.org" remote_ip="195.244.203.131,195.244.203.139" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://dramp01.dra.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Gibtelecom-drahv01-DEA" name="aaa://drahv01.dra.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" realm="epc.mnc001.mcc266.3gppnetwork.org" remote_ip="195.244.203.163,195.244.203.171" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop">
+        <PeerConnections>
+          <PeerConnection name="aaa://drahv01.dra.epc.mnc001.mcc266.3gppnetwork.org;transport=sctp" rating="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="VFQ-QSTPEdge1-DEA" name="aaa://avpr-ss7edge01.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc002.mcc427.3gppnetwork.org" remote_ip="80.76.171.10,80.76.171.18" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://avpr-ss7edge01.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="VFQ-QSTPEdge2-DEA" name="aaa://avpr-ss7edge02.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc002.mcc427.3gppnetwork.org" remote_ip="80.76.171.11,80.76.171.19" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://avpr-ss7edge02.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="VFQ-QDCEdge1-DEA" name="aaa://bvpr-ss7edge01.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc002.mcc427.3gppnetwork.org" remote_ip="80.76.171.26,80.76.171.34" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://bvpr-ss7edge01.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="VFQ-QDCEdge2-DEA" name="aaa://bvpr-ss7edge02.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" realm="epc.mnc002.mcc427.3gppnetwork.org" remote_ip="80.76.171.27,80.76.171.35" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://bvpr-ss7edge02.epc.mnc002.mcc427.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Zain-Jordan-NEW-DEA" name="aaa://globitel.aagdc.mnc001.mcc416.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc416.3gppnetwork.org" remote_ip="77.245.1.2,77.245.1.50" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://globitel.aagdc.mnc001.mcc416.3gppnetwork.org:3868;transport=sctp" rating="1" local_port_range="17167"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="VH-Gibtelecom-SLFMP01-HSS" name="aaa://vh-slfmp01.epc.mnc001.mcc266.3gppnetwork.org:3868;transport=sctp" realm="epc.mnc001.mcc266.3gppnetwork.org" remote_ip="195.244.199.73,195.244.199.74" remote_pip="" attempt_connect="true" allowedHosts="*" allowedRealms="*" maxActive="2" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="false" peer_diameter_security_enabled="false">
+        <PeerConnections>
+          <PeerConnection name="aaa://vh-slfmp01.epc.mnc001.mcc266.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17103"/>
+          <PeerConnection name="aaa://vh-slfmp01.epc.mnc001.mcc266.3gppnetwork.org:3868;transport=sctp" rating="1" max_connection="1" local_port_range="17104"/>
+        </PeerConnections>
+        <PeerParameters>
+          <MaxInboundStreams value="1"/>
+          <MaxOutboundStreams value="1"/>
+        </PeerParameters>
+      </Peer>
+      <Peer display_name="Viva-Bahrain-hra-DEA" name="aaa://hra-sps.mnc004.mcc426.3gppnetwork.org;transport=sctp" realm="mnc004.mcc426.3gppnetwork.org" remote_ip="37.131.15.90,37.131.15.94" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="true" peer_diameter_security_enabled="true">
+        <PeerConnections>
+          <PeerConnection name="aaa://hra-sps.mnc004.mcc426.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="Viva-Bahrain-tub-DEA" name="aaa://tub-sps.mnc004.mcc426.3gppnetwork.org;transport=sctp" realm="mnc004.mcc426.3gppnetwork.org" remote_ip="37.131.79.90,37.131.79.94" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Operator" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="true" peer_diameter_security_enabled="true">
+        <PeerConnections>
+          <PeerConnection name="aaa://tub-sps.mnc004.mcc426.3gppnetwork.org;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="comfone-dranl01" name="aaa://dranl01.comfone.com;transport=sctp" realm="comfone.com" remote_ip="194.150.198.161,194.150.198.162" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="true" peer_diameter_security_enabled="true">
+        <PeerConnections>
+          <PeerConnection name="aaa://dranl01.comfone.com;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+      <Peer display_name="comfone-draus01" name="aaa://draus01.comfone.com;transport=sctp" realm="comfone.com" remote_ip="194.150.199.161,194.150.199.162" remote_pip="" attempt_connect="false" allowedHosts="*" allowedRealms="*" maxActive="1" masquerade="false" removeRR="false" security_ref="securityData_dscadm" profile="default-profile" disabled="false" peer_test_mode="true" peer_type="Third-party-peer" peer_mtu="1500" throttling_action="drop" peer_sctp_security_enabled="true" peer_diameter_security_enabled="true">
+        <PeerConnections>
+          <PeerConnection name="aaa://draus01.comfone.com;transport=sctp" rating="1" max_connection="1"/>
+        </PeerConnections>
+      </Peer>
+    </Peers>
+    <Realms>
+      <Realm name="mobi.eastlink.ca" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="EastLink-HSS-group" maxActive="1" weight="50" rating="100" priority="1">
+            <GroupPeer name="wadl-hss01.mobi.eastlink.ca" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="chi-a-dal-a" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="chi-a-dal-a" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dp01-chi.syniverse.com" rating="50" weight="50" priority="1"/>
+            <GroupPeer name="dp01-dal.syniverse.com" rating="50" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="chi-dsc-a-dal-dsc-a" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="NA-DSC-Group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="dal-01.dra.ipx.syniverse.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="chi-01.dra.ipx.syniverse.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="ipx.bt.com" maxActive="2" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="BT-DEA-Group" maxActive="1" weight="100" rating="100" priority="1">
+            <GroupPeer name="dsc-nl-ams-eq01" rating="100" weight="100" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="syniverse.com" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="syniverse.com.group" maxActive="2" weight="1" rating="1" priority="1">
+            <GroupPeer name="dp01-chi.syniverse.com" rating="50" weight="50" priority="1"/>
+            <GroupPeer name="dp01-dal.syniverse.com" rating="50" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="dt-peeringhub" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="dt-dea-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="sdc-ffm01.diameter.dtag.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="sdc-ffm21.diameter.dtag.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="failover" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="frt-a" maxActive="1" weight="100" rating="100" priority="1">
+            <GroupPeer name="frt-01.dra.ipx.syniverse.3gppnetwork.org" rating="100" weight="100" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="globetouch-peeringhub" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="globetouch-dea-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="draln1.eucsim.globetouch.com" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="draln2.eucsim.globetouch.com" rating="90" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="amsdra001.aicent.grx" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="amsdra001.aicent.grx.group" maxActive="1" weight="1" rating="1" priority="1">
+            <GroupPeer name="s001.amsdra001.aicent.grx" rating="100" weight="100" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="londra001.aicent.grx" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="londra001.aicent.grx.group" maxActive="1" weight="1" rating="1" priority="1">
+            <GroupPeer name="s001.londra001.aicent.grx" rating="100" weight="100" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="diameter.dtag.grx" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="DT-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="sdc-ffm01.diameter.dtag.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="sdc-ffm21.diameter.dtag.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="ibasis.grx" maxActive="2" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="ibasis-amsdea-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="draams101.ibasis.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="draams102.ibasis.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+          <PeerGroup name="ibasis-rtmdea-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="drartm101.ibasis.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drartm102.ibasis.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="tis.net2mobile.grx" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="tis-dea-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dra01.net2mobile.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra02.net2mobile.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="telenor.grx" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="telenor-dea-group" maxActive="4" weight="100" rating="100" priority="1">
+            <GroupPeer name="dtosl1dra1.telenor.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="osl1dra1.telenor.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dtosl2dra1.telenor.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="osl2dra1.telenor.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="vodafone.grx" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="vodafone-dea-group" maxActive="4" weight="100" rating="100" priority="1">
+            <GroupPeer name="drs11.vodafone.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drs12.vodafone.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drs21.vodafone.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drs22.vodafone.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="hkg-a-sng-a" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="hkg-a-sng-a" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="hkg-01.dra.ipx.syniverse.3gppnetwork.org" rating="50" weight="50" priority="1"/>
+            <GroupPeer name="sng-01.dra.ipx.syniverse.3gppnetwork.org" rating="50" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="lyca" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="lyca-deagroup" maxActive="4" weight="50" rating="100" priority="1">
+            <GroupPeer name="dra01.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra02.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra03.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra04.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="lycasweden" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="lyca-uk-deagroup" maxActive="4" weight="50" rating="100" priority="1">
+            <GroupPeer name="dra01.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra03.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra02.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra04.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="lycauktesthss" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="lycauk-test-hss" maxActive="1" weight="100" rating="100" priority="1">
+            <GroupPeer name="hssuk01.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="dea.orange-multimedia.net" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="FT-DEA-Group" maxActive="4" weight="100" rating="100" priority="1">
+            <GroupPeer name="mp1.dsrparis.dea.orange-multimedia.net" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="mp2.dsrparis.dea.orange-multimedia.net" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="mp1.dsrreims.dea.orange-multimedia.net" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="mp2.dsrreims.dea.orange-multimedia.net" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="bics.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="BICS-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dra01b11.dra.bics.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra01b22.dra.bics.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="ipx.etisalat.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="etisalat-uae-deagroup" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="drx1.ipx.etisalat.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drx2.ipx.etisalat.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc002.mcc228.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Sunrise-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="alts01sps01.epc.mnc002.mcc228.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="walb01sps01.epc.mnc002.mcc228.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc054.mcc228.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="lycach-hss-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="nodea.hssch01.epc.mnc054.mcc228.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="nodeb.hssch01.epc.mnc054.mcc228.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc010.mcc234.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="o2uk-dea-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="dsc01.epc.mnc010.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dsc02.epc.mnc010.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="o2uk.lab.epc.mnc010.mcc234.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="o2uk-lab-dea-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="dsc98.epc.mnc010.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dsc99.epc.mnc010.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc025.mcc234.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Truphone-dea-group" maxActive="2" weight="100" rating="50" priority="1">
+            <GroupPeer name="peldnsdc.epc.mnc025.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="peamssdc.epc.mnc025.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc026.mcc234.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="lycauk-hss-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="nodea.hssuk01.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="nodeb.hssuk01.epc.mnc026.mcc234.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="mnc007.mcc240.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Tele2-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="avk6-dea-1a.mnc007.mcc240.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="hgd-dea-1a.mnc007.mcc240.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc014.mcc242.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="ice-dea-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="osl4dsc1.epc.mnc014.mcc242.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="osl3dsc1.epc.mnc014.mcc242.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc099.mcc250.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Vimplecom-dea-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dra11.msk.epc.mnc099.mcc250.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra21.msk.epc.mnc099.mcc250.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc007.mcc262.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="o2de-dea-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="hdeamun1.epc.mnc007.mcc262.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="hdeafra1.epc.mnc007.mcc262.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc266.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Gibtelecom-HSS-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="slfmp01.epc.mnc001.mcc266.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="vh-slfmp01.epc.mnc001.mcc266.3gppnetwork.org" rating="50" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc006.mcc268.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="MEO-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="drabnf102.epc.mnc006.mcc268.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drapic102.epc.mnc006.mcc268.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc003.mcc276.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="AlbTelecom-DEA-group" maxActive="1" weight="100" rating="100" priority="1">
+            <GroupPeer name="hss.albtelecom.com" rating="100" weight="100" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc415.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="epc.mnc001.mcc415.3gppnetwork.org" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="admadsc01.epc.mnc001.mcc415.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="libdsc01.epc.mnc001.mcc415.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc003.mcc420.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Mobily-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="m1ds1-dra.epc.mnc003.mcc420.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="m3ds1-dra.epc.mnc003.mcc420.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc003.mcc422.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="OoredooOman-hss-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="bohss1.epc.mnc003.mcc422.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="sohss1.epc.mnc003.mcc422.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc425.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Partner-Israel-dea-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="dsc01rh.epc.mnc001.mcc425.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dsc01rv.epc.mnc001.mcc425.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc003.mcc425.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="epc.mnc003.mcc425.3gppnetwork.org" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dearm.epc.mnc003.mcc425.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="deaka.epc.mnc003.mcc425.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc426.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Baltelco-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dsctph.epc.mnc001.mcc426.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dscmhz.epc.mnc001.mcc426.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc427.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="OoredoQatar-HSS-Group" maxActive="2" weight="100" rating="50" priority="1">
+            <GroupPeer name="hssfeabh101.epc.mnc001.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="hssfeapc101.epc.mnc001.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+          <PeerGroup name="OoredoQatar-vHSS-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="apcvhss101.epc.mnc001.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="njcvhss201.epc.mnc001.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="ntr.epc.mnc001.mcc427.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="ooredooqt-ntr-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="lte01.ntr.epc.mnc001.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="lte02.ntr.epc.mnc001.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="dea.epc.mnc004.mcc436.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="babilon-dea-group" maxActive="1" weight="100" rating="100" priority="1">
+            <GroupPeer name="tjkbm-d01-dea.epc.mnc004.mcc436.3gppnetwork.org" rating="100" weight="100" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc633.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="CWSSeychelles-DEA-Group" maxActive="1" weight="100" rating="100" priority="1">
+            <GroupPeer name="sps1.epc.mnc001.mcc633.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc010.mcc655.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="MTN-SA-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="rbdea1.epc.mnc010.mcc655.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="nldea1.epc.mnc010.mcc655.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="pccwglobal.ipxnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="PCCWG-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dra01-n1-bru01.pccwglobal.ipxnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra01-n2-bru01.pccwglobal.ipxnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="spn28834.ipxsp.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="telekomaustria-dea-group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="wars-tag-dxa-01.spn28834.ipxsp.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="lfad-tag-dxa-02.spn28834.ipxsp.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="sybase" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="sybase-dea-group" maxActive="4" weight="50" rating="100" priority="1">
+            <GroupPeer name="dra01.sybase.ipx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra02.sybase.ipx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="dra.ipx.syniverse.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="dra.ipx.syniverse.3gppnetwork.org" maxActive="1" weight="100" rating="1" priority="1"/>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc002.mcc639.3gppnetwork.org" maxActive="2" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Safaricom-DEA-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="dea1-thk.epc.mnc002.mcc639.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dea2-msa.epc.mnc002.mcc639.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc023.mcc425.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="epc.mnc023.mcc425.3gppnetwork.org" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="hlr1srv.epc.mnc023.mcc425.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="hlr2srv.epc.mnc023.mcc425.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="dra.bics.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="BICS-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dra01b11.dra.bics.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dra01b22.dra.bics.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="eu-tgsolutions.grx" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="TIWS-DRA-group" maxActive="4" weight="100" rating="100" priority="1">
+            <GroupPeer name="dramad01.tgsolutions.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="vh-dramad01.tgsolutions.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drafra01.tgsolutions.grx" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="vh-drafra01.tgsolutions.grx" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc416.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Zain-Jordan-DEA-group" maxActive="1" weight="50" rating="100" priority="1">
+            <GroupPeer name="zainamm.dra.ims.mnc001.mcc416.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc001.mcc250.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="false">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="MTS-Russia-DEA-Group" maxActive="4" weight="50" rating="100" priority="1">
+            <GroupPeer name="dea11.epc.mnc001.mcc250.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dea12.epc.mnc001.mcc250.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="vh-dea11.epc.mnc001.mcc250.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="vh-dea12.epc.mnc001.mcc250.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc004.mcc648.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Econet-DEA-Group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="phedsc.econet.co.zw" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="wvedsc.econet.co.zw" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc005.mcc619.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Aricell-hss-group" maxActive="1" weight="50" rating="100" priority="1">
+            <GroupPeer name="fthss01.epc.mnc005.mcc619.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc005.mcc272.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Three-HSS-Group" maxActive="4" weight="50" rating="100" priority="1">
+            <GroupPeer name="dn1hss03.epc.mnc005.mcc272.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dn1hss04.epc.mnc005.mcc272.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="bl0hss05.epc.mnc005.mcc272.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="bl0hss06.epc.mnc005.mcc272.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+          <PeerGroup name="failover" maxActive="1" weight="1" rating="1" priority="1">
+            <GroupPeer name="frt-01.dra.ipx.syniverse.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="newdea.epc.mnc020.mcc208.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Bouygues-new-DEA" maxActive="4" weight="50" rating="100" priority="1">
+            <GroupPeer name="dsc00021.epc.mnc020.mcc208.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dsc00022.epc.mnc020.mcc208.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dsc00041.epc.mnc020.mcc208.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dsc00042.epc.mnc020.mcc208.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="sor.epc.mnc005.mcc272.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Three_Ireland_SoR" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="dn2mobap01.epc.mnc005.mcc272.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="dn2mobap02.epc.mnc005.mcc272.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="dea.epc.mnc001.mcc266.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Gibtelecom-DEA-Group" maxActive="2" weight="100" rating="100" priority="1">
+            <GroupPeer name="dramp01.dra.epc.mnc001.mcc266.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="drahv01.dra.epc.mnc001.mcc266.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc002.mcc427.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="vfq-dea-group" maxActive="4" weight="50" rating="100" priority="1">
+            <GroupPeer name="avpr-ss7edge01.epc.mnc002.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="avpr-ss7edge02.epc.mnc002.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="bvpr-ss7edge01.epc.mnc002.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="bvpr-ss7edge02.epc.mnc002.mcc427.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="zain.jordan.new.dea" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="zain-jordan-new-dea" maxActive="1" weight="50" rating="100" priority="1">
+            <GroupPeer name="globitel.aagdc.mnc001.mcc416.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="epc.mnc004.mcc426.3gppnetwork.org" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="viva-bahrain-dea-group" maxActive="2" weight="50" rating="100" priority="1">
+            <GroupPeer name="hra-sps.mnc004.mcc426.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="tub-sps.mnc004.mcc426.3gppnetwork.org" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+      <Realm name="comfone.com" maxActive="1" local_action="PROXY" dynamic="false" exp_time="1" test_mode="true">
+        <ApplicationID>
+          <VendorId value="10415"/>
+          <AuthApplId value="16777251"/>
+        </ApplicationID>
+        <PeerGroups>
+          <PeerGroup name="Comfone-DEA-Group" maxActive="1" weight="50" rating="100" priority="1">
+            <GroupPeer name="dranl01.comfone.com" rating="100" weight="50" priority="1"/>
+            <GroupPeer name="draus01.comfone.com" rating="100" weight="50" priority="1"/>
+          </PeerGroup>
+        </PeerGroups>
+      </Realm>
+    </Realms>
+  </Network>
+  <Extensions>
+    <DistCacheManager value="org.jdiameter.client.impl.controller.AsyncDistCacheManager"/>
+  </Extensions>
+  <AppIdToAdviserMap>
+    <AdviserMapping appId="0" adviser="BaseAdviser"/>
+    <AdviserMapping appId="4" adviser="CCAAdviser"/>
+    <AdviserMapping appId="16777251" adviser="S6AAdviser"/>
+    <AdviserMapping appId="16777267" adviser="CCAAdviser"/>
+  </AppIdToAdviserMap>
+  <SessionTimeout default="3600000"/>
+  <SnifferPeers>
+    <!--        <SnifferPeer name="sniffer01.client.com" ip="173.209.220.124" port="50201" format="xml" type="ingress"/>-->
+    <!--        <SnifferPeer name="sniffer02.client.com" ip="127.0.0.1" port="50202" format="raw" type="egress" ip_header="true"/>-->
+  </SnifferPeers>
+  <Security>
+    <SecurityData name="securityData_dscadm" protocol="TLSv1.2" enable_session_creation="true" use_client_mode="false" need_client_auth="true">
+      <CipherSuites>SSL_RSA_WITH_RC4_128_MD5,SSL_RSA_WITH_RC4_128_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA</CipherSuites>
+      <KeyData manager="SunX509" store="JKS" file="jmx/keystore" pwd="dscadm"/>
+      <TrustData manager="PKIX" store="JKS" file="jmx/truststore" pwd="dscadm"/>
+    </SecurityData>
+  </Security>
+  <DistCache>
+    <CacheServer host="DSC-DLB-01" port="26379"/>
+    <CacheServer host="DSC-DLB-02" port="26379"/>
+  </DistCache>
+</Configuration>

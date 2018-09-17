@@ -1,7 +1,3 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
- 
-x = "block_ob_t134"
-for i in range(x,-1,-1):
-	print (i)
-	
+import os
+dir_name= 'C:/python_work/DSS_OSS/file/soap_output'
+os.system("explorer.exe %s" % os.path.expanduser(dir_name))

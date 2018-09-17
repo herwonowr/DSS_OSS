@@ -1,0 +1,5 @@
+name,guide
+DSC 11133,"If alarm raised by single APP, the root cause is someone download rule engine by webconsole:
+Server->Connect APP->General Options->RuleEngine->Download Rule.
+Other wise, 11156 will be raised at same time, check and fix the invalid rule indicated by 11156"
+DSC 11156,Check the rule indicated by alarm to see if there is consequence defined without filtered by IsExist in condition.

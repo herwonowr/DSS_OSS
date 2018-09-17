@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>ooopic_1526549922.ico</normaloff>ooopic_1526549922.ico</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -355,23 +359,6 @@
      <string>Check to A Route</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="K2R_B_Reams2A_LIST">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>600</y>
-      <width>381</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 8pt &quot;MS Shell Dlg 2&quot;;
-text-decoration: line-through;</string>
-    </property>
-    <property name="text">
-     <string>OBSELETE !!!!K2R_B_Realms2A_List/ADD RequestFilter/UPD vzw LIST</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
@@ -562,7 +549,7 @@ text-decoration: line-through;</string>
      </rect>
     </property>
     <property name="text">
-     <string>LISTREGION_A</string>
+     <string>LISTREGION_B</string>
     </property>
    </widget>
    <widget class="QPushButton" name="A_Reams2B_LIST">
@@ -652,23 +639,6 @@ text-decoration: line-through;</string>
       <width>391</width>
       <height>20</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="K2R_A_Reams2B_LIST">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>600</y>
-      <width>391</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 8pt &quot;MS Shell Dlg 2&quot;;
-text-decoration: line-through;</string>
-    </property>
-    <property name="text">
-     <string>OBSELETE!!!K2R_A_Realms2B_List/ADD RequestFilter/UPD vzw LIST</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_28">
@@ -1160,6 +1130,19 @@ text-decoration: line-through;</string>
      <string>One Key K2R route Provison</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="Button_One_Key_Bilateral">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>570</y>
+      <width>211</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>One Key Comfone Bilateral Route</string>
+    </property>
+   </widget>
    <zorder>widget</zorder>
    <zorder>label</zorder>
    <zorder>SSID_A</zorder>
@@ -1190,7 +1173,6 @@ text-decoration: line-through;</string>
    <zorder>Combo_Region_A</zorder>
    <zorder>B_Reams2A_LIST</zorder>
    <zorder>Check_TO_A_Route</zorder>
-   <zorder>K2R_B_Reams2A_LIST</zorder>
    <zorder>label_16</zorder>
    <zorder>label_17</zorder>
    <zorder>label_18</zorder>
@@ -1215,7 +1197,6 @@ text-decoration: line-through;</string>
    <zorder>label_27</zorder>
    <zorder>RMT_B</zorder>
    <zorder>OP_B</zorder>
-   <zorder>K2R_A_Reams2B_LIST</zorder>
    <zorder>label_28</zorder>
    <zorder>label_29</zorder>
    <zorder>HUB_POLICY_B</zorder>
@@ -1252,6 +1233,7 @@ text-decoration: line-through;</string>
    <zorder>OWNER_PEER</zorder>
    <zorder>spinBox</zorder>
    <zorder>Button_K2R</zorder>
+   <zorder>Button_One_Key_Bilateral</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

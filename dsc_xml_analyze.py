@@ -112,6 +112,25 @@ def dscxml_ip_host(dsc_config_xml_name,ip_host_csv_name):
 	with open(ip_host_csv_name,'w') as file_object:
 		file_object.write(content)
 		
+def dscxml_to_test_peer(dsc_config_xml_name):
+	test_peers=''
+	record={}
+	tree = ET.parse(dsc_config_xml_name)
+	root = tree.getroot()
+	content=''
+	for item in root.iter('{http://www.syniverse.com/diameter-server}Peer'):
+		try:
+			test_mode=item.attrib['peer_test_mode']
+		except:
+			test_mode="None"
+
+		peer_name=item.attrib['name'][6:].split(";")[0].split(":")[0]
+		if test_mode == "true":
+			test_peers=test_peers+peer_name+"|"
+	test_peers=test_peers[:-1]
+
+	return(test_peers)	
+		
 #test script
 #filename='HKG201808130946.xml'
 #dsc_config_xml_name=os.getcwd()+r'\file\xml\{0}'.format(filename)

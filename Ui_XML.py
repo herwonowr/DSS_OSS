@@ -35,6 +35,12 @@ class Ui_XML(object):
         self.label_19 = QtWidgets.QLabel(self.centralwidget)
         self.label_19.setGeometry(QtCore.QRect(230, 180, 371, 21))
         self.label_19.setObjectName("label_19")
+        self.BUILD_TEST_PEER = QtWidgets.QPushButton(self.centralwidget)
+        self.BUILD_TEST_PEER.setGeometry(QtCore.QRect(60, 230, 151, 23))
+        self.BUILD_TEST_PEER.setObjectName("BUILD_TEST_PEER")
+        self.comboBox_OPTION = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox_OPTION.setGeometry(QtCore.QRect(240, 230, 141, 22))
+        self.comboBox_OPTION.setObjectName("comboBox_OPTION")
         XML.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(XML)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1333, 21))
@@ -56,4 +62,5 @@ class Ui_XML(object):
         self.label_17.setText(_translate("XML", "Select DSC"))
         self.label_18.setText(_translate("XML", "XML on DSC will be updated once at 1:00 UTC each day"))
         self.label_19.setText(_translate("XML", "Put hosts file under C:Usersg800472AppDataRoamingWireshark"))
+        self.BUILD_TEST_PEER.setText(_translate("XML", "grep 10302 from no test peer"))
 

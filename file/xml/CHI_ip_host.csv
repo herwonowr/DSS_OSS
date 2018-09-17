@@ -365,9 +365,13 @@
 72.45.64.60,Xplornet-mtdra01dir01
 72.45.64.53,Xplornet-mtdra01dir02
 72.45.64.61,Xplornet-mtdra01dir02
-10.11.41.101,NIF-nf1.ch3
-10.12.41.101,NIF-nf1.da3
+131.166.137.172,NIF-nf1.ch3
+131.166.135.172,NIF-nf1.da3
 135.211.86.26,WMS-BPT-MME02
 135.211.86.27,WMS-BPT-MME02
 135.211.86.18,WMS-BPT-MME01
 135.211.86.19,WMS-BPT-MME01
+74.198.70.130,rogers-dea11.node
+74.198.71.2,rogers-dea11.node
+74.198.72.2,rogers-dea21.node
+74.198.73.2,rogers-dea21.node

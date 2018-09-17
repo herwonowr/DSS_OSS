@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<ns2:dscQueryClientResponse xmlns:ns2="http://ws.soap.dsc.syniverse.com/">
+			<return>
+				<result>SUCCESS</result>
+				<resultCode>0</resultCode>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>IsExist(#AVP296)&amp;&amp;InList(ToLower(AVP296),"LIST_6613_SPARK_NEW_ZEALAND_TRADING_LIMITED")</condition>
+					<consequence>RET :=  0</consequence>
+					<description>* to Spark</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3341</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>*</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>IsExist(#AVP293)&amp;&amp;(GetCmdCode()==322)</condition>
+					<consequence>AVP293 := "test"</consequence>
+					<description>ggagfagaggf</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3614</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>*</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:=Replace(AVP293, "ch1-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0001-diamproxy.ch-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>ch1-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3619</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:= Replace(AVP293, "ch2-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0002-diamproxy.ch-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>ch2-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3620</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:= Replace(AVP293, "ch3-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0003-diamproxy.ch-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>ch3-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3621</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:= Replace(AVP293, "mdr1-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0001-diamproxy.mdr-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>mdr1-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3623</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:= Replace(AVP293, "mdr2-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0002-diamproxy.mdr-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>mdr2-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3624</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:= Replace(AVP293, "mdr3-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0003-diamproxy.mdr-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>mdr3-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3625</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:=Replace(AVP293,"mdr4-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0004-diamproxy.mdr-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>TNZ: Adapt the host-name between Optus and Spark</description>
+					<destHost>mdr4-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>4225</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:=Replace(AVP293,"ch4-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0004-diamproxy.ch-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>TNZ: Adapt the host-name between Optus and Spark</description>
+					<destHost>ch4-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>4226</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>(IsExist(#AVP293)&amp;&amp; (GetCmdCode() == 317 || GetCmdCode() == 319|| GetCmdCode() == 320|| GetCmdCode() == 322))</condition>
+					<consequence>DEST_HOST:= AVP293;ALTERNATE_HOST := "sng-01.dra.ipx.syniverse.3gppnetwork.org";POLICY_FALLBACK := 0</consequence>
+					<description>For Spark MME Failover</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>3446</id>
+					<priority>8</priority>
+					<ruleType>DECIDE_ROUTE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>*</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>(IsExist(#AVP2405V10415))&amp;&amp;(GetCmdCode()==316)</condition>
+					<consequence>DelAvp(#AVP2405V10415)</consequence>
+					<description>Spark New Zealand Trading Limited OB Du:Remove AVP2405 in ULR</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>4956</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_FORMAT</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc003.mcc424.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>(GetCmdCode()==316)</condition>
+					<consequence>DEST_REALM:="starhome";ALTERNATE_REALM:="epc.mnc005.mcc530.3gppnetwork.org";POLICY_FALLBACK := 0</consequence>
+					<description>Route outbound ULR from all roaming partner toward SPARK via Starhome-IPN</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>4773</id>
+					<priority>5</priority>
+					<ruleType>DECIDE_ROUTE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>*</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:=Replace(AVP293, "ch5-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0005-diamproxy.ch-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>ch5-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>5650</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>AVP293:= Replace(AVP293, "mdr5-sgmm01.epc.mnc005.mcc530.3gppnetwork.org","0005-diamproxy.mdr-sgmm01.epc.mnc005.mcc530.3gppnetwork.org")</consequence>
+					<description>CLR from Optus to Spark</description>
+					<destHost>mdr5-sgmm01.epc.mnc005.mcc530.3gppnetwork.org</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>5651</id>
+					<priority>10</priority>
+					<ruleType>PRE_FORWARD_TRANSLATE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc505.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>DEST_REALM := "epc.mnc005.mcc530.3gppnetwork.org";ALTERNATE_REALM:="failover";POLICY_FALLBACK := 0</consequence>
+					<description>Telecom New Zealand through A6AP</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>513</id>
+					<priority>10</priority>
+					<ruleType>DECIDE_ROUTE</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>*</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-Monaco_Telecom</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6611</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc010.mcc212.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Altel-Mobile_network_Kazakhstan-Spark_New_Zealand_Trading_Limited</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6717</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc007.mcc401.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_MEO-Spark_New_Zealand_Trading_Limited</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6865</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc006.mcc268.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-Slovak_Telecom</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6887</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc231.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-Azerfon</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6891</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc004.mcc400.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-COSMOTE_Mobile_Telecommunications</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6895</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc001.mcc202.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-Polkomtel</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6899</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc001.mcc260.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-T-Mobile_Austria</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6903</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc003.mcc232.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-T-Mobile_Austria</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6907</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc007.mcc232.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-Bragg_Communications</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6911</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc270.mcc302.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-Telekom_Romania_Mobile_Communications_S_A_</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>6915</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc003.mcc226.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET:=0</consequence>
+					<description>K2R_%request_filter%_Spark_New_Zealand_Trading_Limited-HOT_Mobile</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>7448</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc007.mcc425.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET := 0</consequence>
+					<description>K2R_%request_filter%_Telenor_Myanmar-Spark_New_Zealand_Trading_Limited</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>7954</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc006.mcc414.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET := 0</consequence>
+					<description>K2R_%request_filter%_U_Mobile-Spark_New_Zealand_Trading_Limited</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>7958</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc018.mcc502.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET := 0</consequence>
+					<description>K2R_%request_filter%_Cellcom_Israel_Ltd-Spark_New_Zealand_Trading_Limited</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>8094</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc002.mcc425.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET := 0</consequence>
+					<description>K2R_%request_filter%_Verizon_Wireless-Spark_New_Zealand_Trading_Limited</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>9413</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc270.mcc311.3gppnetwork.org</srcRealm>
+				</queriedRules>
+				<queriedRules>
+					<adjacentSourcePeerName>*</adjacentSourcePeerName>
+					<adjacentSourceRealmName>*</adjacentSourceRealmName>
+					<appId>16777251</appId>
+					<condition>1</condition>
+					<consequence>RET := 0</consequence>
+					<description>K2R_%request_filter%_Verizon_Wireless-Spark_New_Zealand_Trading_Limited</description>
+					<destHost>*</destHost>
+					<destRealm>epc.mnc005.mcc530.3gppnetwork.org</destRealm>
+					<dscRuleGroup>AP PoP</dscRuleGroup>
+					<id>9415</id>
+					<priority>10</priority>
+					<ruleType>REQUEST_FILTER</ruleType>
+					<srcHost>*</srcHost>
+					<srcRealm>epc.mnc480.mcc311.3gppnetwork.org</srcRealm>
+				</queriedRules>
+			</return>
+		</ns2:dscQueryClientResponse>
+	</S:Body>
+</S:Envelope>

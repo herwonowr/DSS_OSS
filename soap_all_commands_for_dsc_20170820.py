@@ -440,7 +440,7 @@ def soap_check_decide_route_by_DR(dsc_url,src_realms,dest_realm):
 		arranged_results.append(item)
 	return arranged_results
 
-#r=soap_check_decide_route_by_DR("http://10.160.28.32:8080/DSC_SOAP/query?","","epc.mnc010.mcc202.3gppnetwork.org")
+#r=soap_check_decide_route_by_DR("http://10.162.28.186:8080/DSC_SOAP/query?","*","epc.mnc005.mcc530.3gppnetwork.org")
 #for row in r:
 #	print(row)
 

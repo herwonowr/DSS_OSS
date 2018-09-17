@@ -24,7 +24,6 @@ id,ssid,hub,hubpolicy,hubstatus
 564,6834,TeliaSonera,Prefered(Default),Live
 565,7066,TIWS,Prefered(Default),Live
 566,7273,iBasis,Prefered(Default),Live
-568,7067,iBasis,Prefered(Default),Live
 569,7075,FT,Prefered(Default),Live
 570,6835,TeliaSonera,Prefered(Default),Live
 575,6783,DT,Prefered(Default),Live
@@ -63,7 +62,6 @@ id,ssid,hub,hubpolicy,hubstatus
 616,6715,BICS,Prefered(Default),Live
 617,6961,TelecomAustria,Prefered(Default),Live
 618,7045,Telenor,Prefered(Default),Live
-619,7077,BICS,Prefered(Default),Live
 621,6952,FT,Prefered(Default),Live
 622,7105,BICS,Prefered(Default),Live
 625,6825,FT,Prefered(Default),Live
@@ -81,7 +79,6 @@ id,ssid,hub,hubpolicy,hubstatus
 642,7011,TIWS,Prefered(Default),Live
 645,6798,FT,Prefered(Default),Live
 646,6950,BICS,Prefered(Default),Live
-649,6773,TelecomAustria,Prefered(Default),Live
 651,6620,FT,Prefered(Default),Live
 652,6737,VCS,Prefered(Default),Live
 656,6713,VCS,Prefered(Default),Live
@@ -120,8 +117,6 @@ id,ssid,hub,hubpolicy,hubstatus
 738,6816,Telenor,Prefered(Default),Live
 739,6816,Comfone K2R,Need approval,Live
 746,7293,BICS,Prefered(Default),Live
-753,7097,iBasis,Prefered(Default),Live
-754,7097,Comfone,Need approval,Live
 757,6836,TeliaSonera,Prefered(Default),Live
 759,6795,Telecom Italia Sparkle,Prefered(Default),Live
 760,6795,BICS,Not prefered no Need approval,Live
@@ -237,7 +232,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1225,12558,Comfone,Need approval,Live
 1226,7461,BICS,Prefered(Default),Live
 1227,12553,FT,Prefered(Default),Live
-1229,6362,TIWS,Prefered(Default),Live
 1230,6085,BICS,Need approval,Live
 1231,6585,CMI,Prefered(Default),Live
 1235,6360,Comfone,Need approval,Live
@@ -249,7 +243,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1250,6930,BICS,Prefered(Default),Live
 1251,6934,Telenor,Not prefered no Need approval,Live
 1252,6934,BICS,Prefered(Default),Live
-1253,12564,FT,Prefered(Default),Live
 1255,12568,Comfone,Prefered(Default),Live
 1257,12571,TATA,Need approval,Live
 1259,12578,iBasis,Prefered(Default),Live
@@ -303,9 +296,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1404,12662,FT,Prefered(Default),Live
 1407,7471,Comfone,Prefered(Default),Live
 1409,12579,ETISALAT UAE DSS Peer,Need approval,Live
-1410,6975,BICS,Prefered(Default),Live
-1411,6975,MTT,Prefered(Default),Live
-1412,6975,Comfone,Need approval,Live
 1413,7465,TeliaSonera,Prefered(Default),Live
 1414,12496,BICS,Prefered(Default),Live
 1416,12604,TelecomAustria,Prefered(Default),Under Implementation
@@ -318,7 +308,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1427,7351,Comfone,Prefered(Default),Live
 1428,7126,Comfone,Prefered(Default),Live
 1429,7126,TATA,Need approval,Live
-1430,7348,iBasis,Prefered(Default),Live
 1432,7496,BICS,Prefered(Default),Live
 1433,6555,VCS,Not prefered no Need approval,Live
 1434,6555,BICS,Prefered(Default),Live
@@ -344,7 +333,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1476,7359,Comfone,Prefered(Default),Live
 1478,6566,BICS,Need approval,Live
 1479,6980,iBasis,Prefered(Default),Live
-1480,7352,Telecom Italia Sparkle,Prefered(Default),Live
 1481,7431,FT,Prefered(Default),Live
 1483,7433,FT,Prefered(Default),Live
 1484,7399,TIWS,Prefered(Default),Live
@@ -364,11 +352,9 @@ id,ssid,hub,hubpolicy,hubstatus
 1498,7326,Telstra,Prefered(Default),Live
 1499,7413,iBasis,Prefered(Default),Live
 1502,7427,MTT,Prefered(Default),Live
-1503,7429,SAP,Prefered(Default),Live
 1504,7380,Comfone,Prefered(Default),Live
 1505,7309,iBasis,Prefered(Default),Live
 1506,7315,BICS,Prefered(Default),Live
-1509,7325,Comfone,Prefered(Default),Live
 1510,6796,Telstra,Prefered(Default),Live
 1511,6796,BICS,Need approval,Live
 1513,7412,TeliaSonera,Prefered(Default),Live
@@ -376,8 +362,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1515,6818,iBasis,Prefered(Default),Live
 1516,12490,FT,Prefered(Default),Live
 1517,6803,BICS,Need approval,Live
-1518,6581,TIWS,Prefered(Default),Live
-1519,6581,VCS,Prefered(Default),Live
 1520,12663,BICS,Prefered(Default),Live
 1521,12664,FT,Prefered(Default),Live
 1522,6535,iBasis,Need approval,Live
@@ -399,7 +383,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1549,7301,BICS,Not prefered no Need approval,Live
 1550,7301,TATA,Not prefered no Need approval,Live
 1551,7464,Comfone,Prefered(Default),Live
-1554,7440,FT,Prefered(Default),Live
 1556,12655,Telstra,Prefered(Default),Live
 1557,7305,BICS,Prefered(Default),Live
 1558,7305,Comfone K2R,Prefered(Default),Live
@@ -429,7 +412,6 @@ id,ssid,hub,hubpolicy,hubstatus
 1599,7476,FT,Not prefered no Need approval,Live
 1600,7476,TIWS,Prefered(Default),Live
 1603,12757,BICS,Prefered(Default),Live
-1604,6761,VCS,Need approval,Live
 1607,12751,BICS,Prefered(Default),Live
 1608,7469,Comfone,Prefered(Default),Live
 1609,6857,iBasis,Prefered(Default),Live
@@ -437,13 +419,37 @@ id,ssid,hub,hubpolicy,hubstatus
 1611,7299,Comfone,Need approval,Live
 1612,7278,BICS,Need approval,Live
 1613,12760,Comfone K2R,Prefered(Default),Live
-1614,12761,Comfone K2R,Prefered(Default),Live
 1615,12762,Comfone K2R,Prefered(Default),Live
 1616,12763,Comfone K2R,Prefered(Default),Live
 1620,12764,Comfone K2R,Prefered(Default),Live
 1621,7020,Comfone,Need approval,Live
 1622,12593,Telenor,Prefered(Default),Live
 1624,7339,TATA,Need approval,Live
-1627,7414,Comfone,Prefered(Default),Live
 1628,12769,BICS,Prefered(Default),Live
 1629,12771,Comfone,Prefered(Default),Live
+1631,12770,Comfone,Prefered(Default),Live
+1633,6773,TelecomAustria,Prefered(Default),Live
+1634,7077,BICS,Prefered(Default),Live
+1642,6362,TIWS,Prefered(Default),Live
+1643,12772,Comfone K2R,Prefered(Default),Live
+1644,6581,TIWS,Prefered(Default),Live
+1645,6581,VCS,Prefered(Default),Live
+1646,7414,Comfone,Prefered(Default),Live
+1647,12564,FT,Prefered(Default),Live
+1651,7440,FT,Prefered(Default),Live
+1654,7325,Comfone,Prefered(Default),Live
+1656,7348,iBasis,Prefered(Default),Live
+1659,7067,BICS,Prefered(Default),Live
+1660,7067,iBasis,Need approval,Live
+1661,6975,BICS,Prefered(Default),Live
+1662,6975,MTT,Need approval,Live
+1663,6975,Comfone,Need approval,Live
+1664,6975,MTS Russia,Prefered(Default),Live
+1665,7097,iBasis,Need approval,Live
+1666,7097,Comfone,Need approval,Live
+1669,12761,BICS,Prefered(Default),Live
+1670,6761,VCS,Need approval,Live
+1671,7352,Comfone,Need approval,Live
+1672,12776,BICS,Prefered(Default),Live
+1673,7429,SAP,Need approval,Live
+1674,12768,SAP,Need approval,Live

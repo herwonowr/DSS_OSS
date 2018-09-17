@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['DSSOSS20180820.py'],
+a = Analysis(['DSSOSS20180906_2.py'],
              pathex=['C:\\python_work\\DSS_OSS'],
              binaries=[],
              datas=[],
@@ -21,7 +21,8 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='DSSOSS20180820',
+          [('PyQt5/Qt/plugins/styles/qwindowsvistastyle.dll', 'C:\\Python\Lib\site-packages\PyQt5\Qt\plugins\styles\qwindowsvistastyle.dll', 'BINARY')],
+          name='DSSOSS20180906_2',
           debug=False,
           strip=False,
           upx=True,
